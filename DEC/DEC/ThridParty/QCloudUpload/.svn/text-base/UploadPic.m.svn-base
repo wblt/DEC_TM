@@ -1,0 +1,114 @@
+//
+//  UploadPic.m
+//  Training
+//
+//  Created by 李林 on 2017/4/30.
+//  Copyright © 2017年 胡惜. All rights reserved.
+//
+
+#import "UploadPic.h"
+
+
+@interface UploadPic(){
+    int64_t currentTaskid;
+}
+
+@end
+
+@implementation UploadPic
++ (instancetype)sharedInstance{
+    static UploadPic *instance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[self alloc] init];
+        //kSdkAppId
+        instance.myClient = [[COSClient alloc] initWithAppId:@"1251679641" withRegion:@"gz"];
+        //设置htpps请求
+        [instance.myClient openHTTPSrequset:YES];
+        instance.dataArray = [NSMutableArray array];
+    });
+    return instance;
+}
+
+
+
+-(void)uploadFileMultipartWithPath:(NSString *)filePath fileName:(NSString*)fileName
+              callback:(UploadStatusCallBack)callback
+{
+    COSObjectPutTask *task = [[COSObjectPutTask alloc] init];
+    NSLog(@"-send---taskId---%lld",task.taskId);
+    task.multipartUpload = YES;
+    currentTaskid = task.taskId;
+    NSLog(@"photoPath=%@",filePath);
+    task.filePath = filePath;
+    task.fileName = fileName;
+    task.bucket = @"waxin";
+    task.attrs = @"customAttribute";
+    task.directory = @"file";
+    task.insertOnly = YES;
+    
+    //task.sign = _sign;
+    //task.sign = @"S3AJa4ClTW3lVnhfOp8DTHdPAjxhPTEwMDA2NTk1Jms9QUtJREdaOTlaUFNWdHA3NTZzallDNjM1TER3UGZVTGJoVUhIJmU9MTQ3NDk2NDcwMSZ0PTE0NzQ5NjM3MDImcj0xNzc1NTEyMDg1JmY9JmI9MjI";
+
+    
+    [[RequestManager sharedInstance] signCreate:^(NSError *error, id result, BOOL isFromCache, AFHTTPRequestOperation *operation) {
+        if (!error) {
+            task.sign = result[@"sign"];
+            [_myClient putObject:task];
+            NSLog(@"sign:%@",task.sign);
+        }else{
+            if (callback) {
+                callback(@"");
+            }
+           // [ZxtMessage showError:error];
+        }
+    }];
+
+    @weakify(self)
+    _myClient.completionHandler = ^(COSTaskRsp *resp, NSDictionary *context){
+        COSObjectUploadTaskRsp *rsp = (COSObjectUploadTaskRsp *)resp;
+        if (rsp.retCode == 0) {
+            NSLog(@"context  = %@",rsp.sourceURL);
+            @strongify(self)
+            if (callback) {
+                callback(rsp.sourceURL);
+            }
+            [self.dataArray addObject:rsp.sourceURL];
+        }else{
+            NSLog(@"-error--%@",rsp.descMsg);
+            if (callback) {
+                callback(@"");
+            }
+           // [ZxtMessage showErrorMessage:rsp.descMsg];
+        }
+    };
+//    _myClient.progressHandler = ^(int64_t bytesWritten,int64_t totalBytesWritten,int64_t totalBytesExpectedToWrite){
+////        UITextView *strong = temp;
+////        strong.text = [NSString stringWithFormat:@"进度展示：bytesWritten %ld.totalBytesWritten %ld.totalBytesExpectedToWrite %ld",(long)bytesWritten,(long)totalBytesWritten,(long)totalBytesExpectedToWrite];
+//    };
+    
+}
+
+- (NSString *)photoSavePathForURL:(NSURL *)url
+{
+    
+    NSString *photoSavePath = nil;
+    NSString *urlString = [url absoluteString];
+    NSString *uuid = nil;
+    if (urlString) {
+        uuid = [QCloudUtils findUUID:urlString];
+    } else {
+        uuid = [QCloudUtils uuid];
+    }
+    
+    NSString *resourceCacheDir = [NSHomeDirectory() stringByAppendingPathComponent:@"Library/Caches/UploadPhoto/"];
+    if (![[NSFileManager defaultManager] fileExistsAtPath:resourceCacheDir]) {
+        [[NSFileManager defaultManager] createDirectoryAtPath:resourceCacheDir withIntermediateDirectories:YES attributes:nil error:nil];
+    }
+    
+    photoSavePath = [resourceCacheDir stringByAppendingPathComponent:uuid];
+    
+    return photoSavePath;
+    
+}
+@end
