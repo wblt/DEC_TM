@@ -10,16 +10,17 @@
 		8B83BB76C3926A3E285124A2 /* libPods-DEC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FAD420B26079351F479F0E /* libPods-DEC.a */; };
 		F8555D3F20AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3920AD1B810033607E /* README.md */; };
 		F8555D4020AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3A20AD1B810033607E /* README.md */; };
-		F8555D4120AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3C20AD1B810033607E /* README.md */; };
 		F8555D4220AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3E20AD1B810033607E /* README.md */; };
 		F8555D4B20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4520AD1B950033607E /* README.md */; };
-		F8555D4C20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4620AD1B950033607E /* README.md */; };
-		F8555D4D20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4820AD1B950033607E /* README.md */; };
 		F8555D4E20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4A20AD1B950033607E /* README.md */; };
 		F8555D5220AD1BC10033607E /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8555D5020AD1BC10033607E /* LoginVC.m */; };
 		F8555D5320AD1BC10033607E /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8555D5120AD1BC10033607E /* LoginVC.xib */; };
 		F8555D5720AD1BFC0033607E /* RegistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8555D5520AD1BFC0033607E /* RegistVC.m */; };
 		F8555D5820AD1BFC0033607E /* RegistVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8555D5620AD1BFC0033607E /* RegistVC.xib */; };
+		F8555D5C20AD61DB0033607E /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8555D5A20AD61DB0033607E /* HomeVC.m */; };
+		F8555D5D20AD61DB0033607E /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8555D5B20AD61DB0033607E /* HomeVC.xib */; };
+		F8555D6120AD620B0033607E /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8555D5F20AD620B0033607E /* MineVC.m */; };
+		F8555D6220AD620B0033607E /* MineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8555D6020AD620B0033607E /* MineVC.xib */; };
 		F8D9366620AAE2F900F7E852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9366520AAE2F900F7E852 /* AppDelegate.m */; };
 		F8D9366920AAE2F900F7E852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9366820AAE2F900F7E852 /* ViewController.m */; };
 		F8D9366C20AAE2F900F7E852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D9366A20AAE2F900F7E852 /* Main.storyboard */; };
@@ -169,11 +170,8 @@
 		F6FAD420B26079351F479F0E /* libPods-DEC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DEC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8555D3920AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8555D3A20AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F8555D3C20AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8555D3E20AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8555D4520AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F8555D4620AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F8555D4820AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8555D4A20AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8555D4F20AD1BC10033607E /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		F8555D5020AD1BC10033607E /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
@@ -181,6 +179,12 @@
 		F8555D5420AD1BFB0033607E /* RegistVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistVC.h; sourceTree = "<group>"; };
 		F8555D5520AD1BFC0033607E /* RegistVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistVC.m; sourceTree = "<group>"; };
 		F8555D5620AD1BFC0033607E /* RegistVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistVC.xib; sourceTree = "<group>"; };
+		F8555D5920AD61DB0033607E /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		F8555D5A20AD61DB0033607E /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		F8555D5B20AD61DB0033607E /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		F8555D5E20AD620B0033607E /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		F8555D5F20AD620B0033607E /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		F8555D6020AD620B0033607E /* MineVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineVC.xib; sourceTree = "<group>"; };
 		F8D9366120AAE2F900F7E852 /* DEC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D9366420AAE2F900F7E852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8D9366520AAE2F900F7E852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -495,7 +499,9 @@
 		F8555D3B20AD1B810033607E /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				F8555D3C20AD1B810033607E /* README.md */,
+				F8555D5E20AD620B0033607E /* MineVC.h */,
+				F8555D5F20AD620B0033607E /* MineVC.m */,
+				F8555D6020AD620B0033607E /* MineVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -514,7 +520,6 @@
 				F8555D4420AD1B950033607E /* Model */,
 				F8555D4720AD1B950033607E /* VC */,
 				F8555D4920AD1B950033607E /* View */,
-				F8555D4620AD1B950033607E /* README.md */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -530,7 +535,9 @@
 		F8555D4720AD1B950033607E /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				F8555D4820AD1B950033607E /* README.md */,
+				F8555D5920AD61DB0033607E /* HomeVC.h */,
+				F8555D5A20AD61DB0033607E /* HomeVC.m */,
+				F8555D5B20AD61DB0033607E /* HomeVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -1183,12 +1190,13 @@
 				F8D936F620AAE45200F7E852 /* README.md in Resources */,
 				F8D937F120AAE7CB00F7E852 /* README.md in Resources */,
 				F8D936E620AAE45200F7E852 /* README.md in Resources */,
-				F8555D4120AD1B810033607E /* README.md in Resources */,
 				F8D936E820AAE45200F7E852 /* back_icon@2x.png in Resources */,
 				F8D936ED20AAE45200F7E852 /* sure_placeholder_error@2x.png in Resources */,
 				F8D936EA20AAE45200F7E852 /* close_icon@2x.png in Resources */,
 				F8D937DD20AAE7CB00F7E852 /* Info.plist in Resources */,
 				F8D936F020AAE45200F7E852 /* README.md in Resources */,
+				F8555D5D20AD61DB0033607E /* HomeVC.xib in Resources */,
+				F8555D6220AD620B0033607E /* MineVC.xib in Resources */,
 				F8D937BE20AAE7CB00F7E852 /* AAHighchartsMore.js in Resources */,
 				F8D9366E20AAE2F900F7E852 /* Assets.xcassets in Resources */,
 				F8D936E220AAE45200F7E852 /* README.md in Resources */,
@@ -1197,7 +1205,6 @@
 				F8555D4020AD1B810033607E /* README.md in Resources */,
 				F8D936D920AAE45200F7E852 /* README.md in Resources */,
 				F8D936E420AAE45200F7E852 /* README.md in Resources */,
-				F8555D4D20AD1B950033607E /* README.md in Resources */,
 				F8D937BD20AAE7CB00F7E852 /* AAHighchartsLib.js in Resources */,
 				F8D936F220AAE45200F7E852 /* README.md in Resources */,
 				F8D937BB20AAE7CB00F7E852 /* AAFunnel.js in Resources */,
@@ -1207,7 +1214,6 @@
 				F8555D5820AD1BFC0033607E /* RegistVC.xib in Resources */,
 				F8D936EC20AAE45200F7E852 /* README.md in Resources */,
 				F8555D4220AD1B810033607E /* README.md in Resources */,
-				F8555D4C20AD1B950033607E /* README.md in Resources */,
 				F8D936E920AAE45200F7E852 /* back_icon@3x.png in Resources */,
 				F8555D3F20AD1B810033607E /* README.md in Resources */,
 				F8555D4B20AD1B950033607E /* README.md in Resources */,
@@ -1326,6 +1332,7 @@
 				F8D937F220AAE7CB00F7E852 /* UIImage+SGImageSize.m in Sources */,
 				F8D937E720AAE7CB00F7E852 /* PNPieChart.m in Sources */,
 				F8D9370420AAE55900F7E852 /* BaseNavViewController.m in Sources */,
+				F8555D6120AD620B0033607E /* MineVC.m in Sources */,
 				F8D937CA20AAE7CB00F7E852 /* AALine.m in Sources */,
 				F8D936E720AAE45200F7E852 /* SPUtil.m in Sources */,
 				F8D937C520AAE7CB00F7E852 /* AACrosshair.m in Sources */,
@@ -1379,6 +1386,7 @@
 				F8D937F620AAE7CB00F7E852 /* SGQRCodeHelperTool.m in Sources */,
 				F8D937ED20AAE7CB00F7E852 /* PNScatterChartDataItem.m in Sources */,
 				F8D937D220AAE7CB00F7E852 /* AAStyle.m in Sources */,
+				F8555D5C20AD61DB0033607E /* HomeVC.m in Sources */,
 				F8D937D820AAE7CB00F7E852 /* CQCountDownButton.m in Sources */,
 				F8D936F720AAE45200F7E852 /* RequestParams.m in Sources */,
 			);
