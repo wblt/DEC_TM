@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		8B83BB76C3926A3E285124A2 /* libPods-DEC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FAD420B26079351F479F0E /* libPods-DEC.a */; };
+		F8555D3F20AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3920AD1B810033607E /* README.md */; };
+		F8555D4020AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3A20AD1B810033607E /* README.md */; };
+		F8555D4120AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3C20AD1B810033607E /* README.md */; };
+		F8555D4220AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3E20AD1B810033607E /* README.md */; };
+		F8555D4B20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4520AD1B950033607E /* README.md */; };
+		F8555D4C20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4620AD1B950033607E /* README.md */; };
+		F8555D4D20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4820AD1B950033607E /* README.md */; };
+		F8555D4E20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4A20AD1B950033607E /* README.md */; };
+		F8555D5220AD1BC10033607E /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8555D5020AD1BC10033607E /* LoginVC.m */; };
+		F8555D5320AD1BC10033607E /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8555D5120AD1BC10033607E /* LoginVC.xib */; };
+		F8555D5720AD1BFC0033607E /* RegistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8555D5520AD1BFC0033607E /* RegistVC.m */; };
+		F8555D5820AD1BFC0033607E /* RegistVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8555D5620AD1BFC0033607E /* RegistVC.xib */; };
 		F8D9366620AAE2F900F7E852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9366520AAE2F900F7E852 /* AppDelegate.m */; };
 		F8D9366920AAE2F900F7E852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9366820AAE2F900F7E852 /* ViewController.m */; };
 		F8D9366C20AAE2F900F7E852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D9366A20AAE2F900F7E852 /* Main.storyboard */; };
@@ -16,7 +28,6 @@
 		F8D9367420AAE2F900F7E852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9367320AAE2F900F7E852 /* main.m */; };
 		F8D9367E20AAE2F900F7E852 /* DECTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9367D20AAE2F900F7E852 /* DECTests.m */; };
 		F8D9368920AAE2FA00F7E852 /* DECUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9368820AAE2FA00F7E852 /* DECUITests.m */; };
-		F8D9369820AAE44B00F7E852 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8D9369720AAE44B00F7E852 /* README.md */; };
 		F8D936D820AAE45200F7E852 /* BeanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9369C20AAE45200F7E852 /* BeanManager.m */; };
 		F8D936D920AAE45200F7E852 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8D9369D20AAE45200F7E852 /* README.md */; };
 		F8D936DA20AAE45200F7E852 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8D9369F20AAE45200F7E852 /* README.md */; };
@@ -156,6 +167,20 @@
 		A5F2BB986F3928534394627B /* Pods-DEC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DEC/Pods-DEC.debug.xcconfig"; sourceTree = "<group>"; };
 		AC51B0F7B7A9A5125EA6E385 /* Pods-DEC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DEC/Pods-DEC.release.xcconfig"; sourceTree = "<group>"; };
 		F6FAD420B26079351F479F0E /* libPods-DEC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DEC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8555D3920AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8555D3A20AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8555D3C20AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8555D3E20AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8555D4520AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8555D4620AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8555D4820AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8555D4A20AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8555D4F20AD1BC10033607E /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		F8555D5020AD1BC10033607E /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		F8555D5120AD1BC10033607E /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		F8555D5420AD1BFB0033607E /* RegistVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistVC.h; sourceTree = "<group>"; };
+		F8555D5520AD1BFC0033607E /* RegistVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistVC.m; sourceTree = "<group>"; };
+		F8555D5620AD1BFC0033607E /* RegistVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistVC.xib; sourceTree = "<group>"; };
 		F8D9366120AAE2F900F7E852 /* DEC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D9366420AAE2F900F7E852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8D9366520AAE2F900F7E852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -172,7 +197,6 @@
 		F8D9368420AAE2FA00F7E852 /* DECUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DECUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D9368820AAE2FA00F7E852 /* DECUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DECUITests.m; sourceTree = "<group>"; };
 		F8D9368A20AAE2FA00F7E852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8D9369720AAE44B00F7E852 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8D9369B20AAE45200F7E852 /* BeanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeanManager.h; sourceTree = "<group>"; };
 		F8D9369C20AAE45200F7E852 /* BeanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeanManager.m; sourceTree = "<group>"; };
 		F8D9369D20AAE45200F7E852 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -436,6 +460,89 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F8555D3420AD1AE90033607E /* LoginAndRegist */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D4F20AD1BC10033607E /* LoginVC.h */,
+				F8555D5020AD1BC10033607E /* LoginVC.m */,
+				F8555D5120AD1BC10033607E /* LoginVC.xib */,
+				F8555D5420AD1BFB0033607E /* RegistVC.h */,
+				F8555D5520AD1BFC0033607E /* RegistVC.m */,
+				F8555D5620AD1BFC0033607E /* RegistVC.xib */,
+			);
+			path = LoginAndRegist;
+			sourceTree = "<group>";
+		};
+		F8555D3720AD1B810033607E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D3820AD1B810033607E /* Model */,
+				F8555D3B20AD1B810033607E /* VC */,
+				F8555D3D20AD1B810033607E /* View */,
+				F8555D3A20AD1B810033607E /* README.md */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F8555D3820AD1B810033607E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D3920AD1B810033607E /* README.md */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8555D3B20AD1B810033607E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D3C20AD1B810033607E /* README.md */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		F8555D3D20AD1B810033607E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D3E20AD1B810033607E /* README.md */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8555D4320AD1B950033607E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D4420AD1B950033607E /* Model */,
+				F8555D4720AD1B950033607E /* VC */,
+				F8555D4920AD1B950033607E /* View */,
+				F8555D4620AD1B950033607E /* README.md */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F8555D4420AD1B950033607E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D4520AD1B950033607E /* README.md */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8555D4720AD1B950033607E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D4820AD1B950033607E /* README.md */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		F8555D4920AD1B950033607E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8555D4A20AD1B950033607E /* README.md */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F8D9365820AAE2F900F7E852 = {
 			isa = PBXGroup;
 			children = (
@@ -501,7 +608,9 @@
 		F8D9369620AAE44B00F7E852 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F8D9369720AAE44B00F7E852 /* README.md */,
+				F8555D4320AD1B950033607E /* Home */,
+				F8555D3720AD1B810033607E /* Mine */,
+				F8555D3420AD1AE90033607E /* LoginAndRegist */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -1067,12 +1176,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8555D5320AD1BC10033607E /* LoginVC.xib in Resources */,
 				F8D936DA20AAE45200F7E852 /* README.md in Resources */,
 				F8D9367120AAE2F900F7E852 /* LaunchScreen.storyboard in Resources */,
 				F8D936F420AAE45200F7E852 /* README.md in Resources */,
 				F8D936F620AAE45200F7E852 /* README.md in Resources */,
 				F8D937F120AAE7CB00F7E852 /* README.md in Resources */,
 				F8D936E620AAE45200F7E852 /* README.md in Resources */,
+				F8555D4120AD1B810033607E /* README.md in Resources */,
 				F8D936E820AAE45200F7E852 /* back_icon@2x.png in Resources */,
 				F8D936ED20AAE45200F7E852 /* sure_placeholder_error@2x.png in Resources */,
 				F8D936EA20AAE45200F7E852 /* close_icon@2x.png in Resources */,
@@ -1083,21 +1194,28 @@
 				F8D936E220AAE45200F7E852 /* README.md in Resources */,
 				F8D936EE20AAE45200F7E852 /* sure_placeholder_error@3x.png in Resources */,
 				F8D937F320AAE7CB00F7E852 /* SGQRCode.bundle in Resources */,
+				F8555D4020AD1B810033607E /* README.md in Resources */,
 				F8D936D920AAE45200F7E852 /* README.md in Resources */,
-				F8D9369820AAE44B00F7E852 /* README.md in Resources */,
 				F8D936E420AAE45200F7E852 /* README.md in Resources */,
+				F8555D4D20AD1B950033607E /* README.md in Resources */,
 				F8D937BD20AAE7CB00F7E852 /* AAHighchartsLib.js in Resources */,
 				F8D936F220AAE45200F7E852 /* README.md in Resources */,
 				F8D937BB20AAE7CB00F7E852 /* AAFunnel.js in Resources */,
 				F8D937DB20AAE7CB00F7E852 /* passwordIcon.png in Resources */,
 				F8D936E320AAE45200F7E852 /* README.md in Resources */,
 				F8D9366C20AAE2F900F7E852 /* Main.storyboard in Resources */,
+				F8555D5820AD1BFC0033607E /* RegistVC.xib in Resources */,
 				F8D936EC20AAE45200F7E852 /* README.md in Resources */,
+				F8555D4220AD1B810033607E /* README.md in Resources */,
+				F8555D4C20AD1B950033607E /* README.md in Resources */,
 				F8D936E920AAE45200F7E852 /* back_icon@3x.png in Resources */,
+				F8555D3F20AD1B810033607E /* README.md in Resources */,
+				F8555D4B20AD1B950033607E /* README.md in Resources */,
 				F8D937BC20AAE7CB00F7E852 /* AAHighcharts-3d.js in Resources */,
 				F8D937BA20AAE7CB00F7E852 /* AAChartView.html in Resources */,
 				F8D9370920AAE55900F7E852 /* README.md in Resources */,
 				F8D937DC20AAE7CB00F7E852 /* xxx@2x.png in Resources */,
+				F8555D4E20AD1B950033607E /* README.md in Resources */,
 				F8D936EB20AAE45200F7E852 /* close_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1211,6 +1329,8 @@
 				F8D937CA20AAE7CB00F7E852 /* AALine.m in Sources */,
 				F8D936E720AAE45200F7E852 /* SPUtil.m in Sources */,
 				F8D937C520AAE7CB00F7E852 /* AACrosshair.m in Sources */,
+				F8555D5720AD1BFC0033607E /* RegistVC.m in Sources */,
+				F8555D5220AD1BC10033607E /* LoginVC.m in Sources */,
 				F8D936DC20AAE45200F7E852 /* UICollectionView+IndexPath.m in Sources */,
 				F8D937EB20AAE7CB00F7E852 /* PNScatterChart.m in Sources */,
 				F8D937E320AAE7CB00F7E852 /* PNGenericChart.m in Sources */,

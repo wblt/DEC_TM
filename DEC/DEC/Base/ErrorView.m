@@ -20,7 +20,10 @@
         tempView.tag = 1000;
         [self addSubview:tempView];
         
-        self.backgroudImageView = [[UIImageView alloc] initWithFrame:CGRectMake(25, 0, tempView.frame.size.width-50, tempView.frame.size.height-50)];
+       // self.backgroudImageView = [[UIImageView alloc] initWithFrame:CGRectMake(25, 0, tempView.frame.size.width-50, tempView.frame.size.height-50)];
+		
+		self.backgroudImageView = [[UIImageView alloc] initWithFrame:CGRectMake(tempView.frame.size.width/2-45, tempView.frame.size.height-40-70, 90, 60)];
+		
         self.backgroudImageView.userInteractionEnabled = YES;
         self.backgroudImageView.contentMode = UIViewContentModeScaleAspectFit;
         [tempView addSubview:self.backgroudImageView];
