@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC">
             <connections>
+                <outlet property="tableView" destination="QsS-OO-6Ii" id="B8F-aJ-llA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,7 +19,19 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QsS-OO-6Ii">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QsS-OO-6Ii" secondAttribute="trailing" id="42a-9N-vY8"/>
+                <constraint firstItem="QsS-OO-6Ii" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Chr-Ol-3fL"/>
+                <constraint firstItem="QsS-OO-6Ii" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tT2-iS-23z"/>
+                <constraint firstAttribute="bottom" secondItem="QsS-OO-6Ii" secondAttribute="bottom" id="zmP-4b-cKM"/>
+            </constraints>
         </view>
     </objects>
 </document>

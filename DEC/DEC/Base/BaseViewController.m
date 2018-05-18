@@ -20,7 +20,7 @@
 - (void)viewWillAppear:(BOOL)animated{
     
     //设置导航栏背景图片为一个空的image，这样就透明了
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navbgImageView"] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_main_tt_bg"] forBarMetrics:UIBarMetricsDefault];
     
     //去掉透明后导航栏下边的黑边
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
@@ -31,8 +31,27 @@
     /**<设置导航栏背景颜色*/
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
 
-    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"bgImageView"]];
-    
+	CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
+	
+	//获取与当前设备匹配的启动图片名称
+	if (screenHeight == 480){ //4，4S
+		  self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"main_tt_bg 2iPhonePortraitiOS56_320x480pt"]];
+	}
+	else if (screenHeight == 568){ //5, 5C, 5S, iPod
+		  self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"main_tt_bg 2iPhonePortraitiOS56_320x568pt"]];
+	}
+	else if (screenHeight == 667){ //6, 6S
+		
+		  self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"main_tt_bg 2iPhonePortraitiOS89_375x667pt"]];
+	}
+	else if (screenHeight == 736){ // 6Plus, 6SPlus
+		  self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"main_tt_bg 2iPhonePortraitiOS89_414x736pt"]];
+	}else if (screenHeight == 812){
+		 self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"main_tt_bg 2iPhoneXPortraitiOS11_375x812pt"]];
+	}
+	
+//    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"main_tt_bg"]];
+	
 	[self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName :[UIColor whiteColor], NSFontAttributeName : [UIFont systemFontOfSize:18]}];
     [self.view addSubview:self.errorView];
 }

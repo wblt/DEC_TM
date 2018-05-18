@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="NewsTabCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="84.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="vR3-93-XM9">
+                        <rect key="frame" x="15" y="10" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="QgH-vY-eCN"/>
+                            <constraint firstAttribute="width" constant="35" id="h9Q-H7-sRg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP更新" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7k0-ly-RcF">
+                        <rect key="frame" x="58" y="10" width="226" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="JkR-IF-ynj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为音节2018CMCC全球取款脸技术就留峰会杭州站的盛大开幕，平台将迎来重磅更新2.0版本" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJ4-HJ-s2q">
+                        <rect key="frame" x="58" y="31" width="236" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="88o-xr-LZn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="2018-04-20 20:20" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzG-hm-KhL">
+                        <rect key="frame" x="203" y="57" width="107" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Zjh-PU-xsd"/>
+                            <constraint firstAttribute="height" constant="21" id="fLm-0H-Cxi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="200-W0-nov">
+                        <rect key="frame" x="8" y="84" width="312" height="0.5"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.59999999999999998" id="cRn-n0-VCZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="7k0-ly-RcF" firstAttribute="top" secondItem="vR3-93-XM9" secondAttribute="top" id="2gx-gc-q4l"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="TJ4-HJ-s2q" secondAttribute="trailing" constant="10" id="44e-bh-xFm"/>
+                    <constraint firstAttribute="trailing" secondItem="200-W0-nov" secondAttribute="trailing" id="8AX-eC-y3K"/>
+                    <constraint firstItem="TJ4-HJ-s2q" firstAttribute="top" secondItem="7k0-ly-RcF" secondAttribute="bottom" id="KN1-M1-NVR"/>
+                    <constraint firstItem="7k0-ly-RcF" firstAttribute="leading" secondItem="vR3-93-XM9" secondAttribute="trailing" constant="8" id="MMH-7Y-kTf"/>
+                    <constraint firstItem="vR3-93-XM9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Mud-O6-nLS"/>
+                    <constraint firstAttribute="trailing" secondItem="rzG-hm-KhL" secondAttribute="trailing" constant="10" id="NQR-9r-Y1K"/>
+                    <constraint firstAttribute="bottom" secondItem="200-W0-nov" secondAttribute="bottom" id="Qpu-sn-ID3"/>
+                    <constraint firstItem="rzG-hm-KhL" firstAttribute="top" secondItem="TJ4-HJ-s2q" secondAttribute="bottom" constant="1" id="add-Tj-Mdc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="7k0-ly-RcF" secondAttribute="trailing" constant="20" id="aiY-NA-8mD"/>
+                    <constraint firstItem="vR3-93-XM9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="dky-mV-HU7"/>
+                    <constraint firstItem="200-W0-nov" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="fGw-r0-sFg"/>
+                    <constraint firstItem="TJ4-HJ-s2q" firstAttribute="leading" secondItem="7k0-ly-RcF" secondAttribute="leading" id="gcT-or-Jyn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="contentLab" destination="TJ4-HJ-s2q" id="7Sm-Vs-1u0"/>
+                <outlet property="leftImgView" destination="vR3-93-XM9" id="jsU-GD-q30"/>
+                <outlet property="timeLab" destination="rzG-hm-KhL" id="Ojs-MT-jeC"/>
+                <outlet property="titleLab" destination="7k0-ly-RcF" id="0G6-PO-Wut"/>
+            </connections>
+            <point key="canvasLocation" x="-20" y="103"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="logo" width="256" height="256"/>
+    </resources>
+</document>

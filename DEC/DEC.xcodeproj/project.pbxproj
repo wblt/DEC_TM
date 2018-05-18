@@ -8,11 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		8B83BB76C3926A3E285124A2 /* libPods-DEC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FAD420B26079351F479F0E /* libPods-DEC.a */; };
-		F8555D3F20AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3920AD1B810033607E /* README.md */; };
+		F843936F20AE65C800890959 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843936D20AE65C800890959 /* WelcomeVC.m */; };
+		F843937020AE65C800890959 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843936E20AE65C800890959 /* WelcomeVC.xib */; };
+		F843937420AE877D00890959 /* ForgetPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843937220AE877D00890959 /* ForgetPwdVC.m */; };
+		F843937520AE877D00890959 /* ForgetPwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843937320AE877D00890959 /* ForgetPwdVC.xib */; };
+		F843937920AEA8DA00890959 /* UpdataNewPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843937720AEA8DA00890959 /* UpdataNewPwdVC.m */; };
+		F843937A20AEA8DA00890959 /* UpdataNewPwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843937820AEA8DA00890959 /* UpdataNewPwdVC.xib */; };
+		F843938320AEB33700890959 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F843937D20AEB33700890959 /* README.md */; };
+		F843938620AEB33700890959 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F843938220AEB33700890959 /* README.md */; };
+		F843938A20AEB36800890959 /* MarketVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843938820AEB36800890959 /* MarketVC.m */; };
+		F843938B20AEB36800890959 /* MarketVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843938920AEB36800890959 /* MarketVC.xib */; };
+		F843938F20AEB53C00890959 /* NewsTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843938C20AEB53B00890959 /* NewsTabCell.xib */; };
+		F843939020AEB53C00890959 /* NewsTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F843938E20AEB53C00890959 /* NewsTabCell.m */; };
+		F843939320AEB66F00890959 /* NoticeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F843939220AEB66F00890959 /* NoticeModel.m */; };
+		F843939720AEBB8600890959 /* NewsDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843939420AEBB8600890959 /* NewsDetailsViewController.xib */; };
+		F843939820AEBB8600890959 /* NewsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F843939620AEBB8600890959 /* NewsDetailsViewController.m */; };
+		F843939B20AEC52800890959 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F843939A20AEC52800890959 /* UserInfoModel.m */; };
+		F843939F20AECB0A00890959 /* MindeInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843939D20AECB0A00890959 /* MindeInfoVC.m */; };
+		F84393A020AECB0A00890959 /* MindeInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843939E20AECB0A00890959 /* MindeInfoVC.xib */; };
+		F84393A420AED65D00890959 /* ReceiveAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84393A120AED65C00890959 /* ReceiveAddressViewController.m */; };
+		F84393A520AED65D00890959 /* ReceiveAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84393A320AED65C00890959 /* ReceiveAddressViewController.xib */; };
+		F84393AC20AED98000890959 /* TransferRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84393A620AED97F00890959 /* TransferRecordViewController.m */; };
+		F84393AD20AED98000890959 /* TransferRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84393A920AED97F00890959 /* TransferRecordViewController.xib */; };
+		F84393AE20AED98000890959 /* ReceiveRecordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84393AA20AED97F00890959 /* ReceiveRecordVC.xib */; };
+		F84393AF20AED98000890959 /* ReceiveRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F84393AB20AED97F00890959 /* ReceiveRecordVC.m */; };
+		F84393B320AED9B200890959 /* ReceiveRecordTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F84393B020AED9B100890959 /* ReceiveRecordTabCell.m */; };
+		F84393B420AED9B200890959 /* ReceiveRecordTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84393B220AED9B100890959 /* ReceiveRecordTabCell.xib */; };
+		F84393B720AEDBA400890959 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F84393B520AEDBA400890959 /* RecordModel.m */; };
 		F8555D4020AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3A20AD1B810033607E /* README.md */; };
-		F8555D4220AD1B810033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D3E20AD1B810033607E /* README.md */; };
-		F8555D4B20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4520AD1B950033607E /* README.md */; };
-		F8555D4E20AD1B950033607E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8555D4A20AD1B950033607E /* README.md */; };
 		F8555D5220AD1BC10033607E /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8555D5020AD1BC10033607E /* LoginVC.m */; };
 		F8555D5320AD1BC10033607E /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8555D5120AD1BC10033607E /* LoginVC.xib */; };
 		F8555D5720AD1BFC0033607E /* RegistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8555D5520AD1BFC0033607E /* RegistVC.m */; };
@@ -168,11 +191,48 @@
 		A5F2BB986F3928534394627B /* Pods-DEC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DEC/Pods-DEC.debug.xcconfig"; sourceTree = "<group>"; };
 		AC51B0F7B7A9A5125EA6E385 /* Pods-DEC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DEC/Pods-DEC.release.xcconfig"; sourceTree = "<group>"; };
 		F6FAD420B26079351F479F0E /* libPods-DEC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DEC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8555D3920AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F843936C20AE65C800890959 /* WelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
+		F843936D20AE65C800890959 /* WelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
+		F843936E20AE65C800890959 /* WelcomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeVC.xib; sourceTree = "<group>"; };
+		F843937120AE877D00890959 /* ForgetPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPwdVC.h; sourceTree = "<group>"; };
+		F843937220AE877D00890959 /* ForgetPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdVC.m; sourceTree = "<group>"; };
+		F843937320AE877D00890959 /* ForgetPwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPwdVC.xib; sourceTree = "<group>"; };
+		F843937620AEA8DA00890959 /* UpdataNewPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdataNewPwdVC.h; sourceTree = "<group>"; };
+		F843937720AEA8DA00890959 /* UpdataNewPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdataNewPwdVC.m; sourceTree = "<group>"; };
+		F843937820AEA8DA00890959 /* UpdataNewPwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdataNewPwdVC.xib; sourceTree = "<group>"; };
+		F843937D20AEB33700890959 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F843938220AEB33700890959 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F843938720AEB36800890959 /* MarketVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketVC.h; sourceTree = "<group>"; };
+		F843938820AEB36800890959 /* MarketVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketVC.m; sourceTree = "<group>"; };
+		F843938920AEB36800890959 /* MarketVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketVC.xib; sourceTree = "<group>"; };
+		F843938C20AEB53B00890959 /* NewsTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTabCell.xib; sourceTree = "<group>"; };
+		F843938D20AEB53B00890959 /* NewsTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTabCell.h; sourceTree = "<group>"; };
+		F843938E20AEB53C00890959 /* NewsTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTabCell.m; sourceTree = "<group>"; };
+		F843939120AEB66F00890959 /* NoticeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoticeModel.h; sourceTree = "<group>"; };
+		F843939220AEB66F00890959 /* NoticeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoticeModel.m; sourceTree = "<group>"; };
+		F843939420AEBB8600890959 /* NewsDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDetailsViewController.xib; sourceTree = "<group>"; };
+		F843939520AEBB8600890959 /* NewsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailsViewController.h; sourceTree = "<group>"; };
+		F843939620AEBB8600890959 /* NewsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailsViewController.m; sourceTree = "<group>"; };
+		F843939920AEC52800890959 /* UserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		F843939A20AEC52800890959 /* UserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		F843939C20AECB0A00890959 /* MindeInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MindeInfoVC.h; sourceTree = "<group>"; };
+		F843939D20AECB0A00890959 /* MindeInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindeInfoVC.m; sourceTree = "<group>"; };
+		F843939E20AECB0A00890959 /* MindeInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MindeInfoVC.xib; sourceTree = "<group>"; };
+		F84393A120AED65C00890959 /* ReceiveAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveAddressViewController.m; sourceTree = "<group>"; };
+		F84393A220AED65C00890959 /* ReceiveAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveAddressViewController.h; sourceTree = "<group>"; };
+		F84393A320AED65C00890959 /* ReceiveAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiveAddressViewController.xib; sourceTree = "<group>"; };
+		F84393A620AED97F00890959 /* TransferRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferRecordViewController.m; sourceTree = "<group>"; };
+		F84393A720AED97F00890959 /* TransferRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferRecordViewController.h; sourceTree = "<group>"; };
+		F84393A820AED97F00890959 /* ReceiveRecordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveRecordVC.h; sourceTree = "<group>"; };
+		F84393A920AED97F00890959 /* TransferRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferRecordViewController.xib; sourceTree = "<group>"; };
+		F84393AA20AED97F00890959 /* ReceiveRecordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiveRecordVC.xib; sourceTree = "<group>"; };
+		F84393AB20AED97F00890959 /* ReceiveRecordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveRecordVC.m; sourceTree = "<group>"; };
+		F84393B020AED9B100890959 /* ReceiveRecordTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveRecordTabCell.m; sourceTree = "<group>"; };
+		F84393B120AED9B100890959 /* ReceiveRecordTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveRecordTabCell.h; sourceTree = "<group>"; };
+		F84393B220AED9B100890959 /* ReceiveRecordTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiveRecordTabCell.xib; sourceTree = "<group>"; };
+		F84393B520AEDBA400890959 /* RecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordModel.m; sourceTree = "<group>"; };
+		F84393B620AEDBA400890959 /* RecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordModel.h; sourceTree = "<group>"; };
 		F8555D3A20AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F8555D3E20AD1B810033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F8555D4520AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F8555D4A20AD1B950033607E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8555D4F20AD1BC10033607E /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		F8555D5020AD1BC10033607E /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		F8555D5120AD1BC10033607E /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
@@ -464,6 +524,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F843937B20AEB33700890959 /* Marketer */ = {
+			isa = PBXGroup;
+			children = (
+				F843937C20AEB33700890959 /* Model */,
+				F843937F20AEB33700890959 /* VC */,
+				F843938120AEB33700890959 /* View */,
+			);
+			path = Marketer;
+			sourceTree = "<group>";
+		};
+		F843937C20AEB33700890959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F843937D20AEB33700890959 /* README.md */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F843937F20AEB33700890959 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F843938720AEB36800890959 /* MarketVC.h */,
+				F843938820AEB36800890959 /* MarketVC.m */,
+				F843938920AEB36800890959 /* MarketVC.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		F843938120AEB33700890959 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F843938220AEB33700890959 /* README.md */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F8555D3420AD1AE90033607E /* LoginAndRegist */ = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +569,15 @@
 				F8555D5420AD1BFB0033607E /* RegistVC.h */,
 				F8555D5520AD1BFC0033607E /* RegistVC.m */,
 				F8555D5620AD1BFC0033607E /* RegistVC.xib */,
+				F843937120AE877D00890959 /* ForgetPwdVC.h */,
+				F843937220AE877D00890959 /* ForgetPwdVC.m */,
+				F843937320AE877D00890959 /* ForgetPwdVC.xib */,
+				F843937620AEA8DA00890959 /* UpdataNewPwdVC.h */,
+				F843937720AEA8DA00890959 /* UpdataNewPwdVC.m */,
+				F843937820AEA8DA00890959 /* UpdataNewPwdVC.xib */,
+				F843936C20AE65C800890959 /* WelcomeVC.h */,
+				F843936D20AE65C800890959 /* WelcomeVC.m */,
+				F843936E20AE65C800890959 /* WelcomeVC.xib */,
 			);
 			path = LoginAndRegist;
 			sourceTree = "<group>";
@@ -491,7 +596,10 @@
 		F8555D3820AD1B810033607E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F8555D3920AD1B810033607E /* README.md */,
+				F84393B620AEDBA400890959 /* RecordModel.h */,
+				F84393B520AEDBA400890959 /* RecordModel.m */,
+				F843939920AEC52800890959 /* UserInfoModel.h */,
+				F843939A20AEC52800890959 /* UserInfoModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -502,6 +610,18 @@
 				F8555D5E20AD620B0033607E /* MineVC.h */,
 				F8555D5F20AD620B0033607E /* MineVC.m */,
 				F8555D6020AD620B0033607E /* MineVC.xib */,
+				F843939C20AECB0A00890959 /* MindeInfoVC.h */,
+				F843939D20AECB0A00890959 /* MindeInfoVC.m */,
+				F843939E20AECB0A00890959 /* MindeInfoVC.xib */,
+				F84393A220AED65C00890959 /* ReceiveAddressViewController.h */,
+				F84393A120AED65C00890959 /* ReceiveAddressViewController.m */,
+				F84393A320AED65C00890959 /* ReceiveAddressViewController.xib */,
+				F84393A820AED97F00890959 /* ReceiveRecordVC.h */,
+				F84393AB20AED97F00890959 /* ReceiveRecordVC.m */,
+				F84393AA20AED97F00890959 /* ReceiveRecordVC.xib */,
+				F84393A720AED97F00890959 /* TransferRecordViewController.h */,
+				F84393A620AED97F00890959 /* TransferRecordViewController.m */,
+				F84393A920AED97F00890959 /* TransferRecordViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -509,7 +629,9 @@
 		F8555D3D20AD1B810033607E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F8555D3E20AD1B810033607E /* README.md */,
+				F84393B120AED9B100890959 /* ReceiveRecordTabCell.h */,
+				F84393B020AED9B100890959 /* ReceiveRecordTabCell.m */,
+				F84393B220AED9B100890959 /* ReceiveRecordTabCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -527,7 +649,8 @@
 		F8555D4420AD1B950033607E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F8555D4520AD1B950033607E /* README.md */,
+				F843939120AEB66F00890959 /* NoticeModel.h */,
+				F843939220AEB66F00890959 /* NoticeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -538,6 +661,9 @@
 				F8555D5920AD61DB0033607E /* HomeVC.h */,
 				F8555D5A20AD61DB0033607E /* HomeVC.m */,
 				F8555D5B20AD61DB0033607E /* HomeVC.xib */,
+				F843939520AEBB8600890959 /* NewsDetailsViewController.h */,
+				F843939620AEBB8600890959 /* NewsDetailsViewController.m */,
+				F843939420AEBB8600890959 /* NewsDetailsViewController.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -545,7 +671,9 @@
 		F8555D4920AD1B950033607E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F8555D4A20AD1B950033607E /* README.md */,
+				F843938D20AEB53B00890959 /* NewsTabCell.h */,
+				F843938E20AEB53C00890959 /* NewsTabCell.m */,
+				F843938C20AEB53B00890959 /* NewsTabCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,6 +743,7 @@
 		F8D9369620AAE44B00F7E852 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F843937B20AEB33700890959 /* Marketer */,
 				F8555D4320AD1B950033607E /* Home */,
 				F8555D3720AD1B810033607E /* Mine */,
 				F8555D3420AD1AE90033607E /* LoginAndRegist */,
@@ -1185,12 +1314,19 @@
 			files = (
 				F8555D5320AD1BC10033607E /* LoginVC.xib in Resources */,
 				F8D936DA20AAE45200F7E852 /* README.md in Resources */,
+				F843938B20AEB36800890959 /* MarketVC.xib in Resources */,
 				F8D9367120AAE2F900F7E852 /* LaunchScreen.storyboard in Resources */,
 				F8D936F420AAE45200F7E852 /* README.md in Resources */,
 				F8D936F620AAE45200F7E852 /* README.md in Resources */,
 				F8D937F120AAE7CB00F7E852 /* README.md in Resources */,
+				F843937A20AEA8DA00890959 /* UpdataNewPwdVC.xib in Resources */,
+				F843938F20AEB53C00890959 /* NewsTabCell.xib in Resources */,
 				F8D936E620AAE45200F7E852 /* README.md in Resources */,
 				F8D936E820AAE45200F7E852 /* back_icon@2x.png in Resources */,
+				F84393AE20AED98000890959 /* ReceiveRecordVC.xib in Resources */,
+				F843937020AE65C800890959 /* WelcomeVC.xib in Resources */,
+				F843939720AEBB8600890959 /* NewsDetailsViewController.xib in Resources */,
+				F843938620AEB33700890959 /* README.md in Resources */,
 				F8D936ED20AAE45200F7E852 /* sure_placeholder_error@2x.png in Resources */,
 				F8D936EA20AAE45200F7E852 /* close_icon@2x.png in Resources */,
 				F8D937DD20AAE7CB00F7E852 /* Info.plist in Resources */,
@@ -1202,26 +1338,28 @@
 				F8D936E220AAE45200F7E852 /* README.md in Resources */,
 				F8D936EE20AAE45200F7E852 /* sure_placeholder_error@3x.png in Resources */,
 				F8D937F320AAE7CB00F7E852 /* SGQRCode.bundle in Resources */,
+				F84393A020AECB0A00890959 /* MindeInfoVC.xib in Resources */,
 				F8555D4020AD1B810033607E /* README.md in Resources */,
 				F8D936D920AAE45200F7E852 /* README.md in Resources */,
 				F8D936E420AAE45200F7E852 /* README.md in Resources */,
+				F84393B420AED9B200890959 /* ReceiveRecordTabCell.xib in Resources */,
 				F8D937BD20AAE7CB00F7E852 /* AAHighchartsLib.js in Resources */,
 				F8D936F220AAE45200F7E852 /* README.md in Resources */,
+				F843937520AE877D00890959 /* ForgetPwdVC.xib in Resources */,
 				F8D937BB20AAE7CB00F7E852 /* AAFunnel.js in Resources */,
 				F8D937DB20AAE7CB00F7E852 /* passwordIcon.png in Resources */,
+				F84393A520AED65D00890959 /* ReceiveAddressViewController.xib in Resources */,
 				F8D936E320AAE45200F7E852 /* README.md in Resources */,
 				F8D9366C20AAE2F900F7E852 /* Main.storyboard in Resources */,
+				F84393AD20AED98000890959 /* TransferRecordViewController.xib in Resources */,
 				F8555D5820AD1BFC0033607E /* RegistVC.xib in Resources */,
 				F8D936EC20AAE45200F7E852 /* README.md in Resources */,
-				F8555D4220AD1B810033607E /* README.md in Resources */,
 				F8D936E920AAE45200F7E852 /* back_icon@3x.png in Resources */,
-				F8555D3F20AD1B810033607E /* README.md in Resources */,
-				F8555D4B20AD1B950033607E /* README.md in Resources */,
 				F8D937BC20AAE7CB00F7E852 /* AAHighcharts-3d.js in Resources */,
 				F8D937BA20AAE7CB00F7E852 /* AAChartView.html in Resources */,
 				F8D9370920AAE55900F7E852 /* README.md in Resources */,
 				F8D937DC20AAE7CB00F7E852 /* xxx@2x.png in Resources */,
-				F8555D4E20AD1B950033607E /* README.md in Resources */,
+				F843938320AEB33700890959 /* README.md in Resources */,
 				F8D936EB20AAE45200F7E852 /* close_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1307,10 +1445,13 @@
 				F8D937B720AAE7CB00F7E852 /* AAChartView.m in Sources */,
 				F8D937D520AAE7CB00F7E852 /* AATooltip.m in Sources */,
 				F8D937FB20AAE7CB00F7E852 /* UIImage+XLExtension.m in Sources */,
+				F843939F20AECB0A00890959 /* MindeInfoVC.m in Sources */,
 				F8D9367420AAE2F900F7E852 /* main.m in Sources */,
 				F8D937E820AAE7CB00F7E852 /* PNPieChartDataItem.m in Sources */,
 				F8D937FD20AAE7CB00F7E852 /* FSActionSheet.m in Sources */,
 				F8D937E920AAE7CB00F7E852 /* PNRadarChart.m in Sources */,
+				F84393A420AED65D00890959 /* ReceiveAddressViewController.m in Sources */,
+				F843939020AEB53C00890959 /* NewsTabCell.m in Sources */,
 				F8D937FC20AAE7CB00F7E852 /* UIView+XLExtension.m in Sources */,
 				F8D937C020AAE7CB00F7E852 /* AAArea.m in Sources */,
 				F8D937D120AAE7CB00F7E852 /* AASpline.m in Sources */,
@@ -1319,6 +1460,7 @@
 				F8D937F920AAE7CB00F7E852 /* HGBStepMoel.m in Sources */,
 				F8D937E420AAE7CB00F7E852 /* PNLineChart.m in Sources */,
 				F8D937E620AAE7CB00F7E852 /* PNLineChartDataItem.m in Sources */,
+				F843936F20AE65C800890959 /* WelcomeVC.m in Sources */,
 				F8D936DB20AAE45200F7E852 /* UIButton+XYButton.m in Sources */,
 				F8D9380320AAE7CB00F7E852 /* XLZoomingScrollView.m in Sources */,
 				F8D937FE20AAE7CB00F7E852 /* FSActionSheetCell.m in Sources */,
@@ -1337,6 +1479,7 @@
 				F8D936E720AAE45200F7E852 /* SPUtil.m in Sources */,
 				F8D937C520AAE7CB00F7E852 /* AACrosshair.m in Sources */,
 				F8555D5720AD1BFC0033607E /* RegistVC.m in Sources */,
+				F843939B20AEC52800890959 /* UserInfoModel.m in Sources */,
 				F8555D5220AD1BC10033607E /* LoginVC.m in Sources */,
 				F8D936DC20AAE45200F7E852 /* UICollectionView+IndexPath.m in Sources */,
 				F8D937EB20AAE7CB00F7E852 /* PNScatterChart.m in Sources */,
@@ -1345,20 +1488,26 @@
 				F8D936DF20AAE45200F7E852 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				F8D937C120AAE7CB00F7E852 /* AAAreaspline.m in Sources */,
 				F8D937CD20AAE7CB00F7E852 /* AAPie.m in Sources */,
+				F843937420AE877D00890959 /* ForgetPwdVC.m in Sources */,
 				F8D9370820AAE55900F7E852 /* MainTabBarItem.m in Sources */,
 				F8D936E020AAE45200F7E852 /* GTMBase64.m in Sources */,
 				F8D937C620AAE7CB00F7E852 /* AADataLabels.m in Sources */,
 				F8D937EA20AAE7CB00F7E852 /* PNRadarChartDataItem.m in Sources */,
+				F84393B720AEDBA400890959 /* RecordModel.m in Sources */,
+				F84393B320AED9B200890959 /* ReceiveRecordTabCell.m in Sources */,
+				F843938A20AEB36800890959 /* MarketVC.m in Sources */,
 				F8D9370720AAE55900F7E852 /* MainTabBarController.m in Sources */,
 				F8D937EC20AAE7CB00F7E852 /* PNScatterChartData.m in Sources */,
 				F8D937CE20AAE7CB00F7E852 /* AAPlotLinesElement.m in Sources */,
 				F8D937B920AAE7CB00F7E852 /* AASeriesElement.m in Sources */,
 				F8D937C320AAE7CB00F7E852 /* AAChart.m in Sources */,
 				F8D937DE20AAE7CB00F7E852 /* PNBar.m in Sources */,
+				F84393AF20AED98000890959 /* ReceiveRecordVC.m in Sources */,
 				F8D937F820AAE7CB00F7E852 /* SGQRCodeScanningView.m in Sources */,
 				F8D937E120AAE7CB00F7E852 /* PNCircleChart.m in Sources */,
 				F8D937B820AAE7CB00F7E852 /* AAOptions.m in Sources */,
 				F8D936E520AAE45200F7E852 /* SandBoxHelper.m in Sources */,
+				F843937920AEA8DA00890959 /* UpdataNewPwdVC.m in Sources */,
 				F8D937C820AAE7CB00F7E852 /* AALabels.m in Sources */,
 				F8D937CB20AAE7CB00F7E852 /* AAMarker.m in Sources */,
 				F8D937C420AAE7CB00F7E852 /* AAColumn.m in Sources */,
@@ -1373,6 +1522,8 @@
 				F8D9366620AAE2F900F7E852 /* AppDelegate.m in Sources */,
 				F8D937FA20AAE7CB00F7E852 /* HGBStepTool.m in Sources */,
 				F8D937DF20AAE7CB00F7E852 /* PNBarChart.m in Sources */,
+				F843939820AEBB8600890959 /* NewsDetailsViewController.m in Sources */,
+				F843939320AEB66F00890959 /* NoticeModel.m in Sources */,
 				F8D937F420AAE7CB00F7E852 /* SGQRCodeAlbumManager.m in Sources */,
 				F8D936F320AAE45200F7E852 /* Util.m in Sources */,
 				F8D937F020AAE7CB00F7E852 /* UploadPic.m in Sources */,
@@ -1384,6 +1535,7 @@
 				F8D9380220AAE7CB00F7E852 /* XLProgressView.m in Sources */,
 				F8D937D020AAE7CB00F7E852 /* AASeries.m in Sources */,
 				F8D937F620AAE7CB00F7E852 /* SGQRCodeHelperTool.m in Sources */,
+				F84393AC20AED98000890959 /* TransferRecordViewController.m in Sources */,
 				F8D937ED20AAE7CB00F7E852 /* PNScatterChartDataItem.m in Sources */,
 				F8D937D220AAE7CB00F7E852 /* AAStyle.m in Sources */,
 				F8555D5C20AD61DB0033607E /* HomeVC.m in Sources */,
@@ -1555,6 +1707,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U32GQ973V;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DEC/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = DEC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1578,6 +1731,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8U32GQ973V;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DEC/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = DEC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

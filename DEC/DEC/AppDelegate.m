@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WelcomeVC.h"
+#import "BaseNavViewController.h"
+#import "MainTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+	self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+	self.window.backgroundColor = [UIColor clearColor];
+	[self.window makeKeyAndVisible];
+	
+	
+	BOOL flag = [SPUtil boolForKey:k_app_autologin];
+	if (flag) {
+		MainTabBarController *mainTabbar = [[MainTabBarController alloc] init];
+		mainTabbar.selectIndex = 0;
+		[UIApplication sharedApplication].keyWindow.rootViewController = mainTabbar;
+	}else {
+		WelcomeVC *vc = [[WelcomeVC alloc] initWithNibName:@"WelcomeVC" bundle:nil];
+		BaseNavViewController *nav = [[BaseNavViewController alloc] initWithRootViewController:vc];
+		
+		self.window.rootViewController = nav;
+	}
+	
 	return YES;
 }
 
