@@ -14,6 +14,8 @@
 #import "ReleaseRecordViewController.h"
 #import "SendChangeVC.h"
 #import "PowerCGVC.h"
+#import "DECExchangeVC.h"
+#import "SettingVC.h"
 
 @interface MineVC ()
 @property (weak, nonatomic) IBOutlet UIImageView *headImgView;
@@ -150,10 +152,16 @@
         }
 			break;
 		case 103:
-			
+        {
+            DECExchangeVC *vc = [[DECExchangeVC alloc] initWithNibName:@"DECExchangeVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
 			break;
 		case 104:
-			
+        {
+            SettingVC *vc = [[SettingVC alloc] initWithNibName:@"SettingVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
 			break;
 		default:
 			break;

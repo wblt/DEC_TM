@@ -19,6 +19,10 @@
 		CF73CD6820AFC25400C15F4F /* SendChangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD6620AFC25400C15F4F /* SendChangeVC.xib */; };
 		CF73CD6C20AFC54100C15F4F /* PowerCGVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD6A20AFC54100C15F4F /* PowerCGVC.m */; };
 		CF73CD6D20AFC54100C15F4F /* PowerCGVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD6B20AFC54100C15F4F /* PowerCGVC.xib */; };
+		CFACD13720AFE5E700AB2756 /* DECExchangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD13520AFE5E700AB2756 /* DECExchangeVC.m */; };
+		CFACD13820AFE5E700AB2756 /* DECExchangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD13620AFE5E700AB2756 /* DECExchangeVC.xib */; };
+		CFACD13E20AFEBC500AB2756 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD13C20AFEBC500AB2756 /* SettingVC.m */; };
+		CFACD13F20AFEBC500AB2756 /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD13D20AFEBC500AB2756 /* SettingVC.xib */; };
 		F843936F20AE65C800890959 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843936D20AE65C800890959 /* WelcomeVC.m */; };
 		F843937020AE65C800890959 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843936E20AE65C800890959 /* WelcomeVC.xib */; };
 		F843937420AE877D00890959 /* ForgetPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843937220AE877D00890959 /* ForgetPwdVC.m */; };
@@ -218,6 +222,12 @@
 		CF73CD6920AFC54100C15F4F /* PowerCGVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerCGVC.h; sourceTree = "<group>"; };
 		CF73CD6A20AFC54100C15F4F /* PowerCGVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerCGVC.m; sourceTree = "<group>"; };
 		CF73CD6B20AFC54100C15F4F /* PowerCGVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PowerCGVC.xib; sourceTree = "<group>"; };
+		CFACD13420AFE5E700AB2756 /* DECExchangeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DECExchangeVC.h; sourceTree = "<group>"; };
+		CFACD13520AFE5E700AB2756 /* DECExchangeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DECExchangeVC.m; sourceTree = "<group>"; };
+		CFACD13620AFE5E700AB2756 /* DECExchangeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DECExchangeVC.xib; sourceTree = "<group>"; };
+		CFACD13B20AFEBC500AB2756 /* SettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		CFACD13C20AFEBC500AB2756 /* SettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
+		CFACD13D20AFEBC500AB2756 /* SettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
 		F6FAD420B26079351F479F0E /* libPods-DEC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DEC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F843936C20AE65C800890959 /* WelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
 		F843936D20AE65C800890959 /* WelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
@@ -544,6 +554,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CFACD13920AFEBB200AB2756 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CFACD13A20AFEBB200AB2756 /* VC */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		CFACD13A20AFEBB200AB2756 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CFACD13B20AFEBC500AB2756 /* SettingVC.h */,
+				CFACD13C20AFEBC500AB2756 /* SettingVC.m */,
+				CFACD13D20AFEBC500AB2756 /* SettingVC.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		E3532E40EA5D6FC24EEE5FD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -664,6 +692,9 @@
 				CF73CD6920AFC54100C15F4F /* PowerCGVC.h */,
 				CF73CD6A20AFC54100C15F4F /* PowerCGVC.m */,
 				CF73CD6B20AFC54100C15F4F /* PowerCGVC.xib */,
+				CFACD13420AFE5E700AB2756 /* DECExchangeVC.h */,
+				CFACD13520AFE5E700AB2756 /* DECExchangeVC.m */,
+				CFACD13620AFE5E700AB2756 /* DECExchangeVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -788,6 +819,7 @@
 		F8D9369620AAE44B00F7E852 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CFACD13920AFEBB200AB2756 /* Setting */,
 				F843937B20AEB33700890959 /* Marketer */,
 				F8555D4320AD1B950033607E /* Home */,
 				F8555D3720AD1B810033607E /* Mine */,
@@ -1362,6 +1394,7 @@
 				F843938B20AEB36800890959 /* MarketVC.xib in Resources */,
 				CF73CD6020AFBE8F00C15F4F /* AllRecodeTabCell.xib in Resources */,
 				F8D9367120AAE2F900F7E852 /* LaunchScreen.storyboard in Resources */,
+				CFACD13F20AFEBC500AB2756 /* SettingVC.xib in Resources */,
 				F8D936F420AAE45200F7E852 /* README.md in Resources */,
 				F8D936F620AAE45200F7E852 /* README.md in Resources */,
 				F8D937F120AAE7CB00F7E852 /* README.md in Resources */,
@@ -1406,6 +1439,7 @@
 				F8D936EC20AAE45200F7E852 /* README.md in Resources */,
 				F8D936E920AAE45200F7E852 /* back_icon@3x.png in Resources */,
 				F8D937BC20AAE7CB00F7E852 /* AAHighcharts-3d.js in Resources */,
+				CFACD13820AFE5E700AB2756 /* DECExchangeVC.xib in Resources */,
 				F8D937BA20AAE7CB00F7E852 /* AAChartView.html in Resources */,
 				F8D9370920AAE55900F7E852 /* README.md in Resources */,
 				F8D937DC20AAE7CB00F7E852 /* xxx@2x.png in Resources */,
@@ -1512,6 +1546,7 @@
 				F8D937F920AAE7CB00F7E852 /* HGBStepMoel.m in Sources */,
 				F8D937E420AAE7CB00F7E852 /* PNLineChart.m in Sources */,
 				F8D937E620AAE7CB00F7E852 /* PNLineChartDataItem.m in Sources */,
+				CFACD13E20AFEBC500AB2756 /* SettingVC.m in Sources */,
 				F843936F20AE65C800890959 /* WelcomeVC.m in Sources */,
 				F8D936DB20AAE45200F7E852 /* UIButton+XYButton.m in Sources */,
 				F8D9380320AAE7CB00F7E852 /* XLZoomingScrollView.m in Sources */,
@@ -1573,6 +1608,7 @@
 				F8D937D920AAE7CB00F7E852 /* MQVerCodeImageView.m in Sources */,
 				F8D937E220AAE7CB00F7E852 /* PNColor.m in Sources */,
 				F8D936DE20AAE45200F7E852 /* UIView+Extend.m in Sources */,
+				CFACD13720AFE5E700AB2756 /* DECExchangeVC.m in Sources */,
 				F8D9366620AAE2F900F7E852 /* AppDelegate.m in Sources */,
 				F8D937FA20AAE7CB00F7E852 /* HGBStepTool.m in Sources */,
 				F8D937DF20AAE7CB00F7E852 /* PNBarChart.m in Sources */,
