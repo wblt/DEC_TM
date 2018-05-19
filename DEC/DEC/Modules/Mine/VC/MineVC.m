@@ -11,6 +11,9 @@
 #import "SGQRCode.h"
 #import "MindeInfoVC.h"
 #import "ReceiveAddressViewController.h"
+#import "ReleaseRecordViewController.h"
+#import "SendChangeVC.h"
+#import "PowerCGVC.h"
 
 @interface MineVC ()
 @property (weak, nonatomic) IBOutlet UIImageView *headImgView;
@@ -129,13 +132,22 @@
 	
 	switch (tap.view.tag) {
 		case 100:
-			
+        {
+            ReleaseRecordViewController *vc = [[ReleaseRecordViewController alloc] initWithNibName:@"ReleaseRecordViewController" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
 			break;
 		case 101:
-			
+        {
+            SendChangeVC *vc = [[SendChangeVC alloc] initWithNibName:@"SendChangeVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
 			break;
 		case 102:
-			
+        {
+            PowerCGVC *vc = [[PowerCGVC alloc] initWithNibName:@"PowerCGVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
 			break;
 		case 103:
 			

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -122,14 +122,14 @@
                             </constraints>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="u0G-Ej-Vb2">
-                            <rect key="frame" x="337" y="10" width="30" height="30"/>
+                            <rect key="frame" x="342" y="12.5" width="25" height="25"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="30" id="d0w-Wt-kC3"/>
-                                <constraint firstAttribute="height" constant="30" id="lcw-0p-hFh"/>
+                                <constraint firstAttribute="width" constant="25" id="d0w-Wt-kC3"/>
+                                <constraint firstAttribute="height" constant="25" id="lcw-0p-hFh"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBD-CI-3ON">
-                            <rect key="frame" x="291.5" y="16" width="37.5" height="18"/>
+                            <rect key="frame" x="296.5" y="16" width="37.5" height="18"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -170,14 +170,14 @@
                             </constraints>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Ynx-tE-7Nk">
-                            <rect key="frame" x="337" y="10" width="30" height="30"/>
+                            <rect key="frame" x="342" y="12.5" width="25" height="25"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="30" id="5PV-ic-jU0"/>
-                                <constraint firstAttribute="height" constant="30" id="M4U-E0-i5c"/>
+                                <constraint firstAttribute="width" constant="25" id="5PV-ic-jU0"/>
+                                <constraint firstAttribute="height" constant="25" id="M4U-E0-i5c"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yts-eR-NR9">
-                            <rect key="frame" x="291.5" y="16" width="37.5" height="18"/>
+                            <rect key="frame" x="296.5" y="16" width="37.5" height="18"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -218,14 +218,14 @@
                             </constraints>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="HGF-hK-6dc">
-                            <rect key="frame" x="337" y="10" width="30" height="30"/>
+                            <rect key="frame" x="342" y="12.5" width="25" height="25"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="30" id="H76-U7-a9G"/>
-                                <constraint firstAttribute="width" constant="30" id="zjl-nM-iod"/>
+                                <constraint firstAttribute="height" constant="25" id="H76-U7-a9G"/>
+                                <constraint firstAttribute="width" constant="25" id="zjl-nM-iod"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cyc-OG-5IK">
-                            <rect key="frame" x="291.5" y="16" width="37.5" height="18"/>
+                            <rect key="frame" x="296.5" y="16" width="37.5" height="18"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -266,14 +266,14 @@
                             </constraints>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="4xv-Ox-lLd">
-                            <rect key="frame" x="337" y="10" width="30" height="30"/>
+                            <rect key="frame" x="342" y="12.5" width="25" height="25"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="30" id="CgM-Cj-UVi"/>
-                                <constraint firstAttribute="width" constant="30" id="xcZ-oO-YrY"/>
+                                <constraint firstAttribute="height" constant="25" id="CgM-Cj-UVi"/>
+                                <constraint firstAttribute="width" constant="25" id="xcZ-oO-YrY"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uL-7H-oTs">
-                            <rect key="frame" x="291.5" y="16" width="37.5" height="18"/>
+                            <rect key="frame" x="296.5" y="16" width="37.5" height="18"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -314,10 +314,10 @@
                             </constraints>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="RB1-Xg-WeZ">
-                            <rect key="frame" x="337" y="10" width="30" height="30"/>
+                            <rect key="frame" x="342" y="12.5" width="25" height="25"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="30" id="Ytw-kR-d0c"/>
-                                <constraint firstAttribute="height" constant="30" id="umi-ED-5Pm"/>
+                                <constraint firstAttribute="width" constant="25" id="Ytw-kR-d0c"/>
+                                <constraint firstAttribute="height" constant="25" id="umi-ED-5Pm"/>
                             </constraints>
                         </imageView>
                     </subviews>

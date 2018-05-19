@@ -54,7 +54,7 @@
 }
 
 - (void)headImageChangeAction:(UITapGestureRecognizer *)tap {
-	
+    [self.view endEditing:YES];
 	//取得所点击的点的坐标
 	CGPoint point =  [tap locationInView:_bgView];
 	if (point.y >= 50) {

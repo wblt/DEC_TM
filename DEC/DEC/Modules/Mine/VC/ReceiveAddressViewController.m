@@ -11,6 +11,7 @@
 #import "UserInfoModel.h"
 #import "ReceiveRecordVC.h"
 #import "TransferRecordViewController.h"
+#import "MoneyTransferVC.h"
 
 @interface ReceiveAddressViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *nameLab;
@@ -64,7 +65,9 @@
 - (void)tapAction:(UITapGestureRecognizer *)tap {
 	switch (tap.view.tag) {
 		case 100:
-			
+        {       MoneyTransferVC *vc = [[MoneyTransferVC alloc] initWithNibName:@"MoneyTransferVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
 			break;
 		case 101:
 		{

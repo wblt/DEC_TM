@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8B83BB76C3926A3E285124A2 /* libPods-DEC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FAD420B26079351F479F0E /* libPods-DEC.a */; };
+		CF73CD5520AFB26E00C15F4F /* MoneyTransferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */; };
+		CF73CD5620AFB26E00C15F4F /* MoneyTransferVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */; };
+		CF73CD5A20AFBE5A00C15F4F /* ReleaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5720AFBE5900C15F4F /* ReleaseRecordViewController.m */; };
+		CF73CD5B20AFBE5A00C15F4F /* ReleaseRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD5920AFBE5900C15F4F /* ReleaseRecordViewController.xib */; };
+		CF73CD5F20AFBE8F00C15F4F /* AllRecodeTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5D20AFBE8F00C15F4F /* AllRecodeTabCell.m */; };
+		CF73CD6020AFBE8F00C15F4F /* AllRecodeTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD5E20AFBE8F00C15F4F /* AllRecodeTabCell.xib */; };
+		CF73CD6320AFC00700C15F4F /* ReleaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD6220AFC00700C15F4F /* ReleaseModel.m */; };
+		CF73CD6720AFC25400C15F4F /* SendChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD6520AFC25400C15F4F /* SendChangeVC.m */; };
+		CF73CD6820AFC25400C15F4F /* SendChangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD6620AFC25400C15F4F /* SendChangeVC.xib */; };
+		CF73CD6C20AFC54100C15F4F /* PowerCGVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD6A20AFC54100C15F4F /* PowerCGVC.m */; };
+		CF73CD6D20AFC54100C15F4F /* PowerCGVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD6B20AFC54100C15F4F /* PowerCGVC.xib */; };
 		F843936F20AE65C800890959 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843936D20AE65C800890959 /* WelcomeVC.m */; };
 		F843937020AE65C800890959 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843936E20AE65C800890959 /* WelcomeVC.xib */; };
 		F843937420AE877D00890959 /* ForgetPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843937220AE877D00890959 /* ForgetPwdVC.m */; };
@@ -190,6 +201,23 @@
 /* Begin PBXFileReference section */
 		A5F2BB986F3928534394627B /* Pods-DEC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DEC/Pods-DEC.debug.xcconfig"; sourceTree = "<group>"; };
 		AC51B0F7B7A9A5125EA6E385 /* Pods-DEC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DEC/Pods-DEC.release.xcconfig"; sourceTree = "<group>"; };
+		CF73CD5220AFB26E00C15F4F /* MoneyTransferVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyTransferVC.h; sourceTree = "<group>"; };
+		CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTransferVC.m; sourceTree = "<group>"; };
+		CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyTransferVC.xib; sourceTree = "<group>"; };
+		CF73CD5720AFBE5900C15F4F /* ReleaseRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseRecordViewController.m; sourceTree = "<group>"; };
+		CF73CD5820AFBE5900C15F4F /* ReleaseRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseRecordViewController.h; sourceTree = "<group>"; };
+		CF73CD5920AFBE5900C15F4F /* ReleaseRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReleaseRecordViewController.xib; sourceTree = "<group>"; };
+		CF73CD5C20AFBE8F00C15F4F /* AllRecodeTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllRecodeTabCell.h; sourceTree = "<group>"; };
+		CF73CD5D20AFBE8F00C15F4F /* AllRecodeTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllRecodeTabCell.m; sourceTree = "<group>"; };
+		CF73CD5E20AFBE8F00C15F4F /* AllRecodeTabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllRecodeTabCell.xib; sourceTree = "<group>"; };
+		CF73CD6120AFC00700C15F4F /* ReleaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReleaseModel.h; sourceTree = "<group>"; };
+		CF73CD6220AFC00700C15F4F /* ReleaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReleaseModel.m; sourceTree = "<group>"; };
+		CF73CD6420AFC25400C15F4F /* SendChangeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendChangeVC.h; sourceTree = "<group>"; };
+		CF73CD6520AFC25400C15F4F /* SendChangeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendChangeVC.m; sourceTree = "<group>"; };
+		CF73CD6620AFC25400C15F4F /* SendChangeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendChangeVC.xib; sourceTree = "<group>"; };
+		CF73CD6920AFC54100C15F4F /* PowerCGVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerCGVC.h; sourceTree = "<group>"; };
+		CF73CD6A20AFC54100C15F4F /* PowerCGVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerCGVC.m; sourceTree = "<group>"; };
+		CF73CD6B20AFC54100C15F4F /* PowerCGVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PowerCGVC.xib; sourceTree = "<group>"; };
 		F6FAD420B26079351F479F0E /* libPods-DEC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DEC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F843936C20AE65C800890959 /* WelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
 		F843936D20AE65C800890959 /* WelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
@@ -600,6 +628,8 @@
 				F84393B520AEDBA400890959 /* RecordModel.m */,
 				F843939920AEC52800890959 /* UserInfoModel.h */,
 				F843939A20AEC52800890959 /* UserInfoModel.m */,
+				CF73CD6120AFC00700C15F4F /* ReleaseModel.h */,
+				CF73CD6220AFC00700C15F4F /* ReleaseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -622,6 +652,18 @@
 				F84393A720AED97F00890959 /* TransferRecordViewController.h */,
 				F84393A620AED97F00890959 /* TransferRecordViewController.m */,
 				F84393A920AED97F00890959 /* TransferRecordViewController.xib */,
+				CF73CD5220AFB26E00C15F4F /* MoneyTransferVC.h */,
+				CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */,
+				CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */,
+				CF73CD5820AFBE5900C15F4F /* ReleaseRecordViewController.h */,
+				CF73CD5720AFBE5900C15F4F /* ReleaseRecordViewController.m */,
+				CF73CD5920AFBE5900C15F4F /* ReleaseRecordViewController.xib */,
+				CF73CD6420AFC25400C15F4F /* SendChangeVC.h */,
+				CF73CD6520AFC25400C15F4F /* SendChangeVC.m */,
+				CF73CD6620AFC25400C15F4F /* SendChangeVC.xib */,
+				CF73CD6920AFC54100C15F4F /* PowerCGVC.h */,
+				CF73CD6A20AFC54100C15F4F /* PowerCGVC.m */,
+				CF73CD6B20AFC54100C15F4F /* PowerCGVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -632,6 +674,9 @@
 				F84393B120AED9B100890959 /* ReceiveRecordTabCell.h */,
 				F84393B020AED9B100890959 /* ReceiveRecordTabCell.m */,
 				F84393B220AED9B100890959 /* ReceiveRecordTabCell.xib */,
+				CF73CD5C20AFBE8F00C15F4F /* AllRecodeTabCell.h */,
+				CF73CD5D20AFBE8F00C15F4F /* AllRecodeTabCell.m */,
+				CF73CD5E20AFBE8F00C15F4F /* AllRecodeTabCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1315,13 +1360,16 @@
 				F8555D5320AD1BC10033607E /* LoginVC.xib in Resources */,
 				F8D936DA20AAE45200F7E852 /* README.md in Resources */,
 				F843938B20AEB36800890959 /* MarketVC.xib in Resources */,
+				CF73CD6020AFBE8F00C15F4F /* AllRecodeTabCell.xib in Resources */,
 				F8D9367120AAE2F900F7E852 /* LaunchScreen.storyboard in Resources */,
 				F8D936F420AAE45200F7E852 /* README.md in Resources */,
 				F8D936F620AAE45200F7E852 /* README.md in Resources */,
 				F8D937F120AAE7CB00F7E852 /* README.md in Resources */,
 				F843937A20AEA8DA00890959 /* UpdataNewPwdVC.xib in Resources */,
 				F843938F20AEB53C00890959 /* NewsTabCell.xib in Resources */,
+				CF73CD6D20AFC54100C15F4F /* PowerCGVC.xib in Resources */,
 				F8D936E620AAE45200F7E852 /* README.md in Resources */,
+				CF73CD5620AFB26E00C15F4F /* MoneyTransferVC.xib in Resources */,
 				F8D936E820AAE45200F7E852 /* back_icon@2x.png in Resources */,
 				F84393AE20AED98000890959 /* ReceiveRecordVC.xib in Resources */,
 				F843937020AE65C800890959 /* WelcomeVC.xib in Resources */,
@@ -1338,6 +1386,7 @@
 				F8D936E220AAE45200F7E852 /* README.md in Resources */,
 				F8D936EE20AAE45200F7E852 /* sure_placeholder_error@3x.png in Resources */,
 				F8D937F320AAE7CB00F7E852 /* SGQRCode.bundle in Resources */,
+				CF73CD5B20AFBE5A00C15F4F /* ReleaseRecordViewController.xib in Resources */,
 				F84393A020AECB0A00890959 /* MindeInfoVC.xib in Resources */,
 				F8555D4020AD1B810033607E /* README.md in Resources */,
 				F8D936D920AAE45200F7E852 /* README.md in Resources */,
@@ -1348,6 +1397,7 @@
 				F843937520AE877D00890959 /* ForgetPwdVC.xib in Resources */,
 				F8D937BB20AAE7CB00F7E852 /* AAFunnel.js in Resources */,
 				F8D937DB20AAE7CB00F7E852 /* passwordIcon.png in Resources */,
+				CF73CD6820AFC25400C15F4F /* SendChangeVC.xib in Resources */,
 				F84393A520AED65D00890959 /* ReceiveAddressViewController.xib in Resources */,
 				F8D936E320AAE45200F7E852 /* README.md in Resources */,
 				F8D9366C20AAE2F900F7E852 /* Main.storyboard in Resources */,
@@ -1393,7 +1443,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		5C68C90E710A4F87F7B7A577 /* [CP] Copy Pods Resources */ = {
@@ -1436,6 +1486,7 @@
 				F8D9366920AAE2F900F7E852 /* ViewController.m in Sources */,
 				F8D937D620AAE7CB00F7E852 /* AAXAxis.m in Sources */,
 				F8D9370520AAE55900F7E852 /* BaseViewController.m in Sources */,
+				CF73CD5520AFB26E00C15F4F /* MoneyTransferVC.m in Sources */,
 				F8D937BF20AAE7CB00F7E852 /* AAAnimation.m in Sources */,
 				F8D937CF20AAE7CB00F7E852 /* AAPlotOptions.m in Sources */,
 				F8D936D820AAE45200F7E852 /* BeanManager.m in Sources */,
@@ -1443,6 +1494,7 @@
 				F8D936F520AAE45200F7E852 /* NetworkSingleton.m in Sources */,
 				F8D936EF20AAE45200F7E852 /* SureWebViewController.m in Sources */,
 				F8D937B720AAE7CB00F7E852 /* AAChartView.m in Sources */,
+				CF73CD6320AFC00700C15F4F /* ReleaseModel.m in Sources */,
 				F8D937D520AAE7CB00F7E852 /* AATooltip.m in Sources */,
 				F8D937FB20AAE7CB00F7E852 /* UIImage+XLExtension.m in Sources */,
 				F843939F20AECB0A00890959 /* MindeInfoVC.m in Sources */,
@@ -1465,10 +1517,12 @@
 				F8D9380320AAE7CB00F7E852 /* XLZoomingScrollView.m in Sources */,
 				F8D937FE20AAE7CB00F7E852 /* FSActionSheetCell.m in Sources */,
 				F8D9370620AAE55900F7E852 /* ErrorView.m in Sources */,
+				CF73CD6C20AFC54100C15F4F /* PowerCGVC.m in Sources */,
 				F8D936E120AAE45200F7E852 /* NSString+MD5.m in Sources */,
 				F8D937C920AAE7CB00F7E852 /* AALegend.m in Sources */,
 				F8D9380120AAE7CB00F7E852 /* XLPhotoBrowser.m in Sources */,
 				F8D9380020AAE7CB00F7E852 /* FSActionSheetItem.m in Sources */,
+				CF73CD5A20AFBE5A00C15F4F /* ReleaseRecordViewController.m in Sources */,
 				F8D936DD20AAE45200F7E852 /* UIColor+Extend.m in Sources */,
 				F8D937E020AAE7CB00F7E852 /* PNChartLabel.m in Sources */,
 				F8D937F220AAE7CB00F7E852 /* UIImage+SGImageSize.m in Sources */,
@@ -1522,10 +1576,12 @@
 				F8D9366620AAE2F900F7E852 /* AppDelegate.m in Sources */,
 				F8D937FA20AAE7CB00F7E852 /* HGBStepTool.m in Sources */,
 				F8D937DF20AAE7CB00F7E852 /* PNBarChart.m in Sources */,
+				CF73CD5F20AFBE8F00C15F4F /* AllRecodeTabCell.m in Sources */,
 				F843939820AEBB8600890959 /* NewsDetailsViewController.m in Sources */,
 				F843939320AEB66F00890959 /* NoticeModel.m in Sources */,
 				F8D937F420AAE7CB00F7E852 /* SGQRCodeAlbumManager.m in Sources */,
 				F8D936F320AAE45200F7E852 /* Util.m in Sources */,
+				CF73CD6720AFC25400C15F4F /* SendChangeVC.m in Sources */,
 				F8D937F020AAE7CB00F7E852 /* UploadPic.m in Sources */,
 				F8D937DA20AAE7CB00F7E852 /* PasswordAlertView.m in Sources */,
 				F8D937FF20AAE7CB00F7E852 /* FSActionSheetConfig.m in Sources */,

@@ -14,7 +14,7 @@
 - (void)setSendModel:(RecordModel *)sendModel{
 	_sendModel = sendModel;
 	self.addresslab.text = sendModel.W_ADDRESS;
-	self.numLab.text = [NSString stringWithFormat:@"-%@",sendModel.SEND_MONEY];
+	self.numLab.text = [NSString stringWithFormat:@"-%.02f",[sendModel.SEND_MONEY floatValue] ];
 	self.timeLab.text = sendModel.CREATE_TIME;
     self.typeLab.text = sendModel.CURRENCY_TYPE;
 }
@@ -22,7 +22,7 @@
 - (void)setRecceiveModel:(RecordModel *)recceiveModel {
 	_recceiveModel = recceiveModel;
 	self.addresslab.text = recceiveModel.W_ADDRESS;
-	self.numLab.text = [NSString stringWithFormat:@"+%@",recceiveModel.RECEIVE_MONEY];
+	self.numLab.text = [NSString stringWithFormat:@"+%.02f",[recceiveModel.RECEIVE_MONEY floatValue] ];
 	self.timeLab.text = recceiveModel.CREATE_TIME;
     self.typeLab.text = recceiveModel.CURRENCY_TYPE;
 }
