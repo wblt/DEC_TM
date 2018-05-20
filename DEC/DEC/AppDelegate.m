@@ -10,6 +10,8 @@
 #import "WelcomeVC.h"
 #import "BaseNavViewController.h"
 #import "MainTabBarController.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
+
 @interface AppDelegate ()
 
 @end
@@ -23,8 +25,16 @@
 	self.window.backgroundColor = [UIColor clearColor];
 	[self.window makeKeyAndVisible];
 	
+    // 初始化本地话文件目录
+    IQKeyboardManager *keyboardManager = [IQKeyboardManager sharedManager]; // 获取类库的单例变量
+    keyboardManager.enable = YES; // 控制整个功能是否启用
+    keyboardManager.shouldResignOnTouchOutside = YES; // 控制点击背景是否收起键盘
+    keyboardManager.keyboardDistanceFromTextField = 10.0f; // 输入框距离键盘的距离
+    
+    [SVProgressHUD setMaximumDismissTimeInterval:2.0];
+    
 	
-	BOOL flag = [SPUtil boolForKey:k_app_autologin];
+	BOOL flag = [SPUtil boolForKey:k_app_login];
 	if (flag) {
 		MainTabBarController *mainTabbar = [[MainTabBarController alloc] init];
 		mainTabbar.selectIndex = 0;

@@ -94,7 +94,7 @@
 		// 保存配置信息
 		[SPUtil setObject:_pwdTextField.text forKey:k_app_passNumber];
 		[SPUtil setObject:_userTextField.text forKey:k_app_userNumber];
-		[SPUtil setBool:YES forKey:k_app_autologin];
+        [SPUtil setBool:YES forKey:k_app_login];
 		// 进入页面
 		MainTabBarController *mainTabbar = [[MainTabBarController alloc] init];
 		mainTabbar.selectIndex = 0;

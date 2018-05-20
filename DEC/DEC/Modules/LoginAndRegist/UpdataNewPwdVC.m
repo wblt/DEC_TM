@@ -34,7 +34,7 @@
 		return;
 	}
 	
-	if ([_pwdTextField.text isEqualToString:_surePwdTextField.text]) {
+	if (![_pwdTextField.text isEqualToString:_surePwdTextField.text]) {
 		 [SVProgressHUD showErrorWithStatus:@"两次密码不一致"];
 		return;
 	}

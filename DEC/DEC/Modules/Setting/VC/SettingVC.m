@@ -7,7 +7,14 @@
 //
 
 #import "SettingVC.h"
-
+#import "SetPhoneNumberVC.h"
+#import "SetLoginPwdVC.h"
+#import "SetAQPwdVC.h"
+#import "SetPayInfoVC.h"
+#import "SetFuLiVC.h"
+#import "InviteFriendsVC.h"
+#import "LoginVC.h"
+#import "BaseNavViewController.h"
 @interface SettingVC ()
 @property (weak, nonatomic) IBOutlet UIView *bgView1;
 @property (weak, nonatomic) IBOutlet UIView *bgView2;
@@ -62,25 +69,40 @@
 - (void)tapAction:(UITapGestureRecognizer *)tap {
     switch (tap.view.tag) {
         case 100:
-            
+        {
+            SetPhoneNumberVC *vc =[[SetPhoneNumberVC alloc] initWithNibName:@"SetPhoneNumberVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         case 101:
-            
+        {
+            SetLoginPwdVC *vc =[[SetLoginPwdVC alloc] initWithNibName:@"SetLoginPwdVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         case 102:
-            
+        {
+            SetAQPwdVC *vc =[[SetAQPwdVC alloc] initWithNibName:@"SetAQPwdVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         case 103:
-            
+        {
+            SetPayInfoVC *vc =[[SetPayInfoVC alloc] initWithNibName:@"SetPayInfoVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         case 104:
-            
+        {
+            InviteFriendsVC *vc =[[InviteFriendsVC alloc] initWithNibName:@"InviteFriendsVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         case 105:
-            
-            break;
-        case 106:
-            
+        {
+            SetFuLiVC *vc =[[SetFuLiVC alloc] initWithNibName:@"SetFuLiVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         default:
             break;
@@ -89,6 +111,21 @@
 
 
 - (IBAction)logOutAction:(id)sender {
+    [self AlertWithTitle:@"温馨提示" message:@"退出登录" andOthers:@[@"确定",@"取消"] animated:YES action:^(NSInteger index) {
+        
+        if (index == 0) {
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                // 退出登录
+                [SPUtil setBool:NO forKey:k_app_login];
+                
+                LoginVC *vc = [[LoginVC alloc] initWithNibName:@"LoginVC" bundle:nil];
+                BaseNavViewController *nav = [[BaseNavViewController alloc] initWithRootViewController:vc];
+                [UIApplication sharedApplication].keyWindow.rootViewController = nav;
+            });
+            
+        }
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {

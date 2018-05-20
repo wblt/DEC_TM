@@ -23,6 +23,29 @@
 		CFACD13820AFE5E700AB2756 /* DECExchangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD13620AFE5E700AB2756 /* DECExchangeVC.xib */; };
 		CFACD13E20AFEBC500AB2756 /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD13C20AFEBC500AB2756 /* SettingVC.m */; };
 		CFACD13F20AFEBC500AB2756 /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD13D20AFEBC500AB2756 /* SettingVC.xib */; };
+		CFACD14320B1264600AB2756 /* SetPhoneNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD14120B1264600AB2756 /* SetPhoneNumberVC.m */; };
+		CFACD14420B1264600AB2756 /* SetPhoneNumberVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD14220B1264600AB2756 /* SetPhoneNumberVC.xib */; };
+		CFACD14820B1266600AB2756 /* SetLoginPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD14620B1266600AB2756 /* SetLoginPwdVC.m */; };
+		CFACD14920B1266600AB2756 /* SetLoginPwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD14720B1266600AB2756 /* SetLoginPwdVC.xib */; };
+		CFACD14D20B1268900AB2756 /* SetAQPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD14B20B1268900AB2756 /* SetAQPwdVC.m */; };
+		CFACD14E20B1268900AB2756 /* SetAQPwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD14C20B1268900AB2756 /* SetAQPwdVC.xib */; };
+		CFACD15220B126A200AB2756 /* SetPayInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD15020B126A200AB2756 /* SetPayInfoVC.m */; };
+		CFACD15320B126A200AB2756 /* SetPayInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD15120B126A200AB2756 /* SetPayInfoVC.xib */; };
+		CFACD15720B126DB00AB2756 /* InviteFriendsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD15520B126DB00AB2756 /* InviteFriendsVC.m */; };
+		CFACD15820B126DB00AB2756 /* InviteFriendsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD15620B126DB00AB2756 /* InviteFriendsVC.xib */; };
+		CFACD15C20B126F500AB2756 /* SetFuLiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD15A20B126F500AB2756 /* SetFuLiVC.m */; };
+		CFACD15D20B126F500AB2756 /* SetFuLiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD15B20B126F500AB2756 /* SetFuLiVC.xib */; };
+		CFACD16120B13F9800AB2756 /* SetAQPwdNextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD15F20B13F9800AB2756 /* SetAQPwdNextVC.m */; };
+		CFACD16220B13F9800AB2756 /* SetAQPwdNextVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD16020B13F9800AB2756 /* SetAQPwdNextVC.xib */; };
+		CFACD16720B14C3D00AB2756 /* MyFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD16520B14C3D00AB2756 /* MyFriendsViewController.m */; };
+		CFACD16820B14C3D00AB2756 /* MyFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD16620B14C3D00AB2756 /* MyFriendsViewController.xib */; };
+		CFACD16C20B14C5700AB2756 /* FriendListTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD16A20B14C5700AB2756 /* FriendListTabCell.m */; };
+		CFACD16D20B14C5700AB2756 /* FriendListTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD16B20B14C5700AB2756 /* FriendListTabCell.xib */; };
+		CFACD17120B14C7000AB2756 /* FriendInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD17020B14C7000AB2756 /* FriendInfoModel.m */; };
+		CFACD17520B152ED00AB2756 /* MarketListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD17320B152ED00AB2756 /* MarketListVC.m */; };
+		CFACD17620B152ED00AB2756 /* MarketListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD17420B152ED00AB2756 /* MarketListVC.xib */; };
+		CFACD17A20B1534600AB2756 /* OrderListTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFACD17820B1534600AB2756 /* OrderListTabCell.m */; };
+		CFACD17B20B1534600AB2756 /* OrderListTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFACD17920B1534600AB2756 /* OrderListTabCell.xib */; };
 		F843936F20AE65C800890959 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843936D20AE65C800890959 /* WelcomeVC.m */; };
 		F843937020AE65C800890959 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843936E20AE65C800890959 /* WelcomeVC.xib */; };
 		F843937420AE877D00890959 /* ForgetPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843937220AE877D00890959 /* ForgetPwdVC.m */; };
@@ -30,7 +53,6 @@
 		F843937920AEA8DA00890959 /* UpdataNewPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843937720AEA8DA00890959 /* UpdataNewPwdVC.m */; };
 		F843937A20AEA8DA00890959 /* UpdataNewPwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843937820AEA8DA00890959 /* UpdataNewPwdVC.xib */; };
 		F843938320AEB33700890959 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F843937D20AEB33700890959 /* README.md */; };
-		F843938620AEB33700890959 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F843938220AEB33700890959 /* README.md */; };
 		F843938A20AEB36800890959 /* MarketVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F843938820AEB36800890959 /* MarketVC.m */; };
 		F843938B20AEB36800890959 /* MarketVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843938920AEB36800890959 /* MarketVC.xib */; };
 		F843938F20AEB53C00890959 /* NewsTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F843938C20AEB53B00890959 /* NewsTabCell.xib */; };
@@ -228,6 +250,41 @@
 		CFACD13B20AFEBC500AB2756 /* SettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
 		CFACD13C20AFEBC500AB2756 /* SettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
 		CFACD13D20AFEBC500AB2756 /* SettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
+		CFACD14020B1264600AB2756 /* SetPhoneNumberVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetPhoneNumberVC.h; sourceTree = "<group>"; };
+		CFACD14120B1264600AB2756 /* SetPhoneNumberVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetPhoneNumberVC.m; sourceTree = "<group>"; };
+		CFACD14220B1264600AB2756 /* SetPhoneNumberVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetPhoneNumberVC.xib; sourceTree = "<group>"; };
+		CFACD14520B1266600AB2756 /* SetLoginPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetLoginPwdVC.h; sourceTree = "<group>"; };
+		CFACD14620B1266600AB2756 /* SetLoginPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetLoginPwdVC.m; sourceTree = "<group>"; };
+		CFACD14720B1266600AB2756 /* SetLoginPwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetLoginPwdVC.xib; sourceTree = "<group>"; };
+		CFACD14A20B1268900AB2756 /* SetAQPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetAQPwdVC.h; sourceTree = "<group>"; };
+		CFACD14B20B1268900AB2756 /* SetAQPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetAQPwdVC.m; sourceTree = "<group>"; };
+		CFACD14C20B1268900AB2756 /* SetAQPwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetAQPwdVC.xib; sourceTree = "<group>"; };
+		CFACD14F20B126A200AB2756 /* SetPayInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetPayInfoVC.h; sourceTree = "<group>"; };
+		CFACD15020B126A200AB2756 /* SetPayInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetPayInfoVC.m; sourceTree = "<group>"; };
+		CFACD15120B126A200AB2756 /* SetPayInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetPayInfoVC.xib; sourceTree = "<group>"; };
+		CFACD15420B126DB00AB2756 /* InviteFriendsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InviteFriendsVC.h; sourceTree = "<group>"; };
+		CFACD15520B126DB00AB2756 /* InviteFriendsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InviteFriendsVC.m; sourceTree = "<group>"; };
+		CFACD15620B126DB00AB2756 /* InviteFriendsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InviteFriendsVC.xib; sourceTree = "<group>"; };
+		CFACD15920B126F500AB2756 /* SetFuLiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetFuLiVC.h; sourceTree = "<group>"; };
+		CFACD15A20B126F500AB2756 /* SetFuLiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetFuLiVC.m; sourceTree = "<group>"; };
+		CFACD15B20B126F500AB2756 /* SetFuLiVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetFuLiVC.xib; sourceTree = "<group>"; };
+		CFACD15E20B13F9800AB2756 /* SetAQPwdNextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetAQPwdNextVC.h; sourceTree = "<group>"; };
+		CFACD15F20B13F9800AB2756 /* SetAQPwdNextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetAQPwdNextVC.m; sourceTree = "<group>"; };
+		CFACD16020B13F9800AB2756 /* SetAQPwdNextVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetAQPwdNextVC.xib; sourceTree = "<group>"; };
+		CFACD16420B14C3C00AB2756 /* MyFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFriendsViewController.h; sourceTree = "<group>"; };
+		CFACD16520B14C3D00AB2756 /* MyFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFriendsViewController.m; sourceTree = "<group>"; };
+		CFACD16620B14C3D00AB2756 /* MyFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFriendsViewController.xib; sourceTree = "<group>"; };
+		CFACD16920B14C5700AB2756 /* FriendListTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListTabCell.h; sourceTree = "<group>"; };
+		CFACD16A20B14C5700AB2756 /* FriendListTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListTabCell.m; sourceTree = "<group>"; };
+		CFACD16B20B14C5700AB2756 /* FriendListTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendListTabCell.xib; sourceTree = "<group>"; };
+		CFACD16F20B14C7000AB2756 /* FriendInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendInfoModel.h; sourceTree = "<group>"; };
+		CFACD17020B14C7000AB2756 /* FriendInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendInfoModel.m; sourceTree = "<group>"; };
+		CFACD17220B152ED00AB2756 /* MarketListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketListVC.h; sourceTree = "<group>"; };
+		CFACD17320B152ED00AB2756 /* MarketListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketListVC.m; sourceTree = "<group>"; };
+		CFACD17420B152ED00AB2756 /* MarketListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketListVC.xib; sourceTree = "<group>"; };
+		CFACD17720B1534600AB2756 /* OrderListTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderListTabCell.h; sourceTree = "<group>"; };
+		CFACD17820B1534600AB2756 /* OrderListTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderListTabCell.m; sourceTree = "<group>"; };
+		CFACD17920B1534600AB2756 /* OrderListTabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderListTabCell.xib; sourceTree = "<group>"; };
 		F6FAD420B26079351F479F0E /* libPods-DEC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DEC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F843936C20AE65C800890959 /* WelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
 		F843936D20AE65C800890959 /* WelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
@@ -239,7 +296,6 @@
 		F843937720AEA8DA00890959 /* UpdataNewPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdataNewPwdVC.m; sourceTree = "<group>"; };
 		F843937820AEA8DA00890959 /* UpdataNewPwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdataNewPwdVC.xib; sourceTree = "<group>"; };
 		F843937D20AEB33700890959 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F843938220AEB33700890959 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F843938720AEB36800890959 /* MarketVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketVC.h; sourceTree = "<group>"; };
 		F843938820AEB36800890959 /* MarketVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketVC.m; sourceTree = "<group>"; };
 		F843938920AEB36800890959 /* MarketVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketVC.xib; sourceTree = "<group>"; };
@@ -557,6 +613,8 @@
 		CFACD13920AFEBB200AB2756 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				CFACD16E20B14C7000AB2756 /* Model */,
+				CFACD16320B14C2E00AB2756 /* View */,
 				CFACD13A20AFEBB200AB2756 /* VC */,
 			);
 			path = Setting;
@@ -568,8 +626,51 @@
 				CFACD13B20AFEBC500AB2756 /* SettingVC.h */,
 				CFACD13C20AFEBC500AB2756 /* SettingVC.m */,
 				CFACD13D20AFEBC500AB2756 /* SettingVC.xib */,
+				CFACD14020B1264600AB2756 /* SetPhoneNumberVC.h */,
+				CFACD14120B1264600AB2756 /* SetPhoneNumberVC.m */,
+				CFACD14220B1264600AB2756 /* SetPhoneNumberVC.xib */,
+				CFACD14520B1266600AB2756 /* SetLoginPwdVC.h */,
+				CFACD14620B1266600AB2756 /* SetLoginPwdVC.m */,
+				CFACD14720B1266600AB2756 /* SetLoginPwdVC.xib */,
+				CFACD14A20B1268900AB2756 /* SetAQPwdVC.h */,
+				CFACD14B20B1268900AB2756 /* SetAQPwdVC.m */,
+				CFACD14C20B1268900AB2756 /* SetAQPwdVC.xib */,
+				CFACD15E20B13F9800AB2756 /* SetAQPwdNextVC.h */,
+				CFACD15F20B13F9800AB2756 /* SetAQPwdNextVC.m */,
+				CFACD16020B13F9800AB2756 /* SetAQPwdNextVC.xib */,
+				CFACD14F20B126A200AB2756 /* SetPayInfoVC.h */,
+				CFACD15020B126A200AB2756 /* SetPayInfoVC.m */,
+				CFACD15120B126A200AB2756 /* SetPayInfoVC.xib */,
+				CFACD15420B126DB00AB2756 /* InviteFriendsVC.h */,
+				CFACD15520B126DB00AB2756 /* InviteFriendsVC.m */,
+				CFACD15620B126DB00AB2756 /* InviteFriendsVC.xib */,
+				CFACD16420B14C3C00AB2756 /* MyFriendsViewController.h */,
+				CFACD16520B14C3D00AB2756 /* MyFriendsViewController.m */,
+				CFACD16620B14C3D00AB2756 /* MyFriendsViewController.xib */,
+				CFACD15920B126F500AB2756 /* SetFuLiVC.h */,
+				CFACD15A20B126F500AB2756 /* SetFuLiVC.m */,
+				CFACD15B20B126F500AB2756 /* SetFuLiVC.xib */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		CFACD16320B14C2E00AB2756 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFACD16920B14C5700AB2756 /* FriendListTabCell.h */,
+				CFACD16A20B14C5700AB2756 /* FriendListTabCell.m */,
+				CFACD16B20B14C5700AB2756 /* FriendListTabCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFACD16E20B14C7000AB2756 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFACD16F20B14C7000AB2756 /* FriendInfoModel.h */,
+				CFACD17020B14C7000AB2756 /* FriendInfoModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E3532E40EA5D6FC24EEE5FD3 /* Frameworks */ = {
@@ -604,6 +705,9 @@
 				F843938720AEB36800890959 /* MarketVC.h */,
 				F843938820AEB36800890959 /* MarketVC.m */,
 				F843938920AEB36800890959 /* MarketVC.xib */,
+				CFACD17220B152ED00AB2756 /* MarketListVC.h */,
+				CFACD17320B152ED00AB2756 /* MarketListVC.m */,
+				CFACD17420B152ED00AB2756 /* MarketListVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -611,7 +715,9 @@
 		F843938120AEB33700890959 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F843938220AEB33700890959 /* README.md */,
+				CFACD17720B1534600AB2756 /* OrderListTabCell.h */,
+				CFACD17820B1534600AB2756 /* OrderListTabCell.m */,
+				CFACD17920B1534600AB2756 /* OrderListTabCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1394,6 +1500,7 @@
 				F843938B20AEB36800890959 /* MarketVC.xib in Resources */,
 				CF73CD6020AFBE8F00C15F4F /* AllRecodeTabCell.xib in Resources */,
 				F8D9367120AAE2F900F7E852 /* LaunchScreen.storyboard in Resources */,
+				CFACD15D20B126F500AB2756 /* SetFuLiVC.xib in Resources */,
 				CFACD13F20AFEBC500AB2756 /* SettingVC.xib in Resources */,
 				F8D936F420AAE45200F7E852 /* README.md in Resources */,
 				F8D936F620AAE45200F7E852 /* README.md in Resources */,
@@ -1401,30 +1508,37 @@
 				F843937A20AEA8DA00890959 /* UpdataNewPwdVC.xib in Resources */,
 				F843938F20AEB53C00890959 /* NewsTabCell.xib in Resources */,
 				CF73CD6D20AFC54100C15F4F /* PowerCGVC.xib in Resources */,
+				CFACD16220B13F9800AB2756 /* SetAQPwdNextVC.xib in Resources */,
+				CFACD14E20B1268900AB2756 /* SetAQPwdVC.xib in Resources */,
 				F8D936E620AAE45200F7E852 /* README.md in Resources */,
 				CF73CD5620AFB26E00C15F4F /* MoneyTransferVC.xib in Resources */,
 				F8D936E820AAE45200F7E852 /* back_icon@2x.png in Resources */,
 				F84393AE20AED98000890959 /* ReceiveRecordVC.xib in Resources */,
 				F843937020AE65C800890959 /* WelcomeVC.xib in Resources */,
+				CFACD17620B152ED00AB2756 /* MarketListVC.xib in Resources */,
 				F843939720AEBB8600890959 /* NewsDetailsViewController.xib in Resources */,
-				F843938620AEB33700890959 /* README.md in Resources */,
+				CFACD15320B126A200AB2756 /* SetPayInfoVC.xib in Resources */,
 				F8D936ED20AAE45200F7E852 /* sure_placeholder_error@2x.png in Resources */,
 				F8D936EA20AAE45200F7E852 /* close_icon@2x.png in Resources */,
 				F8D937DD20AAE7CB00F7E852 /* Info.plist in Resources */,
 				F8D936F020AAE45200F7E852 /* README.md in Resources */,
 				F8555D5D20AD61DB0033607E /* HomeVC.xib in Resources */,
+				CFACD16820B14C3D00AB2756 /* MyFriendsViewController.xib in Resources */,
 				F8555D6220AD620B0033607E /* MineVC.xib in Resources */,
 				F8D937BE20AAE7CB00F7E852 /* AAHighchartsMore.js in Resources */,
 				F8D9366E20AAE2F900F7E852 /* Assets.xcassets in Resources */,
 				F8D936E220AAE45200F7E852 /* README.md in Resources */,
 				F8D936EE20AAE45200F7E852 /* sure_placeholder_error@3x.png in Resources */,
 				F8D937F320AAE7CB00F7E852 /* SGQRCode.bundle in Resources */,
+				CFACD14420B1264600AB2756 /* SetPhoneNumberVC.xib in Resources */,
 				CF73CD5B20AFBE5A00C15F4F /* ReleaseRecordViewController.xib in Resources */,
 				F84393A020AECB0A00890959 /* MindeInfoVC.xib in Resources */,
 				F8555D4020AD1B810033607E /* README.md in Resources */,
 				F8D936D920AAE45200F7E852 /* README.md in Resources */,
 				F8D936E420AAE45200F7E852 /* README.md in Resources */,
+				CFACD16D20B14C5700AB2756 /* FriendListTabCell.xib in Resources */,
 				F84393B420AED9B200890959 /* ReceiveRecordTabCell.xib in Resources */,
+				CFACD14920B1266600AB2756 /* SetLoginPwdVC.xib in Resources */,
 				F8D937BD20AAE7CB00F7E852 /* AAHighchartsLib.js in Resources */,
 				F8D936F220AAE45200F7E852 /* README.md in Resources */,
 				F843937520AE877D00890959 /* ForgetPwdVC.xib in Resources */,
@@ -1435,6 +1549,7 @@
 				F8D936E320AAE45200F7E852 /* README.md in Resources */,
 				F8D9366C20AAE2F900F7E852 /* Main.storyboard in Resources */,
 				F84393AD20AED98000890959 /* TransferRecordViewController.xib in Resources */,
+				CFACD17B20B1534600AB2756 /* OrderListTabCell.xib in Resources */,
 				F8555D5820AD1BFC0033607E /* RegistVC.xib in Resources */,
 				F8D936EC20AAE45200F7E852 /* README.md in Resources */,
 				F8D936E920AAE45200F7E852 /* back_icon@3x.png in Resources */,
@@ -1444,6 +1559,7 @@
 				F8D9370920AAE55900F7E852 /* README.md in Resources */,
 				F8D937DC20AAE7CB00F7E852 /* xxx@2x.png in Resources */,
 				F843938320AEB33700890959 /* README.md in Resources */,
+				CFACD15820B126DB00AB2756 /* InviteFriendsVC.xib in Resources */,
 				F8D936EB20AAE45200F7E852 /* close_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1524,6 +1640,7 @@
 				F8D937BF20AAE7CB00F7E852 /* AAAnimation.m in Sources */,
 				F8D937CF20AAE7CB00F7E852 /* AAPlotOptions.m in Sources */,
 				F8D936D820AAE45200F7E852 /* BeanManager.m in Sources */,
+				CFACD15C20B126F500AB2756 /* SetFuLiVC.m in Sources */,
 				F8D937D320AAE7CB00F7E852 /* AASubtitle.m in Sources */,
 				F8D936F520AAE45200F7E852 /* NetworkSingleton.m in Sources */,
 				F8D936EF20AAE45200F7E852 /* SureWebViewController.m in Sources */,
@@ -1532,18 +1649,21 @@
 				F8D937D520AAE7CB00F7E852 /* AATooltip.m in Sources */,
 				F8D937FB20AAE7CB00F7E852 /* UIImage+XLExtension.m in Sources */,
 				F843939F20AECB0A00890959 /* MindeInfoVC.m in Sources */,
+				CFACD16720B14C3D00AB2756 /* MyFriendsViewController.m in Sources */,
 				F8D9367420AAE2F900F7E852 /* main.m in Sources */,
 				F8D937E820AAE7CB00F7E852 /* PNPieChartDataItem.m in Sources */,
 				F8D937FD20AAE7CB00F7E852 /* FSActionSheet.m in Sources */,
 				F8D937E920AAE7CB00F7E852 /* PNRadarChart.m in Sources */,
 				F84393A420AED65D00890959 /* ReceiveAddressViewController.m in Sources */,
 				F843939020AEB53C00890959 /* NewsTabCell.m in Sources */,
+				CFACD17120B14C7000AB2756 /* FriendInfoModel.m in Sources */,
 				F8D937FC20AAE7CB00F7E852 /* UIView+XLExtension.m in Sources */,
 				F8D937C020AAE7CB00F7E852 /* AAArea.m in Sources */,
 				F8D937D120AAE7CB00F7E852 /* AASpline.m in Sources */,
 				F8D937B620AAE7CB00F7E852 /* AAChartModel.m in Sources */,
 				F8D937C720AAE7CB00F7E852 /* AAItemStyle.m in Sources */,
 				F8D937F920AAE7CB00F7E852 /* HGBStepMoel.m in Sources */,
+				CFACD14320B1264600AB2756 /* SetPhoneNumberVC.m in Sources */,
 				F8D937E420AAE7CB00F7E852 /* PNLineChart.m in Sources */,
 				F8D937E620AAE7CB00F7E852 /* PNLineChartDataItem.m in Sources */,
 				CFACD13E20AFEBC500AB2756 /* SettingVC.m in Sources */,
@@ -1560,6 +1680,7 @@
 				CF73CD5A20AFBE5A00C15F4F /* ReleaseRecordViewController.m in Sources */,
 				F8D936DD20AAE45200F7E852 /* UIColor+Extend.m in Sources */,
 				F8D937E020AAE7CB00F7E852 /* PNChartLabel.m in Sources */,
+				CFACD15220B126A200AB2756 /* SetPayInfoVC.m in Sources */,
 				F8D937F220AAE7CB00F7E852 /* UIImage+SGImageSize.m in Sources */,
 				F8D937E720AAE7CB00F7E852 /* PNPieChart.m in Sources */,
 				F8D9370420AAE55900F7E852 /* BaseNavViewController.m in Sources */,
@@ -1583,6 +1704,7 @@
 				F8D937C620AAE7CB00F7E852 /* AADataLabels.m in Sources */,
 				F8D937EA20AAE7CB00F7E852 /* PNRadarChartDataItem.m in Sources */,
 				F84393B720AEDBA400890959 /* RecordModel.m in Sources */,
+				CFACD14820B1266600AB2756 /* SetLoginPwdVC.m in Sources */,
 				F84393B320AED9B200890959 /* ReceiveRecordTabCell.m in Sources */,
 				F843938A20AEB36800890959 /* MarketVC.m in Sources */,
 				F8D9370720AAE55900F7E852 /* MainTabBarController.m in Sources */,
@@ -1595,11 +1717,15 @@
 				F8D937F820AAE7CB00F7E852 /* SGQRCodeScanningView.m in Sources */,
 				F8D937E120AAE7CB00F7E852 /* PNCircleChart.m in Sources */,
 				F8D937B820AAE7CB00F7E852 /* AAOptions.m in Sources */,
+				CFACD14D20B1268900AB2756 /* SetAQPwdVC.m in Sources */,
 				F8D936E520AAE45200F7E852 /* SandBoxHelper.m in Sources */,
+				CFACD17520B152ED00AB2756 /* MarketListVC.m in Sources */,
 				F843937920AEA8DA00890959 /* UpdataNewPwdVC.m in Sources */,
+				CFACD15720B126DB00AB2756 /* InviteFriendsVC.m in Sources */,
 				F8D937C820AAE7CB00F7E852 /* AALabels.m in Sources */,
 				F8D937CB20AAE7CB00F7E852 /* AAMarker.m in Sources */,
 				F8D937C420AAE7CB00F7E852 /* AAColumn.m in Sources */,
+				CFACD17A20B1534600AB2756 /* OrderListTabCell.m in Sources */,
 				F8D937D420AAE7CB00F7E852 /* AATitle.m in Sources */,
 				F8D937CC20AAE7CB00F7E852 /* AAOptions3d.m in Sources */,
 				F8D937D720AAE7CB00F7E852 /* AAYAxis.m in Sources */,
@@ -1624,6 +1750,7 @@
 				F8D937E520AAE7CB00F7E852 /* PNLineChartData.m in Sources */,
 				F8D937EE20AAE7CB00F7E852 /* UICountingLabel.m in Sources */,
 				F8D937C220AAE7CB00F7E852 /* AABar.m in Sources */,
+				CFACD16C20B14C5700AB2756 /* FriendListTabCell.m in Sources */,
 				F8D9380220AAE7CB00F7E852 /* XLProgressView.m in Sources */,
 				F8D937D020AAE7CB00F7E852 /* AASeries.m in Sources */,
 				F8D937F620AAE7CB00F7E852 /* SGQRCodeHelperTool.m in Sources */,
@@ -1633,6 +1760,7 @@
 				F8555D5C20AD61DB0033607E /* HomeVC.m in Sources */,
 				F8D937D820AAE7CB00F7E852 /* CQCountDownButton.m in Sources */,
 				F8D936F720AAE45200F7E852 /* RequestParams.m in Sources */,
+				CFACD16120B13F9800AB2756 /* SetAQPwdNextVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
