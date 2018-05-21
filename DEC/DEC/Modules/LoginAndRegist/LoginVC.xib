@@ -24,7 +24,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rxl-5p-56U">
-                    <rect key="frame" x="20" y="49" width="335" height="155"/>
+                    <rect key="frame" x="20" y="40" width="335" height="155"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_icon" translatesAutoresizingMaskIntoConstraints="NO" id="6Rx-2Z-rI0">
                             <rect key="frame" x="8" y="10" width="25" height="25"/>
@@ -147,7 +147,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxT-Ho-Yvv">
-                    <rect key="frame" x="20" y="224" width="335" height="50"/>
+                    <rect key="frame" x="20" y="215" width="335" height="50"/>
                     <color key="backgroundColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="305-7G-G9t"/>
@@ -182,7 +182,7 @@
             <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="NxT-Ho-Yvv" secondAttribute="trailing" constant="20" id="CBY-1D-vfa"/>
-                <constraint firstItem="Rxl-5p-56U" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="49" id="EgG-Rb-dAk"/>
+                <constraint firstItem="Rxl-5p-56U" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="EgG-Rb-dAk"/>
                 <constraint firstItem="NxT-Ho-Yvv" firstAttribute="top" secondItem="Rxl-5p-56U" secondAttribute="bottom" constant="20" id="JtQ-75-MwE"/>
                 <constraint firstItem="Rxl-5p-56U" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="SDE-yS-MYa"/>
                 <constraint firstAttribute="trailing" secondItem="Rxl-5p-56U" secondAttribute="trailing" constant="20" id="T92-ob-qDZ"/>

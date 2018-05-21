@@ -14,6 +14,7 @@
 #import "SetFuLiVC.h"
 #import "InviteFriendsVC.h"
 #import "LoginVC.h"
+#import "WelcomeVC.h"
 #import "BaseNavViewController.h"
 @interface SettingVC ()
 @property (weak, nonatomic) IBOutlet UIView *bgView1;
@@ -118,7 +119,7 @@
                 // 退出登录
                 [SPUtil setBool:NO forKey:k_app_login];
                 
-                LoginVC *vc = [[LoginVC alloc] initWithNibName:@"LoginVC" bundle:nil];
+                WelcomeVC *vc = [[WelcomeVC alloc] initWithNibName:@"WelcomeVC" bundle:nil];
                 BaseNavViewController *nav = [[BaseNavViewController alloc] initWithRootViewController:vc];
                 [UIApplication sharedApplication].keyWindow.rootViewController = nav;
             });

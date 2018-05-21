@@ -9,6 +9,7 @@
 #import "SendChangeVC.h"
 #import "PasswordAlertView.h"
 #import <IQKeyboardManager.h>
+#import "SetAQPwdVC.h"
 
 @interface SendChangeVC ()<PasswordAlertViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *decNumLab;
@@ -95,8 +96,8 @@
         [SVProgressHUD showInfoWithStatus:@"未设置安全密码"];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             // 跳转到设置安全密码页面
-            //            SetAQPwdNumViewController *vc = [[SetAQPwdNumViewController alloc] initWithNibName:@"SetAQPwdNumViewController" bundle:nil];
-            //            [self.navigationController pushViewController:vc animated:YES];
+                        SetAQPwdVC *vc = [[SetAQPwdVC alloc] initWithNibName:@"SetAQPwdVC" bundle:nil];
+                        [self.navigationController pushViewController:vc animated:YES];
         });
     }else {
         
@@ -146,8 +147,8 @@
 
 -(void)PasswordAlertViewDidClickForgetButton{
     NSLog(@"点击了忘记密码按钮");
-    //    SetAQPwdNumViewController *vc = [[SetAQPwdNumViewController alloc] initWithNibName:@"SetAQPwdNumViewController" bundle:nil];
-    //    [self.navigationController pushViewController:vc animated:YES];
+        SetAQPwdVC *vc = [[SetAQPwdVC alloc] initWithNibName:@"SetAQPwdVC" bundle:nil];
+        [self.navigationController pushViewController:vc animated:YES];
 }
 
 

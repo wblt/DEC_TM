@@ -1,62 +1,66 @@
 //
-//  MarketListVC.m
+//  MySellOrderVC.m
 //  DEC
 //
-//  Created by wy on 2018/5/20.
+//  Created by yanghuan on 2018/5/21.
 //  Copyright © 2018年 wyChirs. All rights reserved.
 //
 
-#import "MarketListVC.h"
+#import "MySellOrderVC.h"
 #import "OrderModel.h"
 #import "OrderListTabCell.h"
-#import "BuyVC.h"
+#import "OrderDetailsVC.h"
 
 static NSString *Identifier = @"cell";
-@interface MarketListVC ()<UITableViewDelegate,UITableViewDataSource>
+
+@interface MySellOrderVC ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @property (nonatomic,strong)NSMutableArray *data;
 @property (nonatomic,copy)NSString *QUERY_ID;//如果QUERY_ID = 0，则获取最新数据.
-@property (nonatomic,copy)NSString *type; //1：向下拉；QUERY_ID =0,该值没意义2：向上拉(必填)
+@property (nonatomic,copy)NSString *TYPE; //1：向下拉；QUERY_ID =0,该值没意义2：向上拉(必填)
+@property (nonatomic,strong)OrderModel *currentModel;
 
 @end
 
-@implementation MarketListVC
+@implementation MySellOrderVC
 
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
 	_QUERY_ID = @"0";
-	_type = @"1";
+	_TYPE = @"1";
 	[self.data removeAllObjects];
 	[self.tableView reloadData];
-	[self requestData];
-	
+	[self requetSellData];
 	
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-	self.navigationItem.title = @"市场交易";
+	self.navigationItem.title = @"我的卖单";
 	self.data = [NSMutableArray array];
+	
 	[self setup];
 }
 
-// 重新获取数据
 - (void)refreshData {
-	
-	_QUERY_ID = @"0";
-	_type = @"1";
 	[self.data removeAllObjects];
-	[self requestData];
+	[self.tableView reloadData];
+	_QUERY_ID = @"0";
+	_TYPE = @"1";
+	
+	[self requetSellData];
 }
 
-- (void)requestData {
-	RequestParams *params = [[RequestParams alloc] initWithParams:API_marketList];
+- (void)requetSellData {
+	[super refreshData];
+	RequestParams *params = [[RequestParams alloc] initWithParams:API_sellList];
 	[params addParameter:@"QUERY_ID" value:_QUERY_ID];
-	[params addParameter:@"TYPE" value:_type];
+	[params addParameter:@"USER_NAME" value:[SPUtil objectForKey:k_app_userNumber]];
+	[params addParameter:@"TYPE" value:_TYPE];
 	
-	[[NetworkSingleton shareInstace] httpPost:params withTitle:@"市场列表" successBlock:^(id data) {
+	[[NetworkSingleton shareInstace] httpPost:params withTitle:@"" successBlock:^(id data) {
 		NSString *code = data[@"code"];
 		[self.tableView.mj_header endRefreshing];
 		[self.tableView.mj_footer endRefreshing];
@@ -64,11 +68,9 @@ static NSString *Identifier = @"cell";
 			[SVProgressHUD showErrorWithStatus:data[@"message"]];
 			return ;
 		}
-		
 		NSArray *pd = data[@"pd"];
 		if (pd.count == 0 && [_QUERY_ID isEqualToString:@"0"]) {
 			[self showImagePage:YES withIsError:NO];
-			[SVProgressHUD showInfoWithStatus:@"暂无可买订单"];
 			return;
 		}
 		for (NSDictionary *dic in pd) {
@@ -78,7 +80,6 @@ static NSString *Identifier = @"cell";
 				_QUERY_ID = [NSString stringWithFormat:@"%@",model.TRADE_ID];
 			}
 		}
-		
 		[self.tableView reloadData];
 		
 	} failureBlock:^(NSError *error) {
@@ -88,33 +89,72 @@ static NSString *Identifier = @"cell";
 	}];
 }
 
+- (void)cancelOrderAction:(OrderModel *)order {
+	
+	RequestParams *params = [[RequestParams alloc] initWithParams:API_orderCancle];
+	[params addParameter:@"TRADE_ID" value:order.TRADE_ID];
+	[params addParameter:@"TYPE" value:@"1"];//取消卖单
+	
+	[[NetworkSingleton shareInstace] httpPost:params withTitle:@"" successBlock:^(id data) {
+		NSString *code = data[@"code"];
+		if (![code isEqualToString:@"1000"]) {
+			[SVProgressHUD showErrorWithStatus:data[@"message"]];
+			return ;
+		}
+		[SVProgressHUD showSuccessWithStatus:@"取消成功"];
+		self.currentModel.STATUS = @"6";
+		[self.tableView reloadData];
+		
+	} failureBlock:^(NSError *error) {
+		[SVProgressHUD showErrorWithStatus:@"服务器异常，请联系管理员"];
+	}];
+}
+
+- (void)surePayOrder:(OrderModel *)order {
+	RequestParams *params = [[RequestParams alloc] initWithParams:API_surePay];
+	[params addParameter:@"TRADE_ID" value:order.TRADE_ID];
+	
+	[[NetworkSingleton shareInstace] httpPost:params withTitle:@"" successBlock:^(id data) {
+		NSString *code = data[@"code"];
+		if (![code isEqualToString:@"1000"]) {
+			[SVProgressHUD showErrorWithStatus:data[@"message"]];
+			return ;
+		}
+		[SVProgressHUD showSuccessWithStatus:@"确认收款成功"];
+		self.currentModel.STATUS = @"5";
+		[self.tableView reloadData];
+	} failureBlock:^(NSError *error) {
+		[SVProgressHUD showErrorWithStatus:@"服务器异常，请联系管理员"];
+	}];
+}
+
+
 - (void)setup {
 	
 	self.tableView.delegate = self;
 	self.tableView.dataSource = self;
-	self.tableView.backgroundColor = [UIColor clearColor];
 	self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 	[self.tableView registerNib:[UINib nibWithNibName:@"OrderListTabCell" bundle:nil] forCellReuseIdentifier:Identifier];
 	
-	MJWeakSelf;
 	self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
 		// 进入刷新状态后会自动调用这个block
 		_QUERY_ID = @"0";
-		_type = @"1";
+		_TYPE = @"1";
 		
-		[weakSelf.data removeAllObjects];
-		[weakSelf.tableView reloadData];
-		[weakSelf requestData];
+		[self.data removeAllObjects];
+		[self.tableView reloadData];
+		[self requetSellData];
+		
 	}];
 	
 	self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
 		// 进入刷新状态后会自动调用这个 block
-		_type = @"2";
-		[weakSelf requestData];
+		_TYPE = @"2";
+		[self requetSellData];
+
 	}];
 	
 }
-
 
 # pragma mark tableView delegate dataSourse
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -148,21 +188,18 @@ static NSString *Identifier = @"cell";
 	OrderListTabCell *cell = [tableView dequeueReusableCellWithIdentifier:Identifier];
 	cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	ViewRadius(cell.contentView, 6);
+	cell.order = self.data[indexPath.row];
 	
-	cell.marketOrder = self.data[indexPath.row];
 	return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-	
-	BuyVC *vc = [[BuyVC alloc] initWithNibName:@"BuyVC" bundle:nil];
-	
+	OrderDetailsVC *vc =[[OrderDetailsVC alloc] initWithNibName:@"OrderDetailsVC" bundle:nil];
+	vc.type = @"2";
 	vc.model = self.data[indexPath.row];
 	[self.navigationController pushViewController:vc animated:YES];
-	
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

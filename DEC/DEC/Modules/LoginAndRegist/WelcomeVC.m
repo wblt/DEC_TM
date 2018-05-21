@@ -23,7 +23,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 	[self setup];
-	
 }
 
 - (void)setup {
@@ -32,10 +31,10 @@
 }
 
 - (IBAction)loginAction:(id)sender {
+	
 	LoginVC *vc = [[LoginVC alloc] initWithNibName:@"LoginVC" bundle:nil];
 	[self.navigationController pushViewController:vc animated:YES];
 }
-
 
 - (IBAction)registAction:(id)sender {
 	RegistVC *vc = [[RegistVC alloc] initWithNibName:@"RegistVC" bundle:nil];

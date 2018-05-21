@@ -8,6 +8,11 @@
 
 #import "MarketVC.h"
 #import "AAChartKit.h"
+#import "MarketListVC.h"
+#import "SellVC.h"
+#import "MybuyOrderVC.h"
+#import "MySellOrderVC.h"
+
 
 @interface MarketVC ()
 @property (weak, nonatomic) IBOutlet UIView *chartBgView;
@@ -128,7 +133,7 @@
 		.seriesSet(@[
 					 AAObject(AASeriesElement)
 					 .nameSet(@"走势图")
-					 .colorSet(@"#51B24D")
+					 .colorSet(@"#C0A225")
 					 .negativeColorSet(@"#AFAg01")
 					 .dataSet(self.valueArray)
 					 .markerSet(marker),
@@ -209,16 +214,28 @@
 	
 	switch (tap.view.tag) {
 		case 100:
-			
+		{
+			MarketListVC *vc = [[MarketListVC alloc] initWithNibName:@"MarketListVC" bundle:nil];
+			[self.navigationController pushViewController:vc animated:YES];
+		}
 			break;
 		case 101:
-			
+		{
+			SellVC *vc = [[SellVC alloc] initWithNibName:@"SellVC" bundle:nil];
+			[self.navigationController pushViewController:vc animated:YES];
+		}
 			break;
 		case 102:
-			
+		{
+			MybuyOrderVC *vc = [[MybuyOrderVC alloc] initWithNibName:@"MybuyOrderVC" bundle:nil];
+			[self.navigationController pushViewController:vc animated:YES];
+		}
 			break;
 		case 103:
-			
+		{
+			MySellOrderVC *vc = [[MySellOrderVC alloc] initWithNibName:@"MySellOrderVC" bundle:nil];
+			[self.navigationController pushViewController:vc animated:YES];
+		}
 			break;
 		default:
 			break;

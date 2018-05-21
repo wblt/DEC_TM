@@ -98,7 +98,7 @@ static NSString *Identifier = @"cell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     FriendListTabCell *cell = [tableView dequeueReusableCellWithIdentifier:Identifier];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.model = self.data[indexPath.row];
+	cell.model = self.data[indexPath.row];
     
     
     return cell;

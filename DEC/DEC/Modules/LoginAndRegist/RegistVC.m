@@ -8,6 +8,7 @@
 
 #import "RegistVC.h"
 #import "CQCountDownButton.h"
+#import "RegsitNextStepVC.h"
 
 @interface RegistVC ()
 @property (weak, nonatomic) IBOutlet UITextField *userTextField;
@@ -96,7 +97,12 @@
 	}
 	
 	//进入下一步
-	
+	RegsitNextStepVC *vc = [[RegsitNextStepVC alloc] initWithNibName:@"RegsitNextStepVC" bundle:nil];
+	vc.userName = _userTextField.text;
+	vc.phone = _phoneTextField.text;
+	vc.code = _codeTextField.text;
+	vc.invite = _invitatTextField.text;
+	[self.navigationController pushViewController:vc animated:YES];
 	
 }
 
