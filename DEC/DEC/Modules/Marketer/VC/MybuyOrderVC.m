@@ -15,11 +15,16 @@ static NSString *Identifier = @"cell";
 
 @interface MybuyOrderVC ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIButton *buyBtn;
+@property (weak, nonatomic) IBOutlet UIButton *sellBtn;
+@property (weak, nonatomic) IBOutlet UIView *lineView1;
+@property (weak, nonatomic) IBOutlet UIView *lineView2;
 
 @property (nonatomic,strong)NSMutableArray *data;
 @property (nonatomic,copy)NSString *QUERY_ID;//如果QUERY_ID = 0，则获取最新数据.
 @property (nonatomic,copy)NSString *TYPE; //1：向下拉；QUERY_ID =0,该值没意义2：向上拉(必填)
 @property (nonatomic,strong)OrderModel *currentModel;
+@property (nonatomic,strong)NSString *orderType; // 订单类型 1 买单  2 卖单
 
 @end
 
@@ -42,20 +47,53 @@ static NSString *Identifier = @"cell";
     // Do any additional setup after loading the view from its nib.
 	self.navigationItem.title = @"我的买单";
 	self.data = [NSMutableArray array];
-	
+    
+    _orderType = @"1";
+    
 	_QUERY_ID = @"0";
 	_TYPE = @"1";
 	[self setup];
 }
+- (IBAction)buyOrderAction:(id)sender {
+    if (_buyBtn.selected) {
+        return;
+    }
+    
+    _buyBtn.selected = YES;
+    _sellBtn.selected = NO;
+    _lineView1.hidden = NO;
+    _lineView2.hidden = YES;
+    _orderType = @"1";
+    [self refreshData];
+}
+
+- (IBAction)SellOrderAction:(id)sender {
+    if (_sellBtn.selected) {
+        return;
+    }
+    
+    _sellBtn.selected = YES;
+    _buyBtn.selected = NO;
+    _lineView2.hidden = NO;
+    _lineView1.hidden = YES;
+    
+    _orderType = @"2";
+    [self refreshData];
+}
+
 
 - (void)refreshData {
 	[self.data removeAllObjects];
 	[self.tableView reloadData];
 	_QUERY_ID = @"0";
 	_TYPE = @"1";
-	
-	[self requetBuyData];
-	
+    
+    if ([_orderType isEqualToString:@"1"]) {
+       [self requetBuyData];
+    }else {
+       [self requetSellData];
+    }
+
 }
 
 - (void)requetBuyData {
@@ -95,6 +133,43 @@ static NSString *Identifier = @"cell";
 	}];
 }
 
+- (void)requetSellData {
+    [super refreshData];
+    RequestParams *params = [[RequestParams alloc] initWithParams:API_sellList];
+    [params addParameter:@"QUERY_ID" value:_QUERY_ID];
+    [params addParameter:@"USER_NAME" value:[SPUtil objectForKey:k_app_userNumber]];
+    [params addParameter:@"TYPE" value:_TYPE];
+    
+    [[NetworkSingleton shareInstace] httpPost:params withTitle:@"" successBlock:^(id data) {
+        NSString *code = data[@"code"];
+        [self.tableView.mj_header endRefreshing];
+        [self.tableView.mj_footer endRefreshing];
+        if (![code isEqualToString:@"1000"]) {
+            [SVProgressHUD showErrorWithStatus:data[@"message"]];
+            return ;
+        }
+        NSArray *pd = data[@"pd"];
+        if (pd.count == 0 && [_QUERY_ID isEqualToString:@"0"]) {
+            [self showImagePage:YES withIsError:NO];
+            return;
+        }
+        for (NSDictionary *dic in pd) {
+            OrderModel *model = [OrderModel mj_objectWithKeyValues:dic];
+            [self.data addObject:model];
+            if (pd.lastObject == dic) {
+                _QUERY_ID = [NSString stringWithFormat:@"%@",model.TRADE_ID];
+            }
+        }
+        [self.tableView reloadData];
+        
+    } failureBlock:^(NSError *error) {
+        [self.tableView.mj_header endRefreshing];
+        [self.tableView.mj_footer endRefreshing];
+        [SVProgressHUD showErrorWithStatus:@"服务器异常，请联系管理员"];
+    }];
+}
+
+
 - (void)setup {
 	
 	self.tableView.delegate = self;
@@ -106,18 +181,20 @@ static NSString *Identifier = @"cell";
 		// 进入刷新状态后会自动调用这个block
 		_QUERY_ID = @"0";
 		_TYPE = @"1";
-		
-		[self.data removeAllObjects];
-		[self.tableView reloadData];
-		[self requetBuyData];
+        
+		[self refreshData];
 		
 	}];
 	
 	self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
 		// 进入刷新状态后会自动调用这个 block
 		_TYPE = @"2";
-		[self requetBuyData];
-	
+        
+        if ([_orderType isEqualToString:@"1"]) {
+            [self requetBuyData];
+        }else {
+            [self requetSellData];
+        }
 	}];
 	
 
@@ -165,7 +242,7 @@ static NSString *Identifier = @"cell";
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
 	OrderDetailsVC *vc =[[OrderDetailsVC alloc] initWithNibName:@"OrderDetailsVC" bundle:nil];
-	vc.type = @"1";
+	vc.type = _orderType;
 	vc.model = self.data[indexPath.row];
 	[self.navigationController pushViewController:vc animated:YES];
 	

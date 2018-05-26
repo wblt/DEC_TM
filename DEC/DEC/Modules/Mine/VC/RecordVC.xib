@@ -63,7 +63,7 @@
                                 <constraint firstAttribute="height" constant="3" id="lyT-h1-9ZS"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NoS-FX-ont">
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NoS-FX-ont">
                             <rect key="frame" x="187" y="57" width="188" height="3"/>
                             <color key="backgroundColor" red="0.94509803920000002" green="0.75686274509999996" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>

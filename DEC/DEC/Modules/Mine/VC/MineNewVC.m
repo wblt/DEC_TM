@@ -205,7 +205,8 @@
             break;
         case 108:
         {
-            
+            MybuyOrderVC *vc = [[MybuyOrderVC alloc] initWithNibName:@"MybuyOrderVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 109:
