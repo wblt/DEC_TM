@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -55,7 +55,7 @@
                                 <constraint firstAttribute="height" constant="0.59999999999999998" id="vHn-hd-SxT"/>
                             </constraints>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="8KF-bh-OgD">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="8KF-bh-OgD">
                             <rect key="frame" x="8" y="64" width="25" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="GgJ-6p-Eg2"/>
@@ -83,7 +83,7 @@
                                 <constraint firstAttribute="height" constant="0.59999999999999998" id="vmD-pV-7e4"/>
                             </constraints>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_code" translatesAutoresizingMaskIntoConstraints="NO" id="8XY-lJ-QDr">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_code-1" translatesAutoresizingMaskIntoConstraints="NO" id="8XY-lJ-QDr">
                             <rect key="frame" x="8" y="118" width="25" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="8RL-VO-DkN"/>
@@ -119,7 +119,7 @@
                                 <constraint firstAttribute="height" constant="0.59999999999999998" id="gSd-Wu-n4B"/>
                             </constraints>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Ry9-Cu-j7u">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yaoqing-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ry9-Cu-j7u">
                             <rect key="frame" x="8" y="174" width="25" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="25" id="fHu-DG-50b"/>
@@ -216,7 +216,8 @@
     </objects>
     <resources>
         <image name="header_icon" width="60" height="60"/>
-        <image name="phone_code" width="60" height="60"/>
-        <image name="suo_icon" width="60" height="60"/>
+        <image name="phone_code-1" width="60" height="60"/>
+        <image name="phone_icon-1" width="60" height="60"/>
+        <image name="yaoqing-1" width="60" height="60"/>
     </resources>
 </document>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -45,7 +45,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bB4-Wg-cgr">
                     <rect key="frame" x="20" y="40" width="335" height="105"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="wP7-mG-6Da">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo_icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="wP7-mG-6Da">
                             <rect key="frame" x="8" y="10" width="25" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="1cH-fU-Db6"/>
@@ -73,7 +73,7 @@
                                 <constraint firstAttribute="height" constant="0.59999999999999998" id="LIz-lD-eEM"/>
                             </constraints>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="XRQ-UZ-7rY">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo_icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="XRQ-UZ-7rY">
                             <rect key="frame" x="8" y="64" width="25" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="0FZ-Lb-TeU"/>
@@ -133,6 +133,6 @@
         </view>
     </objects>
     <resources>
-        <image name="suo_icon" width="60" height="60"/>
+        <image name="suo_icon-1" width="60" height="60"/>
     </resources>
 </document>

@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8B83BB76C3926A3E285124A2 /* libPods-DEC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FAD420B26079351F479F0E /* libPods-DEC.a */; };
+		CF22765220B91B1A003EA969 /* HomeNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22765020B91B1A003EA969 /* HomeNewVC.m */; };
+		CF22765320B91B1A003EA969 /* HomeNewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22765120B91B1A003EA969 /* HomeNewVC.xib */; };
+		CF22765C20B92387003EA969 /* RecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22765A20B92387003EA969 /* RecordVC.m */; };
+		CF22765D20B92387003EA969 /* RecordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22765B20B92387003EA969 /* RecordVC.xib */; };
+		CF22766120B92CE5003EA969 /* MineNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22765F20B92CE5003EA969 /* MineNewVC.m */; };
+		CF22766220B92CE5003EA969 /* MineNewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22766020B92CE5003EA969 /* MineNewVC.xib */; };
 		CF73CD5520AFB26E00C15F4F /* MoneyTransferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */; };
 		CF73CD5620AFB26E00C15F4F /* MoneyTransferVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */; };
 		CF73CD5A20AFBE5A00C15F4F /* ReleaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5720AFBE5900C15F4F /* ReleaseRecordViewController.m */; };
@@ -239,6 +245,15 @@
 /* Begin PBXFileReference section */
 		A5F2BB986F3928534394627B /* Pods-DEC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DEC/Pods-DEC.debug.xcconfig"; sourceTree = "<group>"; };
 		AC51B0F7B7A9A5125EA6E385 /* Pods-DEC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DEC/Pods-DEC.release.xcconfig"; sourceTree = "<group>"; };
+		CF22764F20B91B1A003EA969 /* HomeNewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeNewVC.h; sourceTree = "<group>"; };
+		CF22765020B91B1A003EA969 /* HomeNewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeNewVC.m; sourceTree = "<group>"; };
+		CF22765120B91B1A003EA969 /* HomeNewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeNewVC.xib; sourceTree = "<group>"; };
+		CF22765920B92387003EA969 /* RecordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordVC.h; sourceTree = "<group>"; };
+		CF22765A20B92387003EA969 /* RecordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordVC.m; sourceTree = "<group>"; };
+		CF22765B20B92387003EA969 /* RecordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordVC.xib; sourceTree = "<group>"; };
+		CF22765E20B92CE5003EA969 /* MineNewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineNewVC.h; sourceTree = "<group>"; };
+		CF22765F20B92CE5003EA969 /* MineNewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineNewVC.m; sourceTree = "<group>"; };
+		CF22766020B92CE5003EA969 /* MineNewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineNewVC.xib; sourceTree = "<group>"; };
 		CF73CD5220AFB26E00C15F4F /* MoneyTransferVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyTransferVC.h; sourceTree = "<group>"; };
 		CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTransferVC.m; sourceTree = "<group>"; };
 		CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyTransferVC.xib; sourceTree = "<group>"; };
@@ -824,6 +839,9 @@
 				F8555D5E20AD620B0033607E /* MineVC.h */,
 				F8555D5F20AD620B0033607E /* MineVC.m */,
 				F8555D6020AD620B0033607E /* MineVC.xib */,
+				CF22765E20B92CE5003EA969 /* MineNewVC.h */,
+				CF22765F20B92CE5003EA969 /* MineNewVC.m */,
+				CF22766020B92CE5003EA969 /* MineNewVC.xib */,
 				F843939C20AECB0A00890959 /* MindeInfoVC.h */,
 				F843939D20AECB0A00890959 /* MindeInfoVC.m */,
 				F843939E20AECB0A00890959 /* MindeInfoVC.xib */,
@@ -851,6 +869,9 @@
 				CFACD13420AFE5E700AB2756 /* DECExchangeVC.h */,
 				CFACD13520AFE5E700AB2756 /* DECExchangeVC.m */,
 				CFACD13620AFE5E700AB2756 /* DECExchangeVC.xib */,
+				CF22765920B92387003EA969 /* RecordVC.h */,
+				CF22765A20B92387003EA969 /* RecordVC.m */,
+				CF22765B20B92387003EA969 /* RecordVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -896,6 +917,9 @@
 				F843939520AEBB8600890959 /* NewsDetailsViewController.h */,
 				F843939620AEBB8600890959 /* NewsDetailsViewController.m */,
 				F843939420AEBB8600890959 /* NewsDetailsViewController.xib */,
+				CF22764F20B91B1A003EA969 /* HomeNewVC.h */,
+				CF22765020B91B1A003EA969 /* HomeNewVC.m */,
+				CF22765120B91B1A003EA969 /* HomeNewVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -1557,12 +1581,14 @@
 				F8D937F120AAE7CB00F7E852 /* README.md in Resources */,
 				F843937A20AEA8DA00890959 /* UpdataNewPwdVC.xib in Resources */,
 				F843938F20AEB53C00890959 /* NewsTabCell.xib in Resources */,
+				CF22766220B92CE5003EA969 /* MineNewVC.xib in Resources */,
 				CF73CD6D20AFC54100C15F4F /* PowerCGVC.xib in Resources */,
 				CFACD16220B13F9800AB2756 /* SetAQPwdNextVC.xib in Resources */,
 				CFACD14E20B1268900AB2756 /* SetAQPwdVC.xib in Resources */,
 				F8D936E620AAE45200F7E852 /* README.md in Resources */,
 				CF73CD5620AFB26E00C15F4F /* MoneyTransferVC.xib in Resources */,
 				F8D936E820AAE45200F7E852 /* back_icon@2x.png in Resources */,
+				CF22765320B91B1A003EA969 /* HomeNewVC.xib in Resources */,
 				F84393AE20AED98000890959 /* ReceiveRecordVC.xib in Resources */,
 				F843937020AE65C800890959 /* WelcomeVC.xib in Resources */,
 				CFACD17620B152ED00AB2756 /* MarketListVC.xib in Resources */,
@@ -1580,6 +1606,7 @@
 				F8D936E220AAE45200F7E852 /* README.md in Resources */,
 				F8D936EE20AAE45200F7E852 /* sure_placeholder_error@3x.png in Resources */,
 				F8D937F320AAE7CB00F7E852 /* SGQRCode.bundle in Resources */,
+				CF22765D20B92387003EA969 /* RecordVC.xib in Resources */,
 				CFACD14420B1264600AB2756 /* SetPhoneNumberVC.xib in Resources */,
 				CF73CD5B20AFBE5A00C15F4F /* ReleaseRecordViewController.xib in Resources */,
 				F84393A020AECB0A00890959 /* MindeInfoVC.xib in Resources */,
@@ -1754,9 +1781,11 @@
 				F8D936DF20AAE45200F7E852 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				F8D937C120AAE7CB00F7E852 /* AAAreaspline.m in Sources */,
 				F8D937CD20AAE7CB00F7E852 /* AAPie.m in Sources */,
+				CF22765220B91B1A003EA969 /* HomeNewVC.m in Sources */,
 				F843937420AE877D00890959 /* ForgetPwdVC.m in Sources */,
 				F8D9370820AAE55900F7E852 /* MainTabBarItem.m in Sources */,
 				F8D936E020AAE45200F7E852 /* GTMBase64.m in Sources */,
+				CF22766120B92CE5003EA969 /* MineNewVC.m in Sources */,
 				F8847F8020B2BA9C0074F176 /* BuyVC.m in Sources */,
 				F8D937C620AAE7CB00F7E852 /* AADataLabels.m in Sources */,
 				F8D937EA20AAE7CB00F7E852 /* PNRadarChartDataItem.m in Sources */,
@@ -1804,6 +1833,7 @@
 				F8D937F420AAE7CB00F7E852 /* SGQRCodeAlbumManager.m in Sources */,
 				F8847F8520B2C3400074F176 /* OrderDetailsVC.m in Sources */,
 				F8D936F320AAE45200F7E852 /* Util.m in Sources */,
+				CF22765C20B92387003EA969 /* RecordVC.m in Sources */,
 				CF73CD6720AFC25400C15F4F /* SendChangeVC.m in Sources */,
 				F8D937F020AAE7CB00F7E852 /* UploadPic.m in Sources */,
 				F8D937DA20AAE7CB00F7E852 /* PasswordAlertView.m in Sources */,

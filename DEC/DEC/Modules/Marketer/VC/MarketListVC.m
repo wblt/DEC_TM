@@ -37,7 +37,7 @@ static NSString *Identifier = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-	self.navigationItem.title = @"市场交易";
+	self.navigationItem.title = @"交易";
 	self.data = [NSMutableArray array];
 	[self setup];
 }

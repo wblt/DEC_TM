@@ -13,8 +13,10 @@
 #import "HomeVC.h"
 #import "MineVC.h"
 #import "MarketVC.h"
-
-
+#import "HomeNewVC.h"
+#import "MarketListVC.h"
+#import "RecordVC.h"
+#import "MineNewVC.h"
 @interface MainTabBarController ()
 {
     MainTabBarItem *selectedItem;
@@ -59,11 +61,15 @@
 
 #pragma mark Private Method
 -(void)addViewControllers {/**<添加二级控制器*/
-    HomeVC *releaseVC = [[HomeVC alloc] initWithNibName:@"HomeVC" bundle:nil];
-    MarketVC *marketsVC = [[MarketVC alloc] initWithNibName:@"MarketVC" bundle:nil];
-	MineVC *mineVC = [[MineVC alloc] initWithNibName:@"MineVC" bundle:nil];
+    //HomeVC *releaseVC = [[HomeVC alloc] initWithNibName:@"HomeVC" bundle:nil];
+    HomeNewVC *releaseVC = [[HomeNewVC alloc] initWithNibName:@"HomeNewVC" bundle:nil];
+ //   MarketVC *marketsVC = [[MarketVC alloc] initWithNibName:@"MarketVC" bundle:nil];
+    MarketListVC *marketsVC = [[MarketListVC alloc] initWithNibName:@"MarketListVC" bundle:nil];
+    RecordVC *recodeVc = [[RecordVC alloc] initWithNibName:@"RecordVC" bundle:nil];
+    
+	MineNewVC *mineVC = [[MineNewVC alloc] initWithNibName:@"MineNewVC" bundle:nil];
 	
-    NSArray *vcArray = @[releaseVC,marketsVC, mineVC];
+    NSArray *vcArray = @[releaseVC,marketsVC,recodeVc, mineVC];
     NSMutableArray *viewControllers = [[NSMutableArray alloc] initWithCapacity:vcArray.count];
     for (int i = 0; i < vcArray.count; i++) {
          BaseNavViewController*navigationVC = [[BaseNavViewController alloc] initWithRootViewController:vcArray[i]];
@@ -77,10 +83,10 @@
 	
     //self.tabBar.backgroundColor = [UIColor darkGrayColor]; //UIColorFromHex(0x303030);
     // 按钮的非循环中状态图片数组
-    NSArray *normalImgArray = @[@"deliver_icon", @"market_unselected", @"mine_unselected"];
-    NSArray *selectedImgArray = @[@"deliver_icon_selector", @"market_selected", @"mine_selected"];
+    NSArray *normalImgArray = @[@"deliver_icon", @"market_unselected", @"jilu_un",@"mine_unselected"];
+    NSArray *selectedImgArray = @[@"deliver_icon_selector", @"market_selected", @"jilu",@"mine_selected"];
     // 按钮的标题数组
-    NSArray *titleArray = @[@"首页", @"市场",@"我的"];
+    NSArray *titleArray = @[@"释放", @"交易",@"记录",@"我的"];
     UIColor *normalTitleColor =  [UIColor whiteColor]; //UIColorFromHex(0x808080);
     UIColor *selectedTitleColor = [UIColor whiteColor];
     //UI_ColorWithRGBA(204, 177, 126, 1.0); //UIColorFromHex(0xCCB17E);

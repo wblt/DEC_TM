@@ -92,7 +92,7 @@
                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="zha-ol-R9U"/>
                             </constraints>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_code" translatesAutoresizingMaskIntoConstraints="NO" id="0A8-tY-uAq">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo_icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="0A8-tY-uAq">
                             <rect key="frame" x="10" y="62" width="25" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="25" id="Lot-Gi-dJL"/>
@@ -116,7 +116,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tho-4X-USh">
                             <rect key="frame" x="0.0" y="100" width="335" height="50"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_code" translatesAutoresizingMaskIntoConstraints="NO" id="4Hb-Ld-GYn">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suo_icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="4Hb-Ld-GYn">
                                     <rect key="frame" x="10" y="13" width="25" height="25"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="25" id="5cv-L1-BI7"/>
@@ -216,6 +216,6 @@
     </objects>
     <resources>
         <image name="header_icon" width="60" height="60"/>
-        <image name="phone_code" width="60" height="60"/>
+        <image name="suo_icon-1" width="60" height="60"/>
     </resources>
 </document>
