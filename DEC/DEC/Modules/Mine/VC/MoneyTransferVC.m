@@ -160,7 +160,7 @@
         [params addParameter:@"PASSW" value:password];
         [params addParameter:@"CURRENCY_TYPE" value:_type];
         
-        [[NetworkSingleton shareInstace] httpPost:params withTitle:@"发送SHC" successBlock:^(id data) {
+        [[NetworkSingleton shareInstace] httpPost:params withTitle:@"发送DEC" successBlock:^(id data) {
             NSString *code = data[@"code"];
             if (![code isEqualToString:@"1000"]) {
                 [SVProgressHUD showErrorWithStatus:data[@"message"]];
@@ -168,8 +168,7 @@
             }
             [SVProgressHUD showSuccessWithStatus:@"转账成功"];
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                //[self requestData];
-                [self.navigationController popViewControllerAnimated:YES];
+                [self.navigationController popToRootViewControllerAnimated:YES];
             });
         } failureBlock:^(NSError *error) {
             [SVProgressHUD showErrorWithStatus:@"服务器异常，请联系管理员"];

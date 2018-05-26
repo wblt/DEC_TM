@@ -37,7 +37,12 @@ static NSString *Identifier = @"cell";
 	_TYPE = @"1";
 	[self.data removeAllObjects];
 	[self.tableView reloadData];
-	[self requetBuyData];
+    if ([_orderType isEqualToString:@"1"]) {
+        [self requetBuyData];
+    }else {
+        [self requetSellData];
+    }
+	
 	
 }
 
@@ -45,7 +50,7 @@ static NSString *Identifier = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-	self.navigationItem.title = @"我的买单";
+	self.navigationItem.title = @"订单";
 	self.data = [NSMutableArray array];
     
     _orderType = @"1";

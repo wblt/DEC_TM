@@ -14,6 +14,7 @@
 		CF22765D20B92387003EA969 /* RecordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22765B20B92387003EA969 /* RecordVC.xib */; };
 		CF22766120B92CE5003EA969 /* MineNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22765F20B92CE5003EA969 /* MineNewVC.m */; };
 		CF22766220B92CE5003EA969 /* MineNewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22766020B92CE5003EA969 /* MineNewVC.xib */; };
+		CF22766620B9C124003EA969 /* WCQRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22766520B9C124003EA969 /* WCQRCodeScanningVC.m */; };
 		CF73CD5520AFB26E00C15F4F /* MoneyTransferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */; };
 		CF73CD5620AFB26E00C15F4F /* MoneyTransferVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */; };
 		CF73CD5A20AFBE5A00C15F4F /* ReleaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5720AFBE5900C15F4F /* ReleaseRecordViewController.m */; };
@@ -254,6 +255,8 @@
 		CF22765E20B92CE5003EA969 /* MineNewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineNewVC.h; sourceTree = "<group>"; };
 		CF22765F20B92CE5003EA969 /* MineNewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineNewVC.m; sourceTree = "<group>"; };
 		CF22766020B92CE5003EA969 /* MineNewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineNewVC.xib; sourceTree = "<group>"; };
+		CF22766420B9C124003EA969 /* WCQRCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCQRCodeScanningVC.h; sourceTree = "<group>"; };
+		CF22766520B9C124003EA969 /* WCQRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCQRCodeScanningVC.m; sourceTree = "<group>"; };
 		CF73CD5220AFB26E00C15F4F /* MoneyTransferVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyTransferVC.h; sourceTree = "<group>"; };
 		CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTransferVC.m; sourceTree = "<group>"; };
 		CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyTransferVC.xib; sourceTree = "<group>"; };
@@ -656,6 +659,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CF22766320B9C124003EA969 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				CF22766420B9C124003EA969 /* WCQRCodeScanningVC.h */,
+				CF22766520B9C124003EA969 /* WCQRCodeScanningVC.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
 		CFACD13920AFEBB200AB2756 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
@@ -812,6 +824,7 @@
 		F8555D3720AD1B810033607E /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				CF22766320B9C124003EA969 /* Scan */,
 				F8555D3820AD1B810033607E /* Model */,
 				F8555D3B20AD1B810033607E /* VC */,
 				F8555D3D20AD1B810033607E /* View */,
@@ -1791,6 +1804,7 @@
 				F8D937EA20AAE7CB00F7E852 /* PNRadarChartDataItem.m in Sources */,
 				F84393B720AEDBA400890959 /* RecordModel.m in Sources */,
 				CFACD14820B1266600AB2756 /* SetLoginPwdVC.m in Sources */,
+				CF22766620B9C124003EA969 /* WCQRCodeScanningVC.m in Sources */,
 				F84393B320AED9B200890959 /* ReceiveRecordTabCell.m in Sources */,
 				F843938A20AEB36800890959 /* MarketVC.m in Sources */,
 				F8D9370720AAE55900F7E852 /* MainTabBarController.m in Sources */,

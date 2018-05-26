@@ -88,7 +88,7 @@
                         <constraint firstItem="DeM-ae-UJW" firstAttribute="top" secondItem="JrU-Kf-8db" secondAttribute="top" constant="8" id="yZh-V1-rwE"/>
                     </constraints>
                 </view>
-                <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhB-tL-eG1">
+                <view hidden="YES" tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhB-tL-eG1">
                     <rect key="frame" x="0.0" y="348" width="375" height="50"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="财务转账" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bQ-IM-H8l">
@@ -128,7 +128,7 @@
                         <constraint firstAttribute="trailing" secondItem="zJx-WA-1AA" secondAttribute="trailing" id="ydO-5s-iws"/>
                     </constraints>
                 </view>
-                <view tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="htZ-v6-acg">
+                <view hidden="YES" tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="htZ-v6-acg">
                     <rect key="frame" x="0.0" y="398" width="375" height="50"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="转出记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZj-cw-Lg0">
@@ -168,7 +168,7 @@
                         <constraint firstAttribute="trailing" secondItem="s8i-EX-VVY" secondAttribute="trailing" constant="8" id="qRL-Po-Gq0"/>
                     </constraints>
                 </view>
-                <view tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s1n-fn-rgd">
+                <view hidden="YES" tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s1n-fn-rgd">
                     <rect key="frame" x="0.0" y="448" width="375" height="50"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="接收记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZB-FP-Cre">

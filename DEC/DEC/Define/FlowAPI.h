@@ -71,6 +71,7 @@
 //订单详情
 #define API_orderDetail SERVER_IP@"/app/market/orderDetail"
 
+#define API_releaseDepth SERVER_IP@"/app/market/releaseDepth"
 
 // TOOL
 // 修改个人信息

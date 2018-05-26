@@ -10,6 +10,7 @@
 #import "OrderModel.h"
 #import "OrderListTabCell.h"
 #import "BuyVC.h"
+#import "SellVC.h"
 
 static NSString *Identifier = @"cell";
 @interface MarketListVC ()<UITableViewDelegate,UITableViewDataSource>
@@ -40,6 +41,26 @@ static NSString *Identifier = @"cell";
 	self.navigationItem.title = @"交易";
 	self.data = [NSMutableArray array];
 	[self setup];
+    [self addNavBtn];
+}
+
+- (void)addNavBtn {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 40, 30);
+    [btn setTitle:@"挂单" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    btn.titleLabel.font = Font_15;
+    
+    [btn addTapBlock:^(UIButton *btn) {
+        // 去挂单
+        SellVC *vc = [[SellVC alloc] initWithNibName:@"SellVC" bundle:nil];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }];
+    
+    UIBarButtonItem *anotherButton2 = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    [self.navigationItem setRightBarButtonItem:anotherButton2];
+    
 }
 
 // 重新获取数据

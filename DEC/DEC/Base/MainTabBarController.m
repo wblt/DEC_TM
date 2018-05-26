@@ -29,9 +29,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self addViewControllers];
-    self.tabBar.backgroundImage =  [self imageWithColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:0]];
+ //   self.tabBar.backgroundImage =  [self imageWithColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:0]];
  //[UIImage imageNamed:@"tabbarImageView"];
-    self.tabBar.shadowImage = [UIImage new];
+  //  self.tabBar.shadowImage = [UIImage new];
+    
+    self.tabBar.backgroundImage = [UIImage imageNamed:@"tabbarBg"];
+    self.tabBar.shadowImage = [[UIImage alloc]init];
+    
 }
 
 - (UIImage *)imageWithColor:(UIColor *)color {
