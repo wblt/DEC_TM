@@ -74,8 +74,8 @@
         }
     }];
     
-    UIBarButtonItem *anotherButton2 = [[UIBarButtonItem alloc] initWithCustomView:btn];
-    [self.navigationItem setRightBarButtonItem:anotherButton2];
+  //  UIBarButtonItem *anotherButton2 = [[UIBarButtonItem alloc] initWithCustomView:btn];
+  //  [self.navigationItem setRightBarButtonItem:anotherButton2];
 }
 
 - (SGQRCodeScanningView *)scanningView {
