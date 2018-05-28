@@ -21,8 +21,6 @@
 @property (weak, nonatomic) IBOutlet UIView *bgView2;
 @property (weak, nonatomic) IBOutlet UIView *bgView3;
 @property (weak, nonatomic) IBOutlet UIView *bgView4;
-@property (weak, nonatomic) IBOutlet UIView *bgView5;
-@property (weak, nonatomic) IBOutlet UIView *bgView6;
 @property (weak, nonatomic) IBOutlet UILabel *visionLab;
 
 @end
@@ -58,12 +56,7 @@
     
     UITapGestureRecognizer *tap4 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
     [_bgView4 addGestureRecognizer:tap4];
-    
-    UITapGestureRecognizer *tap5 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
-    [_bgView5 addGestureRecognizer:tap5];
-    
-    UITapGestureRecognizer *tap6 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
-    [_bgView6 addGestureRecognizer:tap6];
+	
     
 }
 
@@ -90,18 +83,6 @@
         case 103:
         {
             SetPayInfoVC *vc =[[SetPayInfoVC alloc] initWithNibName:@"SetPayInfoVC" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
-        }
-            break;
-        case 104:
-        {
-            InviteFriendsVC *vc =[[InviteFriendsVC alloc] initWithNibName:@"InviteFriendsVC" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
-        }
-            break;
-        case 105:
-        {
-            SetFuLiVC *vc =[[SetFuLiVC alloc] initWithNibName:@"SetFuLiVC" bundle:nil];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

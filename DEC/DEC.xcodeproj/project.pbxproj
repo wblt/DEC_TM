@@ -100,6 +100,8 @@
 		F8847F8120B2BA9C0074F176 /* BuyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8847F7F20B2BA9C0074F176 /* BuyVC.xib */; };
 		F8847F8520B2C3400074F176 /* OrderDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8847F8320B2C3400074F176 /* OrderDetailsVC.m */; };
 		F8847F8620B2C3400074F176 /* OrderDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8847F8420B2C3400074F176 /* OrderDetailsVC.xib */; };
+		F8C33F1120BBD56E008C44D4 /* SuanliVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C33F0F20BBD56E008C44D4 /* SuanliVC.m */; };
+		F8C33F1220BBD56E008C44D4 /* SuanliVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C33F1020BBD56E008C44D4 /* SuanliVC.xib */; };
 		F8D9366620AAE2F900F7E852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9366520AAE2F900F7E852 /* AppDelegate.m */; };
 		F8D9366920AAE2F900F7E852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D9366820AAE2F900F7E852 /* ViewController.m */; };
 		F8D9366C20AAE2F900F7E852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D9366A20AAE2F900F7E852 /* Main.storyboard */; };
@@ -388,6 +390,9 @@
 		F8847F8220B2C3400074F176 /* OrderDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDetailsVC.h; sourceTree = "<group>"; };
 		F8847F8320B2C3400074F176 /* OrderDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsVC.m; sourceTree = "<group>"; };
 		F8847F8420B2C3400074F176 /* OrderDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailsVC.xib; sourceTree = "<group>"; };
+		F8C33F0E20BBD56E008C44D4 /* SuanliVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuanliVC.h; sourceTree = "<group>"; };
+		F8C33F0F20BBD56E008C44D4 /* SuanliVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuanliVC.m; sourceTree = "<group>"; };
+		F8C33F1020BBD56E008C44D4 /* SuanliVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuanliVC.xib; sourceTree = "<group>"; };
 		F8D9366120AAE2F900F7E852 /* DEC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D9366420AAE2F900F7E852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8D9366520AAE2F900F7E852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -885,6 +890,9 @@
 				CF22765920B92387003EA969 /* RecordVC.h */,
 				CF22765A20B92387003EA969 /* RecordVC.m */,
 				CF22765B20B92387003EA969 /* RecordVC.xib */,
+				F8C33F0E20BBD56E008C44D4 /* SuanliVC.h */,
+				F8C33F0F20BBD56E008C44D4 /* SuanliVC.m */,
+				F8C33F1020BBD56E008C44D4 /* SuanliVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -1635,6 +1643,7 @@
 				F8847F8120B2BA9C0074F176 /* BuyVC.xib in Resources */,
 				F843937520AE877D00890959 /* ForgetPwdVC.xib in Resources */,
 				F8D937BB20AAE7CB00F7E852 /* AAFunnel.js in Resources */,
+				F8C33F1220BBD56E008C44D4 /* SuanliVC.xib in Resources */,
 				F8D937DB20AAE7CB00F7E852 /* passwordIcon.png in Resources */,
 				F8847F7C20B2A2570074F176 /* MySellOrderVC.xib in Resources */,
 				CF73CD6820AFC25400C15F4F /* SendChangeVC.xib in Resources */,
@@ -1754,6 +1763,7 @@
 				CFACD17120B14C7000AB2756 /* FriendInfoModel.m in Sources */,
 				F8D937FC20AAE7CB00F7E852 /* UIView+XLExtension.m in Sources */,
 				F8D937C020AAE7CB00F7E852 /* AAArea.m in Sources */,
+				F8C33F1120BBD56E008C44D4 /* SuanliVC.m in Sources */,
 				F8D937D120AAE7CB00F7E852 /* AASpline.m in Sources */,
 				F8D937B620AAE7CB00F7E852 /* AAChartModel.m in Sources */,
 				F8D937C720AAE7CB00F7E852 /* AAItemStyle.m in Sources */,

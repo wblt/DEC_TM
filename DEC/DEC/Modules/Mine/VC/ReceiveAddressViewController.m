@@ -30,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from itsnib.
-    self.navigationItem.title = @"收付款";
+    self.navigationItem.title = @"收款地址";
     [self setup];
 	[self addViewTap];
 }

@@ -31,7 +31,7 @@
         self.titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, tempView.frame.size.height-40, tempView.frame.size.width, 21)];
         
         self.titleLabel.text = @"您的访问出错啦";
-        self.titleLabel.textColor = [UIColor whiteColor];
+        self.titleLabel.textColor = UIColorFromHex(0xCBAE86);
         self.titleLabel.font = [UIFont systemFontOfSize:15];
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
         [tempView addSubview:self.titleLabel];
@@ -40,7 +40,7 @@
         self.refershBtn.frame = CGRectMake(SCREEN_WIDTH/2-60, CGRectGetMaxY(tempView.frame)+5, 120, 40);
         [self.refershBtn setTitle:@"重新加载" forState:UIControlStateNormal];
         self.refershBtn.titleLabel.font = [UIFont systemFontOfSize:14];
-        [self.refershBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [self.refershBtn setTitleColor:UIColorFromHex(0xCBAE86) forState:UIControlStateNormal];
         
         self.refershBtn.layer.borderWidth = 0.6;
         self.refershBtn.layer.borderColor = [[UIColor lightGrayColor] CGColor];

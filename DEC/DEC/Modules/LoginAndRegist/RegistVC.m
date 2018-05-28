@@ -75,7 +75,7 @@
 	[self.countDownButton setTitle:@"获取验证码" forState:UIControlStateNormal];
 	self.countDownButton.titleLabel.font = Font_14;
 	self.countDownButton.backgroundColor = [UIColor clearColor];
-	[self.countDownButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+	[self.countDownButton setTitleColor:UIColorFromHex(0xCBAE86) forState:UIControlStateNormal];
 	[self.countDownButton setTitleColor:[UIColor grayColor] forState:UIControlStateDisabled];
 	
 }

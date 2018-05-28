@@ -26,8 +26,8 @@
 }
 
 - (void)setup {
-	ViewBorderRadius(_loginBtn, 6, 1, [UIColor whiteColor]);
-	ViewBorderRadius(_registBtn, 6, 1, [UIColor redColor]);
+	ViewRadius(_loginBtn, 6);
+	ViewRadius(_registBtn, 6);
 }
 
 - (IBAction)loginAction:(id)sender {

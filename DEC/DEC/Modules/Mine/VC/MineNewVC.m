@@ -72,7 +72,7 @@
 - (void)setup {
     UIImageView *saoyisaoImgView  = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
     saoyisaoImgView.userInteractionEnabled = YES;
-    saoyisaoImgView.image = [UIImage imageNamed:@"saoyisao"];
+    saoyisaoImgView.image = [UIImage imageNamed:@"scan"];
     UIBarButtonItem *leftAnotherButton = [[UIBarButtonItem alloc] initWithCustomView:saoyisaoImgView];
     [self.navigationItem setRightBarButtonItems:[NSArray arrayWithObjects: leftAnotherButton,nil]];
     
@@ -122,7 +122,7 @@
     _lingqianLab.text = model.D_CURRENCY;
     _powerLab.text = [NSString stringWithFormat:@"%@",model.W_ENERGY];
     _nameLab.text = model.NICK_NAME;
-    _ipLab.text = [NSString stringWithFormat:@"登录:%@",[self getIPAddress:YES]];
+    _ipLab.text = [NSString stringWithFormat:@"登录IP %@",[self getIPAddress:YES]];
 }
 
 
@@ -170,14 +170,14 @@
     switch (tap.view.tag) {
         case 101:
         {
-            ReleaseRecordViewController *vc = [[ReleaseRecordViewController alloc] initWithNibName:@"ReleaseRecordViewController" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
+//            ReleaseRecordViewController *vc = [[ReleaseRecordViewController alloc] initWithNibName:@"ReleaseRecordViewController" bundle:nil];
+//            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 102:
         {
-            DECExchangeVC *vc = [[DECExchangeVC alloc] initWithNibName:@"DECExchangeVC" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
+//            DECExchangeVC *vc = [[DECExchangeVC alloc] initWithNibName:@"DECExchangeVC" bundle:nil];
+//            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 103:
@@ -187,8 +187,8 @@
             break;
         case 104:
         {
-            PowerCGVC *vc = [[PowerCGVC alloc] initWithNibName:@"PowerCGVC" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
+//            PowerCGVC *vc = [[PowerCGVC alloc] initWithNibName:@"PowerCGVC" bundle:nil];
+//            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 105:
@@ -199,27 +199,31 @@
             break;
         case 106:
         {
-            
-            SendChangeVC *vc = [[SendChangeVC alloc] initWithNibName:@"SendChangeVC" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
+			InviteFriendsVC *vc = [[InviteFriendsVC alloc] initWithNibName:@"InviteFriendsVC" bundle:nil];
+			[self.navigationController pushViewController:vc animated:YES];
+			
+//			SendChangeVC *vc = [[SendChangeVC alloc] initWithNibName:@"SendChangeVC" bundle:nil];
+//			[self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 107:
         {
-            InviteFriendsVC *vc = [[InviteFriendsVC alloc] initWithNibName:@"InviteFriendsVC" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
+			DECExchangeVC *vc = [[DECExchangeVC alloc] initWithNibName:@"DECExchangeVC" bundle:nil];
+			[self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 108:
         {
-            MybuyOrderVC *vc = [[MybuyOrderVC alloc] initWithNibName:@"MybuyOrderVC" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
+			SettingVC *vc = [[SettingVC alloc] initWithNibName:@"SettingVC" bundle:nil];
+			[self.navigationController pushViewController:vc animated:YES];
+			
+//            MybuyOrderVC *vc = [[MybuyOrderVC alloc] initWithNibName:@"MybuyOrderVC" bundle:nil];
+//            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 109:
         {
-            SettingVC *vc = [[SettingVC alloc] initWithNibName:@"SettingVC" bundle:nil];
-            [self.navigationController pushViewController:vc animated:YES];
+			[SVProgressHUD showInfoWithStatus:@"开发中···"];
         }
             break;
         default:

@@ -17,6 +17,8 @@
 #import "MarketListVC.h"
 #import "RecordVC.h"
 #import "MineNewVC.h"
+#import "SuanliVC.h"
+
 @interface MainTabBarController ()
 {
     MainTabBarItem *selectedItem;
@@ -29,12 +31,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self addViewControllers];
- //   self.tabBar.backgroundImage =  [self imageWithColor:[UIColor colorWithRed:1 green:1 blue:1 alpha:0]];
+	self.tabBar.backgroundImage =  [self imageWithColor:UI_ColorWithRGBA(30, 30, 30, 1.0)];
  //[UIImage imageNamed:@"tabbarImageView"];
-  //  self.tabBar.shadowImage = [UIImage new];
+    self.tabBar.shadowImage = [UIImage new];
     
-    self.tabBar.backgroundImage = [UIImage imageNamed:@"tabbarBg"];
-    self.tabBar.shadowImage = [[UIImage alloc]init];
+  //  self.tabBar.backgroundImage = [UIImage imageNamed:@"tabbarBg"];
+  //  self.tabBar.shadowImage = [[UIImage alloc]init];
     
 }
 
@@ -68,9 +70,8 @@
     //HomeVC *releaseVC = [[HomeVC alloc] initWithNibName:@"HomeVC" bundle:nil];
     HomeNewVC *releaseVC = [[HomeNewVC alloc] initWithNibName:@"HomeNewVC" bundle:nil];
  //   MarketVC *marketsVC = [[MarketVC alloc] initWithNibName:@"MarketVC" bundle:nil];
-    MarketListVC *marketsVC = [[MarketListVC alloc] initWithNibName:@"MarketListVC" bundle:nil];
+    SuanliVC *marketsVC = [[SuanliVC alloc] initWithNibName:@"SuanliVC" bundle:nil];
     RecordVC *recodeVc = [[RecordVC alloc] initWithNibName:@"RecordVC" bundle:nil];
-    
 	MineNewVC *mineVC = [[MineNewVC alloc] initWithNibName:@"MineNewVC" bundle:nil];
 	
     NSArray *vcArray = @[releaseVC,marketsVC,recodeVc, mineVC];
@@ -91,9 +92,9 @@
     NSArray *selectedImgArray = @[@"home", @"shichang", @"licai",@"user"];
     
     // 按钮的标题数组
-    NSArray *titleArray = @[@"释放", @"交易",@"记录",@"我的"];
+    NSArray *titleArray = @[@"释放", @"算力",@"记录",@"我的"];
     UIColor *normalTitleColor =  [UIColor whiteColor]; //UIColorFromHex(0x808080);
-    UIColor *selectedTitleColor = [UIColor whiteColor];
+    UIColor *selectedTitleColor = UIColorFromHex(0xCBAE86);
     //UI_ColorWithRGBA(204, 177, 126, 1.0); //UIColorFromHex(0xCCB17E);
     
     // 按钮的宽、高

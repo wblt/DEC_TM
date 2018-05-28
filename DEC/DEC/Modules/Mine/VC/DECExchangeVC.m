@@ -29,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-     self.navigationItem.title = @"转入DEC";
+     self.navigationItem.title = @"转入区块DEC";
     [self setup];
 }
 
@@ -38,8 +38,10 @@
     _decLab.text = model.QK_CURRENCY;
     _lingqianLab.text = model.D_CURRENCY;
     _moneyTextField.placeholder = [NSString stringWithFormat:@"最多可转余额为%d",model.D_CURRENCY.intValue];
-    _tipsLab.text = [NSString stringWithFormat:@"本次最多可转入%d至DEC钱包",model.D_CURRENCY.intValue];
-    
+  //  _tipsLab.text = [NSString stringWithFormat:@"本次最多可转入%d至DEC钱包",model.D_CURRENCY.intValue];
+	
+	_tipsLab.attributedText = [Util setAllText:[NSString stringWithFormat:@"本次最多可转入%@至DEC钱包",model.D_CURRENCY] andSpcifiStr:model.D_CURRENCY withColor:[UIColor lightGrayColor] specifiStrFont:Font_13];
+	
     _codeImageView = [[MQVerCodeImageView alloc] initWithFrame:CGRectMake(0, 0, 80, 35)];
     _codeImageView.bolck = ^(NSString *imageCodeStr){
         //打印生成的验证码

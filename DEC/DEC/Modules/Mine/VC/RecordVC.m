@@ -33,6 +33,7 @@ static NSString *Identifier = @"cell";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = @"记录";
+	self.data = [NSMutableArray array];
     [self setup];
 }
 
@@ -54,8 +55,6 @@ static NSString *Identifier = @"cell";
     
     self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         // 进入刷新状态后会自动调用这个block
-        _QUERY_ID = @"0";
-        _TYPE = @"1";
         [self refreshData];
     }];
     
@@ -76,6 +75,9 @@ static NSString *Identifier = @"cell";
 - (void)refreshData {
     [self.data removeAllObjects];
     [self.tableView reloadData];
+	
+	_QUERY_ID = @"0";
+	_TYPE = @"1";
     if ([_recode isEqualToString:@"1"]) {
         [self requestSendData];
     }else {
@@ -216,6 +218,7 @@ static NSString *Identifier = @"cell";
     _lineView2.hidden = YES;
     // 请求
     _recode = @"1";
+	
     [self refreshData];
 }
 - (IBAction)recevieAction:(id)sender {

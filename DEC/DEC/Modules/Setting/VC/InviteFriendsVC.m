@@ -32,13 +32,71 @@
 }
 
 - (void)addViewTap {
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction)];
+	UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
     [_bgView addGestureRecognizer:tap];
+	
+	UITapGestureRecognizer *tap1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
+	_leftUrlLab.userInteractionEnabled = YES;
+	[_leftUrlLab addGestureRecognizer:tap1];
+	
+	UITapGestureRecognizer *tap2 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
+	_rightUrlLab.userInteractionEnabled = YES;
+	[_rightUrlLab addGestureRecognizer:tap2];
+	
+	UITapGestureRecognizer *tap3 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
+	_appUrlLab.userInteractionEnabled = YES;
+	[_appUrlLab addGestureRecognizer:tap3];
+	
 }
 
-- (void)tapAction {
-    MyFriendsViewController *vc = [[MyFriendsViewController alloc] initWithNibName:@"MyFriendsViewController" bundle:nil];
-    [self.navigationController pushViewController:vc animated:YES];
+- (void)tapAction:(UITapGestureRecognizer *)tap {
+	switch (tap.view.tag) {
+		case 100:
+		{
+			MyFriendsViewController *vc = [[MyFriendsViewController alloc] initWithNibName:@"MyFriendsViewController" bundle:nil];
+			[self.navigationController pushViewController:vc animated:YES];
+		}
+			break;
+		case 101:
+		{
+			if (self.leftUrlLab.text.length >0) {
+				UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+				[pasteboard setString:self.leftUrlLab.text];
+				[SVProgressHUD showSuccessWithStatus:@"复制成功"];
+			}else {
+				[SVProgressHUD showErrorWithStatus:@"复制失败"];
+			}
+			
+		}
+			break;
+		case 102:
+		{
+			
+			if (self.rightUrlLab.text.length >0) {
+				UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+				[pasteboard setString:self.rightUrlLab.text];
+				[SVProgressHUD showSuccessWithStatus:@"复制成功"];
+			}else {
+				[SVProgressHUD showErrorWithStatus:@"复制失败"];
+			}
+		}
+			break;
+		case 103:
+		{
+			
+			if (self.appUrlLab.text.length >0) {
+				UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+				[pasteboard setString:self.appUrlLab.text];
+				[SVProgressHUD showSuccessWithStatus:@"复制成功"];
+			}else {
+				[SVProgressHUD showErrorWithStatus:@"复制失败"];
+			}
+		}
+			break;
+		default:
+			break;
+	}
+	
 }
 
 -(void)requesData {
@@ -62,9 +120,9 @@
         self.leftLab.text = [NSString stringWithFormat:@"左区业绩:%@",data[@"pd"][@"L_TOTAL"]];
         self.rightLab.text = [NSString stringWithFormat:@"右区业绩:%@",data[@"pd"][@"R_TOTAL"]];
         
-        self.leftLab.attributedText = [Util setAllText:self.leftLab.text andSpcifiStr:data[@"pd"][@"L_TOTAL"] withColor:[UIColor redColor] specifiStrFont:Font_13];
-        self.rightLab.attributedText = [Util setAllText:self.rightLab.text andSpcifiStr:data[@"pd"][@"R_TOTAL"] withColor:[UIColor redColor] specifiStrFont:Font_13];
-        
+//        self.leftLab.attributedText = [Util setAllText:self.leftLab.text andSpcifiStr:data[@"pd"][@"L_TOTAL"] withColor: specifiStrFont:Font_13];
+//        self.rightLab.attributedText = [Util setAllText:self.rightLab.text andSpcifiStr:data[@"pd"][@"R_TOTAL"] withColor:[UIColor redColor] specifiStrFont:Font_13];
+		
         self.leftUrlLab.text = data[@"pd"][@"LEFT_URL"];
         self.rightUrlLab.text = data[@"pd"][@"RIGHT_URL"];
         self.appUrlLab.text = data[@"pd"][@"APP_URL"];
@@ -96,7 +154,7 @@
             return ;
         }
         NSArray *pd = data[@"pd"];
-        self.friendsNumLab.attributedText = [Util setAllText:[NSString stringWithFormat:@"已邀请好友 %ld 人",pd.count] andSpcifiStr:[NSString stringWithFormat:@"%ld",pd.count] withColor:[UIColor redColor] specifiStrFont:Font_14];
+		self.friendsNumLab.text = [NSString stringWithFormat:@"已邀请好友 %ld 人",pd.count];
         
     } failureBlock:^(NSError *error) {
         [SVProgressHUD showErrorWithStatus:@"服务器异常，请联系管理员"];
