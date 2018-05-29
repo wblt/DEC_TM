@@ -11,7 +11,7 @@
 #import "BaseNavViewController.h"
 #import "MainTabBarController.h"
 #import <IQKeyboardManager/IQKeyboardManager.h>
-
+#import <Bugly/Bugly.h>
 @interface AppDelegate ()
 
 @end
@@ -25,6 +25,8 @@
 	self.window.backgroundColor = [UIColor clearColor];
 	[self.window makeKeyAndVisible];
 	
+	//bf77165c31
+	[Bugly startWithAppId:@"bf77165c31"];
     // 初始化本地话文件目录
     IQKeyboardManager *keyboardManager = [IQKeyboardManager sharedManager]; // 获取类库的单例变量
     keyboardManager.enable = YES; // 控制整个功能是否启用

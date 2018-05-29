@@ -1551,7 +1551,7 @@
 				TargetAttributes = {
 					F8D9366020AAE2F900F7E852 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					F8D9367820AAE2F900F7E852 = {
 						CreatedOnToolsVersion = 9.1;
@@ -1697,7 +1697,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		5C68C90E710A4F87F7B7A577 /* [CP] Copy Pods Resources */ = {
@@ -2041,8 +2041,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U32GQ973V;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HR6HGC9SU2;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DEC/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = DEC/Info.plist;
@@ -2052,9 +2052,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DEC/ThridParty/QCloudUpload",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wy.DEC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianmeng.dec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "4cabf25d-4054-4da1-b971-9f4b0353bc0f";
+				PROVISIONING_PROFILE_SPECIFIER = dec_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2064,9 +2065,9 @@
 			baseConfigurationReference = AC51B0F7B7A9A5125EA6E385 /* Pods-DEC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U32GQ973V;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HR6HGC9SU2;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DEC/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = DEC/Info.plist;
@@ -2076,9 +2077,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/DEC/ThridParty/QCloudUpload",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wy.DEC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianmeng.dec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "dac0362b-df43-49be-8c88-75c3dc10f88e";
+				PROVISIONING_PROFILE_SPECIFIER = dec_dis;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

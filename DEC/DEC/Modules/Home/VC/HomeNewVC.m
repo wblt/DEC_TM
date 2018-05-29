@@ -224,8 +224,8 @@
             [self.xArray1 addObject:[str substringWithRange:NSMakeRange(5, 5 )]];
             [self.valueArray1 addObject:dic[@"CALCULATE_MONEY"]];
         }
-        self.xArray1 =  (NSMutableArray *)[[self.xArray reverseObjectEnumerator] allObjects];
-        self.valueArray1 =  (NSMutableArray *)[[self.valueArray reverseObjectEnumerator] allObjects];
+        self.xArray1 =  (NSMutableArray *)[[self.xArray1 reverseObjectEnumerator] allObjects];
+        self.valueArray1 =  (NSMutableArray *)[[self.valueArray1 reverseObjectEnumerator] allObjects];
         AAMarker *marker = AAObject(AAMarker)
         .fillColorSet(@"#FFFFFF");
         
@@ -237,11 +237,11 @@
         .subtitleFontSizeSet(@13)
         .subtitleAlignSet(AAChartSubtitleAlignTypeRight)
         .subtitleFontColorSet(@"#FFFFFF")
-        .categoriesSet(self.xArray)//图表横轴的内容
+        .categoriesSet(self.xArray1)//图表横轴的内容
         .yAxisTitleSet(@"")//设置图表 y 轴的单位
         .dataLabelEnabledSet(YES)
-        .yAxisTickPositionsSet(@[@(0),@(2),@(4),@(6),@(8),@(10)])
-        .yAxisMaxSet(@10)
+        .yAxisTickPositionsSet(@[@(0),@(200),@(400),@(600),@(800),@(1000)])
+        .yAxisMaxSet(@1000)
         .yAxisMinSet(@0)
         .yAxisLabelsFontColorSet(@"#CBAE86")
         .xAxisLabelsFontColorSet(@"#CBAE86")
@@ -252,7 +252,7 @@
                      .nameSet(@"算力释放报表")
                      .colorSet(@"#CBAE86")
                      .negativeColorSet(@"#CBAE86")
-                     .dataSet(self.valueArray)
+                     .dataSet(self.valueArray1)
                      .markerSet(marker),
                      ])
         ;
@@ -290,8 +290,8 @@
     .categoriesSet(@[@"4.22",@"4.23",@"4.24",@"4.25", @"4.26",@"4.27",@"4.28"])//图表横轴的内容
     .yAxisTitleSet(@"")//设置图表 y 轴的单位
     .dataLabelEnabledSet(YES)
-    .yAxisTickPositionsSet(@[@(0),@(2),@(4),@(6),@(8),@(10)])
-    .yAxisMaxSet(@10)
+    .yAxisTickPositionsSet(@[@(0),@(200),@(400),@(600),@(800),@(1000)])
+    .yAxisMaxSet(@1000)
     .yAxisMinSet(@0)
     .yAxisLabelsFontColorSet(@"#CBAE86")
     .xAxisLabelsFontColorSet(@"#CBAE86")
