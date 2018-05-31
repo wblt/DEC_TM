@@ -65,7 +65,7 @@
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sPN-dZ-5bi">
                                         <rect key="frame" x="3" y="49" width="294" height="1"/>
-                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="0.59999999999999998" id="Wm8-i0-vKg"/>
                                         </constraints>
@@ -175,7 +175,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="9D5-XE-upP" secondAttribute="trailing" id="Ru2-sX-27E"/>
                             <constraint firstItem="9D5-XE-upP" firstAttribute="leading" secondItem="Y1m-vV-GOw" secondAttribute="leading" id="YHp-c9-fsl"/>

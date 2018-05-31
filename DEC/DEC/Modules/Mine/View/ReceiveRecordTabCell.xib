@@ -57,7 +57,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                 <constraints>
                     <constraint firstItem="gMv-eD-9Gk" firstAttribute="centerY" secondItem="CP2-3y-GoY" secondAttribute="centerY" id="4l3-rz-PNv"/>
                     <constraint firstItem="iWp-Lg-D54" firstAttribute="leading" secondItem="XQJ-Is-e1R" secondAttribute="leading" id="FKo-WJ-GVe"/>
@@ -83,6 +83,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="logo" width="256" height="256"/>
+        <image name="logo" width="400" height="400"/>
     </resources>
 </document>
