@@ -44,7 +44,7 @@
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laV-6e-KGR">
                                     <rect key="frame" x="3" y="49.5" width="329" height="0.5"/>
-                                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="0.59999999999999998" id="OOu-G3-3cY"/>
                                     </constraints>
@@ -108,7 +108,7 @@
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hhd-PB-gxE">
                                     <rect key="frame" x="3" y="49.5" width="329" height="0.5"/>
-                                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="0.59999999999999998" id="DYH-8r-CCM"/>
                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="0.59999999999999998" id="HUT-hn-KBv"/>
@@ -145,7 +145,7 @@
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncB-af-w7T">
                                     <rect key="frame" x="3" y="49.5" width="329" height="0.5"/>
-                                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="0.59999999999999998" id="9RQ-b4-BAg"/>
                                     </constraints>
@@ -223,7 +223,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="dQ1-1y-8fy" secondAttribute="trailing" id="81T-8y-Fe9"/>
                         <constraint firstItem="Uei-zs-eHO" firstAttribute="leading" secondItem="mp9-1M-I5B" secondAttribute="leading" id="9zh-Qu-vXb"/>
@@ -264,7 +264,7 @@
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hTf-TW-N96">
                                     <rect key="frame" x="3" y="49.5" width="329" height="0.5"/>
-                                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="0.59999999999999998" id="m8H-4q-yT8"/>
                                     </constraints>
@@ -340,7 +340,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="100" id="0Hx-1t-rov"/>
                         <constraint firstItem="s8Z-QA-WbC" firstAttribute="top" secondItem="w6B-F8-GjB" secondAttribute="bottom" id="6Vu-qz-vrK"/>
@@ -359,7 +359,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wb-t2-yuW">
                     <rect key="frame" x="20" y="340" width="335" height="50"/>
-                    <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="Ajh-T7-kE5"/>
                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="coN-Ap-nIf"/>

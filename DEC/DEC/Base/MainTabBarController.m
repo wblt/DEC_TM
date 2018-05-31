@@ -31,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self addViewControllers];
-	self.tabBar.backgroundImage =  [self imageWithColor:UI_ColorWithRGBA(30, 30, 30, 1.0)];
+	self.tabBar.backgroundImage =  [self imageWithColor:UIColorFromHex(0x424242)];
  //[UIImage imageNamed:@"tabbarImageView"];
     self.tabBar.shadowImage = [UIImage new];
     
@@ -92,7 +92,7 @@
     NSArray *selectedImgArray = @[@"home", @"shichang", @"licai",@"user"];
     
     // 按钮的标题数组
-    NSArray *titleArray = @[@"释放", @"算力",@"记录",@"我的"];
+    NSArray *titleArray = @[@"首页", @"算力",@"记录",@"我的"];
     UIColor *normalTitleColor =  [UIColor whiteColor]; //UIColorFromHex(0x808080);
     UIColor *selectedTitleColor = UIColorFromHex(0xCBAE86);
     //UI_ColorWithRGBA(204, 177, 126, 1.0); //UIColorFromHex(0xCCB17E);

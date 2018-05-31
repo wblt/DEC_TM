@@ -57,7 +57,7 @@
 		self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"main_tt_bg 2iPhoneXPortraitiOS11_375x812pt"]];
 	}
 	
-    self.navigationItem.title = @"释放";
+    self.navigationItem.title = @"首页";
     self.xArray = [NSMutableArray array];
     self.valueArray = [NSMutableArray array];
     self.xArray1 = [NSMutableArray array];
@@ -104,7 +104,7 @@
         }
         NSArray *pd = data[@"pd"];
         if (pd.count == 0) {
-            [SVProgressHUD showInfoWithStatus:@"暂无k线数据"];
+            [SVProgressHUD showInfoWithStatus:@"暂无日线数据"];
             return;
         }
         for (NSDictionary *dic in pd) {
@@ -216,7 +216,7 @@
         }
         NSArray *pd = data[@"pd"];
         if (pd.count == 0) {
-            [SVProgressHUD showInfoWithStatus:@"暂无k线数据"];
+            [SVProgressHUD showInfoWithStatus:@"暂无算力释放数据"];
             return;
         }
         for (NSDictionary *dic in pd) {

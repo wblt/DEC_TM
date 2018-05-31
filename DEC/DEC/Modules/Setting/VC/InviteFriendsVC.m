@@ -123,8 +123,9 @@
 //        self.leftLab.attributedText = [Util setAllText:self.leftLab.text andSpcifiStr:data[@"pd"][@"L_TOTAL"] withColor: specifiStrFont:Font_13];
 //        self.rightLab.attributedText = [Util setAllText:self.rightLab.text andSpcifiStr:data[@"pd"][@"R_TOTAL"] withColor:[UIColor redColor] specifiStrFont:Font_13];
 		
-        self.leftUrlLab.text = data[@"pd"][@"LEFT_URL"];
-        self.rightUrlLab.text = data[@"pd"][@"RIGHT_URL"];
+		self.leftUrlLab.text = [NSString stringWithFormat:@"1.左区邀请码:%@",data[@"pd"][@"LEFT_URL"]];
+		self.rightUrlLab.text = [NSString stringWithFormat:@"2.右区邀请码:%@",data[@"pd"][@"RIGHT_URL"]];
+		
         self.appUrlLab.text = data[@"pd"][@"APP_URL"];
         // 下划线
         NSDictionary *attribtDic1 = @{NSUnderlineStyleAttributeName: [NSNumber numberWithInteger:NSUnderlineStyleSingle]};

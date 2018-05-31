@@ -112,7 +112,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="XDk-na-Cbf" firstAttribute="leading" secondItem="Bm4-DK-mTp" secondAttribute="trailing" constant="8" id="6sn-Lq-zQ0"/>
                         <constraint firstItem="S8F-MN-8hZ" firstAttribute="leading" secondItem="6Rx-2Z-rI0" secondAttribute="trailing" constant="10" id="EI5-Qt-NR2"/>
@@ -148,7 +148,7 @@
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxT-Ho-Yvv">
                     <rect key="frame" x="20" y="215" width="335" height="50"/>
-                    <color key="backgroundColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="305-7G-G9t"/>
                     </constraints>

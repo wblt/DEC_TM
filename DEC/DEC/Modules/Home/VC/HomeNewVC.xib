@@ -47,7 +47,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="k5b-E1-FVr" secondAttribute="trailing" constant="5" id="64A-yF-wp7"/>
                                 <constraint firstItem="k5b-E1-FVr" firstAttribute="top" secondItem="CmS-cj-Rpu" secondAttribute="bottom" constant="16" id="Uks-T3-pFR"/>
@@ -78,7 +78,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="aj2-Bw-cS4" secondAttribute="trailing" id="0Wm-24-Vxi"/>
                                 <constraint firstItem="aj2-Bw-cS4" firstAttribute="centerX" secondItem="xoG-u4-sTk" secondAttribute="centerX" id="A9G-ji-1Q9"/>
@@ -110,7 +110,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstItem="v9X-HF-H7U" firstAttribute="leading" secondItem="NlH-9d-Pmk" secondAttribute="leading" constant="5" id="0sq-s7-Gyf"/>
                                 <constraint firstItem="8X0-Hz-kVP" firstAttribute="centerY" secondItem="NlH-9d-Pmk" secondAttribute="centerY" constant="-20" id="5TX-cr-zw9"/>

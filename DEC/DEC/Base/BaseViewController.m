@@ -16,12 +16,23 @@
 
 @implementation BaseViewController
 
+- (UIImage *)imageWithColor:(UIColor *)color {
+	CGRect rect = CGRectMake(0.0f,0.0f, 1.0f,1.0f);
+	UIGraphicsBeginImageContext(rect.size);
+	CGContextRef context =UIGraphicsGetCurrentContext();
+	CGContextSetFillColorWithColor(context, [color CGColor]);
+	CGContextFillRect(context, rect);
+	UIImage *image =UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	return image;
+}
+
 
 - (void)viewWillAppear:(BOOL)animated{
     
     //设置导航栏背景图片为一个空的image，这样就透明了
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_main_tt_bg"] forBarMetrics:UIBarMetricsDefault];
-    
+	[self.navigationController.navigationBar setBackgroundImage:[self imageWithColor:UIColorFromHex(0x303030)] forBarMetrics:UIBarMetricsDefault];
+	
     //去掉透明后导航栏下边的黑边
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
 }
@@ -30,7 +41,7 @@
     [super viewDidLoad];
     /**<设置导航栏背景颜色*/
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
-	self.view.backgroundColor = [UIColor blackColor];
+	self.view.backgroundColor = UIColorFromHex(0x303030);
 //	CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
 //	
 //	//获取与当前设备匹配的启动图片名称
