@@ -150,7 +150,7 @@
                                         <constraint firstAttribute="height" constant="0.59999999999999998" id="9RQ-b4-BAg"/>
                                     </constraints>
                                 </view>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="应输入开户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9qo-qu-1jt">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入开户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9qo-qu-1jt">
                                     <rect key="frame" x="84" y="10" width="241" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="cuM-tB-C2S"/>
