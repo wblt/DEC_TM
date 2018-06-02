@@ -15,6 +15,13 @@
 		CF22766120B92CE5003EA969 /* MineNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22765F20B92CE5003EA969 /* MineNewVC.m */; };
 		CF22766220B92CE5003EA969 /* MineNewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22766020B92CE5003EA969 /* MineNewVC.xib */; };
 		CF22766620B9C124003EA969 /* WCQRCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22766520B9C124003EA969 /* WCQRCodeScanningVC.m */; };
+		CF22766A20C24927003EA969 /* ExtractAppplyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22766820C24927003EA969 /* ExtractAppplyVC.m */; };
+		CF22766B20C24927003EA969 /* ExtractAppplyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22766920C24927003EA969 /* ExtractAppplyVC.xib */; };
+		CF22766F20C24940003EA969 /* ExtractRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22766D20C24940003EA969 /* ExtractRecordVC.m */; };
+		CF22767020C24940003EA969 /* ExtractRecordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22766E20C24940003EA969 /* ExtractRecordVC.xib */; };
+		CF22767420C24FE9003EA969 /* ExtraRecordTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22767220C24FE9003EA969 /* ExtraRecordTabCell.m */; };
+		CF22767520C24FE9003EA969 /* ExtraRecordTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF22767320C24FE9003EA969 /* ExtraRecordTabCell.xib */; };
+		CF22767820C25323003EA969 /* ExtraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22767720C25323003EA969 /* ExtraModel.m */; };
 		CF73CD5520AFB26E00C15F4F /* MoneyTransferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */; };
 		CF73CD5620AFB26E00C15F4F /* MoneyTransferVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */; };
 		CF73CD5A20AFBE5A00C15F4F /* ReleaseRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CD5720AFBE5900C15F4F /* ReleaseRecordViewController.m */; };
@@ -259,6 +266,17 @@
 		CF22766020B92CE5003EA969 /* MineNewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineNewVC.xib; sourceTree = "<group>"; };
 		CF22766420B9C124003EA969 /* WCQRCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCQRCodeScanningVC.h; sourceTree = "<group>"; };
 		CF22766520B9C124003EA969 /* WCQRCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCQRCodeScanningVC.m; sourceTree = "<group>"; };
+		CF22766720C24927003EA969 /* ExtractAppplyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtractAppplyVC.h; sourceTree = "<group>"; };
+		CF22766820C24927003EA969 /* ExtractAppplyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtractAppplyVC.m; sourceTree = "<group>"; };
+		CF22766920C24927003EA969 /* ExtractAppplyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExtractAppplyVC.xib; sourceTree = "<group>"; };
+		CF22766C20C24940003EA969 /* ExtractRecordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtractRecordVC.h; sourceTree = "<group>"; };
+		CF22766D20C24940003EA969 /* ExtractRecordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtractRecordVC.m; sourceTree = "<group>"; };
+		CF22766E20C24940003EA969 /* ExtractRecordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExtractRecordVC.xib; sourceTree = "<group>"; };
+		CF22767120C24FE9003EA969 /* ExtraRecordTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtraRecordTabCell.h; sourceTree = "<group>"; };
+		CF22767220C24FE9003EA969 /* ExtraRecordTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraRecordTabCell.m; sourceTree = "<group>"; };
+		CF22767320C24FE9003EA969 /* ExtraRecordTabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExtraRecordTabCell.xib; sourceTree = "<group>"; };
+		CF22767620C25323003EA969 /* ExtraModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtraModel.h; sourceTree = "<group>"; };
+		CF22767720C25323003EA969 /* ExtraModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraModel.m; sourceTree = "<group>"; };
 		CF73CD5220AFB26E00C15F4F /* MoneyTransferVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyTransferVC.h; sourceTree = "<group>"; };
 		CF73CD5320AFB26E00C15F4F /* MoneyTransferVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTransferVC.m; sourceTree = "<group>"; };
 		CF73CD5420AFB26E00C15F4F /* MoneyTransferVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyTransferVC.xib; sourceTree = "<group>"; };
@@ -847,6 +865,8 @@
 				F843939A20AEC52800890959 /* UserInfoModel.m */,
 				CF73CD6120AFC00700C15F4F /* ReleaseModel.h */,
 				CF73CD6220AFC00700C15F4F /* ReleaseModel.m */,
+				CF22767620C25323003EA969 /* ExtraModel.h */,
+				CF22767720C25323003EA969 /* ExtraModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -893,6 +913,12 @@
 				F8C33F0E20BBD56E008C44D4 /* SuanliVC.h */,
 				F8C33F0F20BBD56E008C44D4 /* SuanliVC.m */,
 				F8C33F1020BBD56E008C44D4 /* SuanliVC.xib */,
+				CF22766720C24927003EA969 /* ExtractAppplyVC.h */,
+				CF22766820C24927003EA969 /* ExtractAppplyVC.m */,
+				CF22766920C24927003EA969 /* ExtractAppplyVC.xib */,
+				CF22766C20C24940003EA969 /* ExtractRecordVC.h */,
+				CF22766D20C24940003EA969 /* ExtractRecordVC.m */,
+				CF22766E20C24940003EA969 /* ExtractRecordVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -906,6 +932,9 @@
 				CF73CD5C20AFBE8F00C15F4F /* AllRecodeTabCell.h */,
 				CF73CD5D20AFBE8F00C15F4F /* AllRecodeTabCell.m */,
 				CF73CD5E20AFBE8F00C15F4F /* AllRecodeTabCell.xib */,
+				CF22767120C24FE9003EA969 /* ExtraRecordTabCell.h */,
+				CF22767220C24FE9003EA969 /* ExtraRecordTabCell.m */,
+				CF22767320C24FE9003EA969 /* ExtraRecordTabCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1592,6 +1621,7 @@
 			files = (
 				F8555D5320AD1BC10033607E /* LoginVC.xib in Resources */,
 				F8D936DA20AAE45200F7E852 /* README.md in Resources */,
+				CF22767020C24940003EA969 /* ExtractRecordVC.xib in Resources */,
 				F843938B20AEB36800890959 /* MarketVC.xib in Resources */,
 				CF73CD6020AFBE8F00C15F4F /* AllRecodeTabCell.xib in Resources */,
 				F8D9367120AAE2F900F7E852 /* LaunchScreen.storyboard in Resources */,
@@ -1602,6 +1632,7 @@
 				F8D937F120AAE7CB00F7E852 /* README.md in Resources */,
 				F843937A20AEA8DA00890959 /* UpdataNewPwdVC.xib in Resources */,
 				F843938F20AEB53C00890959 /* NewsTabCell.xib in Resources */,
+				CF22767520C24FE9003EA969 /* ExtraRecordTabCell.xib in Resources */,
 				CF22766220B92CE5003EA969 /* MineNewVC.xib in Resources */,
 				CF73CD6D20AFC54100C15F4F /* PowerCGVC.xib in Resources */,
 				CFACD16220B13F9800AB2756 /* SetAQPwdNextVC.xib in Resources */,
@@ -1652,6 +1683,7 @@
 				F8D9366C20AAE2F900F7E852 /* Main.storyboard in Resources */,
 				F84393AD20AED98000890959 /* TransferRecordViewController.xib in Resources */,
 				CFACD17B20B1534600AB2756 /* OrderListTabCell.xib in Resources */,
+				CF22766B20C24927003EA969 /* ExtractAppplyVC.xib in Resources */,
 				F8555D5820AD1BFC0033607E /* RegistVC.xib in Resources */,
 				F8D936EC20AAE45200F7E852 /* README.md in Resources */,
 				F8847F6D20B2846F0074F176 /* RegsitNextStepVC.xib in Resources */,
@@ -1697,7 +1729,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		5C68C90E710A4F87F7B7A577 /* [CP] Copy Pods Resources */ = {
@@ -1761,6 +1793,7 @@
 				F84393A420AED65D00890959 /* ReceiveAddressViewController.m in Sources */,
 				F843939020AEB53C00890959 /* NewsTabCell.m in Sources */,
 				CFACD17120B14C7000AB2756 /* FriendInfoModel.m in Sources */,
+				CF22767420C24FE9003EA969 /* ExtraRecordTabCell.m in Sources */,
 				F8D937FC20AAE7CB00F7E852 /* UIView+XLExtension.m in Sources */,
 				F8D937C020AAE7CB00F7E852 /* AAArea.m in Sources */,
 				F8C33F1120BBD56E008C44D4 /* SuanliVC.m in Sources */,
@@ -1796,6 +1829,7 @@
 				F8D937C520AAE7CB00F7E852 /* AACrosshair.m in Sources */,
 				F8555D5720AD1BFC0033607E /* RegistVC.m in Sources */,
 				F843939B20AEC52800890959 /* UserInfoModel.m in Sources */,
+				CF22767820C25323003EA969 /* ExtraModel.m in Sources */,
 				F8555D5220AD1BC10033607E /* LoginVC.m in Sources */,
 				F8D936DC20AAE45200F7E852 /* UICollectionView+IndexPath.m in Sources */,
 				F8D937EB20AAE7CB00F7E852 /* PNScatterChart.m in Sources */,
@@ -1810,7 +1844,9 @@
 				F8D936E020AAE45200F7E852 /* GTMBase64.m in Sources */,
 				CF22766120B92CE5003EA969 /* MineNewVC.m in Sources */,
 				F8847F8020B2BA9C0074F176 /* BuyVC.m in Sources */,
+				CF22766F20C24940003EA969 /* ExtractRecordVC.m in Sources */,
 				F8D937C620AAE7CB00F7E852 /* AADataLabels.m in Sources */,
+				CF22766A20C24927003EA969 /* ExtractAppplyVC.m in Sources */,
 				F8D937EA20AAE7CB00F7E852 /* PNRadarChartDataItem.m in Sources */,
 				F84393B720AEDBA400890959 /* RecordModel.m in Sources */,
 				CFACD14820B1266600AB2756 /* SetLoginPwdVC.m in Sources */,

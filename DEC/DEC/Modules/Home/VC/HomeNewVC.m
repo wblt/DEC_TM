@@ -11,7 +11,7 @@
 #import "MoneyTransferVC.h"
 #import "ReceiveAddressViewController.h"
 #import "PowerCGVC.h"
-
+#import "DECExchangeVC.h"
 
 @interface HomeNewVC ()
 @property (weak, nonatomic) IBOutlet UIView *bgView1;
@@ -331,7 +331,7 @@
             break;
         case 101:
         {
-            ReceiveAddressViewController *vc = [[ReceiveAddressViewController alloc] initWithNibName:@"ReceiveAddressViewController" bundle:nil];
+            DECExchangeVC *vc = [[DECExchangeVC alloc] initWithNibName:@"DECExchangeVC" bundle:nil];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

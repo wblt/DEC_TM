@@ -21,6 +21,8 @@
 #import "InviteFriendsVC.h"
 #import "MybuyOrderVC.h"
 #import "WCQRCodeScanningVC.h"
+#import "ExtractAppplyVC.h"
+#import "ExtractRecordVC.h"
 
 //首先导入头文件信息
 #include <ifaddrs.h>
@@ -208,22 +210,23 @@
             break;
         case 107:
         {
-			DECExchangeVC *vc = [[DECExchangeVC alloc] initWithNibName:@"DECExchangeVC" bundle:nil];
-			[self.navigationController pushViewController:vc animated:YES];
+            [SVProgressHUD showInfoWithStatus:@"开发中"];
+//            ExtractAppplyVC *vc = [[ExtractAppplyVC alloc] initWithNibName:@"ExtractAppplyVC" bundle:nil];
+//            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 108:
         {
-			SettingVC *vc = [[SettingVC alloc] initWithNibName:@"SettingVC" bundle:nil];
-			[self.navigationController pushViewController:vc animated:YES];
-			
-//            MybuyOrderVC *vc = [[MybuyOrderVC alloc] initWithNibName:@"MybuyOrderVC" bundle:nil];
+            [SVProgressHUD showInfoWithStatus:@"开发中"];
+            
+//            ExtractRecordVC *vc = [[ExtractRecordVC alloc] initWithNibName:@"ExtractRecordVC" bundle:nil];
 //            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 109:
         {
-			[SVProgressHUD showInfoWithStatus:@"开发中···"];
+            SettingVC *vc = [[SettingVC alloc] initWithNibName:@"SettingVC" bundle:nil];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         default:
