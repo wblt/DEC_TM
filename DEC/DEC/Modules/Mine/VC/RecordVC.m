@@ -33,7 +33,7 @@ static NSString *Identifier = @"cell";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = @"记录";
-	self.data = [NSMutableArray array];
+    self.data = [[NSMutableArray alloc] init];
     [self setup];
 }
 
@@ -73,6 +73,8 @@ static NSString *Identifier = @"cell";
 
 
 - (void)refreshData {
+    [super refreshData];
+    
     [self.data removeAllObjects];
     [self.tableView reloadData];
 	
@@ -123,6 +125,7 @@ static NSString *Identifier = @"cell";
 
 //发送记录
 - (void)requestSendData {
+    
     RequestParams *params = [[RequestParams alloc] initWithParams:API_SENDDETAIL];
     [params addParameter:@"USER_NAME" value:[SPUtil objectForKey:k_app_userNumber]];
     [params addParameter:@"QUERY_ID" value:_QUERY_ID];

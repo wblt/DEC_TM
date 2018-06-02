@@ -128,13 +128,13 @@
 		
         self.appUrlLab.text = data[@"pd"][@"APP_URL"];
         // 下划线
-        NSDictionary *attribtDic1 = @{NSUnderlineStyleAttributeName: [NSNumber numberWithInteger:NSUnderlineStyleSingle]};
-        NSMutableAttributedString *attribtStr1 = [[NSMutableAttributedString alloc]initWithString:self.leftUrlLab.text attributes:attribtDic1];
-        self.leftUrlLab.attributedText = attribtStr1;
+//        NSDictionary *attribtDic1 = @{NSUnderlineStyleAttributeName: [NSNumber numberWithInteger:NSUnderlineStyleSingle]};
+//        NSMutableAttributedString *attribtStr1 = [[NSMutableAttributedString alloc]initWithString:self.leftUrlLab.text attributes:attribtDic1];
+    //    self.leftUrlLab.attributedText = attribtStr1;
         
-        NSDictionary *attribtDic2 = @{NSUnderlineStyleAttributeName: [NSNumber numberWithInteger:NSUnderlineStyleSingle]};
-        NSMutableAttributedString *attribtStr2 = [[NSMutableAttributedString alloc]initWithString:self.rightUrlLab.text attributes:attribtDic2];
-        self.rightUrlLab.attributedText = attribtStr2;
+//        NSDictionary *attribtDic2 = @{NSUnderlineStyleAttributeName: [NSNumber numberWithInteger:NSUnderlineStyleSingle]};
+//        NSMutableAttributedString *attribtStr2 = [[NSMutableAttributedString alloc]initWithString:self.rightUrlLab.text attributes:attribtDic2];
+//        self.rightUrlLab.attributedText = attribtStr2;
         
         NSDictionary *attribtDic3 = @{NSUnderlineStyleAttributeName: [NSNumber numberWithInteger:NSUnderlineStyleSingle]};
         NSMutableAttributedString *attribtStr3 = [[NSMutableAttributedString alloc]initWithString:self.appUrlLab.text attributes:attribtDic3];

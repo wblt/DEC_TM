@@ -210,14 +210,14 @@
             break;
         case 107:
         {
-            [SVProgressHUD showInfoWithStatus:@"开发中"];
+            [SVProgressHUD showInfoWithStatus:@"待开放"];
 //            ExtractAppplyVC *vc = [[ExtractAppplyVC alloc] initWithNibName:@"ExtractAppplyVC" bundle:nil];
 //            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 108:
         {
-            [SVProgressHUD showInfoWithStatus:@"开发中"];
+            [SVProgressHUD showInfoWithStatus:@"待开放"];
             
 //            ExtractRecordVC *vc = [[ExtractRecordVC alloc] initWithNibName:@"ExtractRecordVC" bundle:nil];
 //            [self.navigationController pushViewController:vc animated:YES];
